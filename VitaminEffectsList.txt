@@ -1,0 +1,27 @@
+Effects:
+	EMistActionModifier::AttackAfterBlockMultiplier
+	EMistActionModifier::CraftingSpeedMultiplier
+	EMistActionModifier::EnemyAggroModifier
+	EMistActionModifier::HeavyAttackStaminaCostMultiplier
+	EMistActionModifier::LootingLuckMultiplier
+	EMistActionModifier::MaxWeightBonus
+	EMistActionModifier::ProjectileDamageMultiplier
+	EMistActionModifier::QuenchingMultiplier
+	EMistActionModifier::RareHarvestChanceModifier
+	EMistActionModifier::SiegeWeaponReloadMultiplier
+	EMistActionModifier::SprintingStaminaMultiplier
+	EMistActionModifier::StaminaRegenSpeedMultiplier
+	EMistActionModifier::StartSprintingStaminaMultiplier
+	EMistActionModifier::XPKillGainMultiplier
+	EMistDamageModifier::DamageDealtMultiplier
+	EMistDamageModifier::DamageReceivedMultiplier
+
+Modifier types:
+	EMistModifierType::Bonus
+	EMistModifierType::Multiplier
+
+Stacking modes:
+	EMistStatusEffectStackingMode::Stack
+	EMistStatusEffectStackingMode::Refresh
+	EMistStatusEffectStackingMode::Extend
+	EMistStatusEffectStackingMode::Unique
