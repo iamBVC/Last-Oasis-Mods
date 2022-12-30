@@ -1,0 +1,20 @@
+Spectating_FocalLengthControl	= One + MouseWheel
+Spectating_FocusDistanceControl	= Two + MouseWheel
+Spectating_ApertureControl	= Three + MouseWheel
+
+Spectating_Follow		= RightAlt
+Spectating_FollowPawn		= F4
+Spectating_FollowWalker		= F5
+Spectating_FollowProjectile	= F6
+
+Spectating_Speed		= ThumbMouseButton
+Spectating_Speed		= ThumbMouseButton2
+Spectating_Fast			= LeftShift
+Spectating_Slow			= LeftControl
+Spectating_ResetSpeed		= T
+
+Spectating_SunHeight		= Down
+Spectating_SunHeight		= Up
+Spectating_SunRotation		= Left
+Spectating_SunRotation		= Right
+Spectating_ResetSun		= R
