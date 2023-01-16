@@ -25,3 +25,13 @@ Stacking modes:
 	EMistStatusEffectStackingMode::Refresh
 	EMistStatusEffectStackingMode::Extend
 	EMistStatusEffectStackingMode::Unique
+	
+	
+Status:
+	EMistPlayerStat::Health
+	EMistPlayerStat::Damage
+	EMistPlayerStat::Mobility
+	EMistPlayerStat::Stamina
+	EMistPlayerStat::VitaminDuration
+	EMistPlayerStat::VitaminPower
+	EMistPlayerStat::COUNT
