@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass CaravelaWalkerHeavyLegs.CaravelaWalkerHeavyLegs_C
+// Size: 0xe0 (Inherited: 0xe0)
+struct UCaravelaWalkerHeavyLegs_C : UMistTechTreeItem {
+};
+

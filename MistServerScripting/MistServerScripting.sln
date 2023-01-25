@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MistServerHook", "MistServerHook\MistServerHook.vcxproj", "{79BDFA5B-5594-4BBA-817C-121391712B82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeGen", "NativeGen\NativeGen.csproj", "{146100BB-D056-498C-A5CD-1BC7D88D6330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BDFA5B-5594-4BBA-817C-121391712B82}.Debug|x64.ActiveCfg = Debug|x64
+		{79BDFA5B-5594-4BBA-817C-121391712B82}.Debug|x64.Build.0 = Debug|x64
+		{79BDFA5B-5594-4BBA-817C-121391712B82}.Release|x64.ActiveCfg = Release|x64
+		{79BDFA5B-5594-4BBA-817C-121391712B82}.Release|x64.Build.0 = Release|x64
+		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Debug|x64.ActiveCfg = Debug|x64
+		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Debug|x64.Build.0 = Debug|x64
+		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Release|x64.ActiveCfg = Release|x64
+		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97498D0A-DA9A-472B-A8FF-463B675564EF}
+	EndGlobalSection
+EndGlobal

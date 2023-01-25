@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <LastOasisDir>F:\Programmi\Steam\steamapps\common\Last Oasis - Dedicated Server\Mist\Binaries\Win64</LastOasisDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-log -force_steamclient_link -messaging -NoLiveServer -noupnp -EnableCheats -backendapiurloverride="classic-backend.last-oasis.com" -identifier="Server 1" -port=5555 -CustomerKey=yzECwUFH3U3e2jpK -ProviderKey=JCU9XpxeyARMQIPM -slots=10 -QueryPort=27015 -OverrideConnectionAddress=castellese.zapto.org</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommand>$(LastOasisDir)\MistServer-Win64-Shipping.exe</LocalDebuggerCommand>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+</Project>
