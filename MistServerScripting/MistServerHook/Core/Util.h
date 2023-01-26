@@ -21,6 +21,7 @@ namespace Util{
 	bool DumpFile(const wchar_t* path, void* content, uint32 size);
 	const wchar_t* getArg(const wchar_t* args, uint16 nArg, uint16* argLenPtr);
 	bool saveOnFile(const char* fileName, uint64 dataSize, void* data);
+	bool logOnFile(const char* fileName, const wchar_t* data);
 	bool readFile(const char* fileName, uint64* dataSize, void** data);
 
 };

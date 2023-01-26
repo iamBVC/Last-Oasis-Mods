@@ -176,6 +176,28 @@ void RegisterMyCommands() {
 		}
 
 
+		if (wcscmp(args, L"4") == 0) {
+			UMistCheatingComponent_LeaveClan(caller->CheatingComponent);
+		}
+		if (wcscmp(args, L"5") == 0) {
+			UMistCheatingComponent_ServerLeaveClan(caller->CheatingComponent);
+		}
+		if (wcscmp(args, L"6") == 0) {
+			UMistCheatingComponent_ServerLeaveClan_Implementation(caller->CheatingComponent);
+		}
+		
+			
+		if (wcscmp(args, L"7") == 0) {
+			AActor* actorPtr = nullptr;
+			int value = 0;
+			GetLookAtActor(playerPtr, &actorPtr, &value);
+			if (actorPtr == nullptr) return;
+			auto targetGameState = AActor_GetGameState(actorPtr);
+			if (targetGameState == nullptr) return;
+			Util::ClientAddMsg(caller, L"OK");
+		}
+
+
 	});
 
 }

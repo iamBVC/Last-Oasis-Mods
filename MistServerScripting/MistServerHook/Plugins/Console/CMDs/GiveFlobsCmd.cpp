@@ -12,6 +12,5 @@ void GiveFlobsCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 	auto value = _wtoi(args);
 
 	playerState->IntermediateCurrency += value;
-
 }
 

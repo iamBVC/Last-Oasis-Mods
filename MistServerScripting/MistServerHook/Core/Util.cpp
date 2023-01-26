@@ -3,7 +3,7 @@
 #include "Windows.h"
 #include "filesystem"
 #include "cstdarg"
-
+#include <stdio.h>
 
 #define nullArg			(L"0")
 
@@ -12,7 +12,7 @@
 std::vector<void(*)(UWorld* world, int level, float delta)> funcToTick;
 
 
-namespace Util{
+namespace Util {
 
 	void ConsoleCommand(const wchar_t* cmd)
 	{
@@ -73,7 +73,7 @@ namespace Util{
 		auto fspath = std::filesystem::path(path);
 		std::filesystem::create_directories(fspath.parent_path());
 
-		auto file = CreateFileW(path, FILE_APPEND_DATA, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL,  NULL);
+		auto file = CreateFileW(path, FILE_APPEND_DATA, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
 		if (file == INVALID_HANDLE_VALUE)
 		{
 			Error(L"CreateFile error %08X", GetLastError());
@@ -89,6 +89,7 @@ namespace Util{
 			return result;
 		}
 	}
+
 
 
 	bool DumpFile(const wchar_t* path, void* content, uint32 size)
@@ -133,7 +134,8 @@ namespace Util{
 				}
 				curArg++;
 				*argLenPtr = 0;
-			}else{
+			}
+			else {
 				*argLenPtr += 1;
 			}
 			argPtr++;
@@ -143,13 +145,33 @@ namespace Util{
 
 
 
-
 	bool saveOnFile(const char* fileName, uint64 dataSize, void* data)
 	{
 		FILE* fptr;
 		fopen_s(&fptr, fileName, "wb");
 		if (fptr == nullptr) return false;
 		auto count = fwrite(data, dataSize, 1, fptr);
+		fclose(fptr);
+		if (count == 0) return false;
+		return true;
+	}
+
+
+
+	bool logOnFile(const char* fileName, const wchar_t* data)
+	{
+		wchar_t buff[256];
+		int utcTime[8] = {};
+		FWindowsPlatformTime_UtcTime(&utcTime[0], &utcTime[1], &utcTime[2], &utcTime[3], &utcTime[4], &utcTime[5], &utcTime[6], &utcTime[7]);
+		swprintf_s(buff, L"[%i/%02i/%02i %02i:%02i:%02i] %s\n", utcTime[0], utcTime[1], utcTime[3], utcTime[4], utcTime[5], utcTime[6], data);
+
+		char newfilename[64];
+		sprintf_s(newfilename, "../../Saved/Logs/%s_%i_%i_%i.log", fileName, utcTime[0], utcTime[1], utcTime[3]);
+
+		FILE* fptr;
+		fopen_s(&fptr, newfilename, "a, ccs=UTF-8");
+		if (fptr == nullptr) return false;
+		auto count = fwprintf(fptr, buff);
 		fclose(fptr);
 		if (count == 0) return false;
 		return true;
@@ -169,7 +191,7 @@ namespace Util{
 
 		*data = malloc(fileSize);
 
-		if(*data == nullptr) return false;
+		if (*data == nullptr) return false;
 
 		*dataSize = fileSize;
 		auto count = fread(*data, fileSize, 1, fptr);
@@ -177,6 +199,8 @@ namespace Util{
 		if (count == 0) return false;
 		return true;
 	}
+
+
 
 
 

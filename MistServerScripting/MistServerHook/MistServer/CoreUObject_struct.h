@@ -579,7 +579,45 @@ struct FRandomStream {
 // ScriptStruct CoreUObject.DateTime
 // Size: 0x08 (Inherited: 0x00)
 struct FDateTime {
-	char pad_0[0x8]; // 0x00(0x08)
+	/** Holds the ticks in 100 nanoseconds resolution since January 1, 0001 A.D. */
+	int64 Ticks;
+
+public:
+	FDateTime GetDate()
+	{
+		return FDateTime(Ticks - (Ticks % ETimespan::TicksPerDay));
+	}
+
+	int32 GetHour()
+	{
+		return (int32)((Ticks / ETimespan::TicksPerHour) % 24);
+	}
+
+	int32 GetMillisecond()
+	{
+		return (int32)((Ticks / ETimespan::TicksPerMillisecond) % 1000);
+	}
+
+	int32 GetMinute()
+	{
+		return (int32)((Ticks / ETimespan::TicksPerMinute) % 60);
+	}
+
+	int32 GetSecond()
+	{
+		return (int32)((Ticks / ETimespan::TicksPerSecond) % 60);
+	}
+
+	int64 GetTicks()
+	{
+		return Ticks;
+	}
+
+	int32 GetYear()
+	{
+		return (int32)((Ticks / (ETimespan::TicksPerDay)) % 24);
+	}
+
 };
 
 // ScriptStruct CoreUObject.FrameNumber

@@ -94,7 +94,11 @@ extern FVector* (*AActor_GetVelocity)(AActor* self);
 extern UWorld* (*AActor_GetWorld)(AActor* self);
 extern void (*AActor_SetActorRelativeScale3D)(AActor* self);
 extern bool (*AActor_K2_TeleportTo)(AActor* self, FVector location, FRotator rotation);
-
+extern void (*AActor_ForceNetUpdate)(AActor* self, bool value);
+extern void (*AActor_ReceiveAnyDamage)(AActor* self, float value, UDamageType* type, FDamageSource* source);
+extern void (*AActor_ReceivePointDamage)(AActor* self, float value, UDamageType* type, FDamageSource* source, FHitResult* result);
+extern void (*AActor_ReceiveRadialDamage)(AActor* self, float value, UDamageType* type, FVector position, FDamageSource* source, FHitResult* result);
+extern float (*AActor_TakeDamage)(AActor* self, float value, FDamageEvent* event, FDamageSource* source);
 
 extern APlayerState* (*APawn_GetPlayerState)(APawn* self);
 extern AMistOasisPlayerState* (*APawn_GetPlayerStateMist)(APawn* self);
@@ -123,10 +127,31 @@ extern void (*APlayerState_UpdatePing)(APlayerState* self, float ping);
 
 extern bool (*FMistWorldUtils_FindCharacterFloorTeleportSpot)(ACharacter * character, FVector * location, FRotator * rotation);
 
+extern UMistClanOwnershipComponent* (*FMistClanUtils_GetOwnershipComponent)(AActor* self, bool value);
+
+extern FDateTime(*FDateTime_UtcNow)(void);
+extern FDateTime(*FDateTime_Now)(void);
+extern FString(*FDateTime_ToString)(void);
+extern void (*FWindowsPlatformTime_UtcTime)(int* year, int* month, int* dayOfWeek, int* day, int* hour, int* minutes, int* seconds, int* milliseconds);
+
+extern bool (*GetLookAtActor)(AMistPlayer* player, AActor** actorPtr, int* value);
+
 extern bool (*UCharacterMovementComponent_ClientUpdatePositionAfterServerUpdate)(UCharacterMovementComponent* self);
 extern bool (*UCharacterMovementComponent_ForcePositionUpdate)(UCharacterMovementComponent* self, float delta);
 extern void (*UCharacterMovementComponent_AdjustFloorHeight)(UCharacterMovementComponent* self);
 extern void (*UCharacterMovementComponent_UpdateFloorFromAdjustment)(UCharacterMovementComponent* self);
+
+extern void (*UMistBuildingComponent_ServerDisassemble_Implementation)(UMistBuildingComponent* self, AActor* actor, int id);
+
+extern void (*UMistCheatingComponent_LeaveClan)(UMistCheatingComponent* self);
+extern void (*UMistCheatingComponent_ServerLeaveClan)(UMistCheatingComponent* self);
+extern void (*UMistCheatingComponent_ServerLeaveClan_Implementation)(UMistCheatingComponent* self);
+extern void (*UMistCheatingComponent_CreateClan)(UMistCheatingComponent* self, FString* name, int flag, int emblem);
+extern void (*UMistCheatingComponent_ServerCreateClan)(UMistCheatingComponent* self, FString* name, int flag, int emblem);
+extern void (*UMistCheatingComponent_ServerCreateClan_Implementation)(UMistCheatingComponent* self, FString* name, int flag, int emblem);
+
+extern void (*UMistClanScreen_CreateClan)(UMistClanScreen* self, FString* name, int flag, int emblem);
+extern void (*UMistClanScreen_LeaveClan)(UMistClanScreen* self);
 
 extern void (*UMistHealthComponent_HandleAnyDamage)(UMistHealthComponent* self, AActor* actor, float damage, UDamageType* damageType, FDamageSource* damageSource);
 extern void (*UMistHealthComponent_SetHealth)(UMistHealthComponent* self, float health);
