@@ -1,7 +1,7 @@
 #include "Hooker.h"
 
 #include "Native/Symbol.h"
-
+#include "Util.h"
 
 #define HookerName ("MistServerHook")
 
@@ -25,6 +25,8 @@ void EngineInit(UEngine* engine, void* loop)
 
 	GScriptName = FName(L"LogScript");
 	Warning(L"Hooker is running, this is a modded server now");
+
+	Util::logOnFile("reboot", L"Server started");
 
 	InitPlugins();
 
@@ -96,6 +98,7 @@ bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
 	if (wcscmp(self->ClassPrivate->NamePrivate.c_str(), L"MistInventoryComponent") == 0) {
 		Error(L"Class %s   Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
 	}
+
 
 	for (auto entry : ProcessEventHooks)
 	{
