@@ -23,7 +23,7 @@
 */
 void InitPlugins(){
 
-	MyNativeHooksInit();
+//	MyNativeHooksInit();
 
 	GConsole.Init();
 //	DuelSystemInit(); //work in progress

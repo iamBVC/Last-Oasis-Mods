@@ -119,52 +119,6 @@ void onSafelog(UMistSafeLogOutComponent* self, float time, FString* playerName) 
 
 
 
-
-void MulticastSetCheatValue(AMistOasisGameState* self, FName* name, bool value) {
-
-	auto fnName = name->c_str();
-
-	if (wcscmp(fnName, L"CheatFreeBuilding") == 0) {
-		value = false;
-		Warning(L"Someone used command %s", fnName);
-	}
-
-	GHooker.OrigFn(MulticastSetCheatValue)(self, name, value);
-
-}
-
-
-/*
-int addItem(UMistInventoryComponent* self, FMistItem* item, int amount, FMistInventoryOperationTarget* target, FMistInventoryOperationParams* params) {
-
-
-	Warning(L"Giving %i %s to %s", amount, item->Template->NamePrivate.c_str(), self->CharacterOwner->PlayerState->PlayerNamePrivate.c_str());
-
-	auto value = GHooker.OrigFn(addItem)(self, item, amount, target, params);
-	return value;
-}
-
-
-int64 removeItem(UMistInventoryComponent* self, FMistInventoryOperationSource* source, FMistInventoryOperationParams* params) {
-
-	Warning(L"Removing %i %s from %s", source->NumItems, source->Item.Template->NamePrivate.c_str(), self->CharacterOwner->PlayerState->PlayerNamePrivate.c_str());
-
-	auto value = GHooker.OrigFn(removeItem)(self, source, params);
-	return value;
-}
-
-
-
-void updateContainer(UMistContainerComponent* container, int id1, int id2, FMistContainerSlotUpdateData* data) {
-
-	Warning(L"updateContainer");
-	GHooker.OrigFn(updateContainer)(container, id1, id2, data);
-	int i = 0;
-}
-
-*/
-
-
 void InventoryOpen(UMistInventoryComponent* self, AActor* actor, TArray<UMistContainerComponent*>& data)
 {
 	GHooker.OrigFn(InventoryOpen)(self, actor, data);
@@ -185,11 +139,26 @@ void InventoryOpen(UMistInventoryComponent* self, AActor* actor, TArray<UMistCon
 		for (int32 j = 0; j < data.Data[i]->Slots.Count; j++) {
 			auto item = &(data.Data[i]->Slots.Data[j]);
 			if (item->Count == 0) continue;
-			swprintf_s(buff, L"%s x%i Q%u %s\n", buff, item->Count, item->Item.Quality, item->Item.Template->NamePrivate.c_str());
+			swprintf_s(buff, L"%s\tx%i\tQ%u\t%s\n", buff, item->Count, item->Item.Quality, item->Item.Template->NamePrivate.c_str());
 		}
 	}
 
 	Util::logOnFile("items", buff);
+}
+
+
+void SetCheatEnabled(UMistCheatingComponent* self, FName* name, bool value) {
+
+	auto fnName = name->c_str();
+	wchar_t buff[128];
+	swprintf_s(buff, L"%s %u", fnName, value);
+	Util::logOnFile("commands", buff);
+
+	if (wcscmp(fnName, L"CheatFreeBuilding") == 0) {
+		value = false; //disable free building
+	}
+
+	GHooker.OrigFn(SetCheatEnabled)(self, name, value);
 }
 
 
@@ -209,15 +178,8 @@ void ServerInfoLogInit() {
 
 	GHooker.Add(onSafelog, SYM_B5816A61F71E11DB914B9EAE80E67507); //UMistSafeLogOutComponent_ClientStartSafeLogOutAttempt
 	
-	GHooker.Add(MulticastSetCheatValue, SYM_FA4027FB4BE097FAAAF0AC1CEE0BC675); //AMistOasisGameState_MulticastSetCheatValue
-
-	
-	//GHooker.Add(addItem, SYM_C79C389DD7D5054841361EEE09867623); //UMistInventoryComponent_Add
-
-	//GHooker.Add(removeItem, SYM_5F4009B174CA6865C6F7156CDEFAC4D7); //UMistInventoryComponent_Remove
-
-	//GHooker.Add(updateContainer, SYM_5377B33C7511FF50167EF44D532095B1); //UMistInventoryComponent_ClientUpdateContainer
-
 	GHooker.Add(InventoryOpen, SYM_1654F54D7B6BD353E56543B3BB2F27A9); //UMistInventoryComponent_ServerOpen_Implementation
+
+	GHooker.Add(SetCheatEnabled, SYM_E61A2428396614B640A3989A3E1DB19F); //UMistCheatingComponent_ServerSetCheatEnabled_Implementation
 
 }

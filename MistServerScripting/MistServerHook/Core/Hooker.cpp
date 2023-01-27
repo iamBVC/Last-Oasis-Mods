@@ -63,7 +63,7 @@ void Hooker::Install(){
 	Enqueue(EngineInit, SYM_998AD7FD6542D0AEC72777A33587BC5A, reinterpret_cast<void**>(&OrigEngineInit));
 
 	//use this for debug only, very heavy function
-	Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
+	//Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
 
 	auto status = MH_ApplyQueued();
 	if (status != MH_OK)
@@ -95,8 +95,7 @@ bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
 	auto className = self->ClassPrivate->NamePrivate.c_str();
 	auto fnName = fn->NamePrivate.c_str();
 
-
-
+	
 	if (
 
 		(wcscmp(fnName, L"UpdateBehavior") != 0) &&
@@ -133,6 +132,7 @@ bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
 			isAllowed &= entry.Callback(self, fn, params);
 		}
 	}
+	
 
 	return isAllowed;
 }

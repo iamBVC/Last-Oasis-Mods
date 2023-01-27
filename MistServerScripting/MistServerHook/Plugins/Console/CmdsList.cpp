@@ -85,7 +85,7 @@ void RegisterMyCommands() {
 	//---- other commands for development purposes -----------------------------
 
 
-	
+	/*
 
 	static int woot = 7;
 	Config::RegisterVariable(L"gg.Woot", woot, false);
@@ -213,7 +213,7 @@ void RegisterMyCommands() {
 
 	});
 	
-
+	*/
 
 
 }

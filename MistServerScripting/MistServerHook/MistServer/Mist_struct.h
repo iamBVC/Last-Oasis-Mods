@@ -2496,9 +2496,9 @@ struct FMistInteraction {
 // Size: 0x18 (Inherited: 0x00)
 struct FMistItem {
 	struct UMistItemTemplate* Template; // 0x00(0x08)
-	char pad_8[0x05]; // 0x08(0x05)
-	uint8 Quality; // 0x0D(0x01)
-	char pad_E[0x0A]; // 0x0E(0x0A)
+	char pad_8[0x02]; // 0x08(0x02)
+	uint8 Quality; // 0x0A(0x01)
+	char pad_B[0x0D]; // 0x0B(0x0D)
 };
 
 // ScriptStruct Mist.MistAnimEventRequest
