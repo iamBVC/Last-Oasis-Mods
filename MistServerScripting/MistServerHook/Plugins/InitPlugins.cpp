@@ -23,15 +23,15 @@
 */
 void InitPlugins(){
 
-//	MyNativeHooksInit();
+	MyNativeHooksInit();
 
 	GConsole.Init();
 //	DuelSystemInit(); //work in progress
 //	DumpBackendInit();
 //	Leaderboard.Init();
-	LoginInfoInit();
+//	LoginInfoInit();
 	ServerInfoLogInit();
-	SoftClanCapInit();
+//	SoftClanCapInit();
 //	WalkerSpeedometerInit();
 
 }

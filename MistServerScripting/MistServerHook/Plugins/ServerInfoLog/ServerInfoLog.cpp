@@ -49,8 +49,6 @@ float onTakeDamage(AActor* self, float value, FDamageEvent* event, FDamageSource
 	if (ownershipTarget == nullptr) return status;
 	if (instigatorState == nullptr) return status;
 
-
-
 	swprintf_s(log, L"%s (%s) damaged %s with %s owned by %s (%s) at %.0f %.0f %.0f",
 		character->PlayerState->PlayerNamePrivate.c_str(),
 		instigatorState->Clan.Name.c_str(),

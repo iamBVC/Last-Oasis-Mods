@@ -28,8 +28,8 @@ namespace CmdsList {
 
 //				cmdName				CmdFnPtr					adminLevel		nParams	description										example									params
 
-				{L"help",			HelpCmdFn,					0,				1,		L"Prints the help related to the keyword",		L"help <cmdName>",						L"cmdName: name of the command"},
-				{L"pop",			PopCmdFn,					0,				0,		L"Get the number of online players in the map",	L"pop",									L""},
+				{L"help",			HelpCmdFn,					1,				1,		L"Prints the help related to the keyword",		L"help <cmdName>",						L"cmdName: name of the command"},
+				{L"pop",			PopCmdFn,					1,				0,		L"Get the number of online players in the map",	L"pop",									L""},
 				{L"broadcast",		BroadcastCmdFn,				1,				1,		L"Send a red message to all the players",		L"broadcast <msg>",						L"msg: message to send"},
 				{L"announce",		AnnounceCmdFn,				1,				1,		L"Send a white message to all the players",		L"announce <msg>",						L"msg: message to send"},
 				{L"renamewalker",	RenameWalkerCmdFn,			1,				1,		L"rename the walker you are driving",			L"renamewalker <walkerName>",			L"walkerName: name to set"},
