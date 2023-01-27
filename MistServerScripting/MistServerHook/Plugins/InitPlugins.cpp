@@ -31,7 +31,7 @@ void InitPlugins(){
 //	Leaderboard.Init();
 	LoginInfoInit();
 	ServerInfoLogInit();
-//	SoftClanCapInit();
+	SoftClanCapInit();
 //	WalkerSpeedometerInit();
 
 }

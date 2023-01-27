@@ -32,8 +32,8 @@ namespace CmdsList {
 				{L"pop",			PopCmdFn,					0,				0,		L"Get the number of online players in the map",	L"pop",									L""},
 				{L"broadcast",		BroadcastCmdFn,				1,				1,		L"Send a red message to all the players",		L"broadcast <msg>",						L"msg: message to send"},
 				{L"announce",		AnnounceCmdFn,				1,				1,		L"Send a white message to all the players",		L"announce <msg>",						L"msg: message to send"},
-				{L"renamewalker",	RenameWalkerCmdFn,			0,				1,		L"rename the walker you are driving",			L"renamewalker <walkerName>",			L"walkerName: name to set"},
-				{L"walkerinfo",		WalkerInfoCmdFn,			0,				1,		L"prints some info of your walker",				L"walkerinfo",							L""},
+				{L"renamewalker",	RenameWalkerCmdFn,			1,				1,		L"rename the walker you are driving",			L"renamewalker <walkerName>",			L"walkerName: name to set"},
+				{L"walkerinfo",		WalkerInfoCmdFn,			1,				1,		L"prints some info of your walker",				L"walkerinfo",							L""},
 				{L"playerinfo",		PlayerInfoCmdFn,			1,				1,		L"prints the selected player infos",			L"playerinfo <playername>",				L""},
 				{L"giveflobs",		GiveFlobsCmdFn,				1,				1,		L"gives you some flobs",						L"giveflobs <amount>",					L"amount: number of flobs to add"},
 				{L"setwalkerparam",	SetWalkerParamCmdFn,		1,				2,		L"set a walker parameter",						L"setwalkerparam <paramname> <value>",	L""},
@@ -42,12 +42,12 @@ namespace CmdsList {
 				{L"notify",			NotifyCmdFn,				1,				2,		L"create a notify message",						L"notify <id> <text>",					L""},
 				{L"hudmessage",		HudMessageCmdFn,			1,				1,		L"create a hud message",						L"hudmessage <text>",					L""},
 				{L"shutdown",		ShutdownServerCmdFn,		1,				0,		L"shutdown the server",							L"shutdown",							L""},
-				{L"leaderboard",	LeaderboardCmdFn,			0,				0,		L"print a list of the top players",				L"leaderboard",							L""},
-				{L"mypoints",		MyPointsCmdFn,				0,				0,		L"print the amount of leaderboard points",		L"mypoints",							L""},
-				{L"setpoints",		SetPointsCmdFn,				1,				2,		L"set the amount of leaderboard points",		L"setpoints <amount> <playername>",		L""},
-				{L"creatematch",	DuelSystemCreateMatchCmd,	0,				1,		L"Create the lobby for a new match",			L"creatematch <teamsize>",				L""},
-				{L"joinmatch",		DuelSystemAutoJoinCmd,		0,				0,		L"Join a random lobby",							L"joinmatch",							L""},
-				{L"duelpoints",		DuelSystemPointsCmd,		0,				0,		L"Tells you how many points you have",			L"duelpoints",							L""},
+//				{L"leaderboard",	LeaderboardCmdFn,			0,				0,		L"print a list of the top players",				L"leaderboard",							L""},
+//				{L"mypoints",		MyPointsCmdFn,				0,				0,		L"print the amount of leaderboard points",		L"mypoints",							L""},
+//				{L"setpoints",		SetPointsCmdFn,				1,				2,		L"set the amount of leaderboard points",		L"setpoints <amount> <playername>",		L""},
+//				{L"creatematch",	DuelSystemCreateMatchCmd,	0,				1,		L"Create the lobby for a new match",			L"creatematch <teamsize>",				L""},
+//				{L"joinmatch",		DuelSystemAutoJoinCmd,		0,				0,		L"Join a random lobby",							L"joinmatch",							L""},
+//				{L"duelpoints",		DuelSystemPointsCmd,		0,				0,		L"Tells you how many points you have",			L"duelpoints",							L""},
 				{NULL,				NULL,						3,				0,		NULL,											NULL,									NULL}	//LIST TERMINATOR
 	};
 
@@ -84,6 +84,9 @@ void RegisterMyCommands() {
 
 	//---- other commands for development purposes -----------------------------
 
+
+	/*
+
 	static int woot = 7;
 	Config::RegisterVariable(L"gg.Woot", woot, false);
 	Config::LoadIniSection(L"ScriptHook", L"Sect");
@@ -119,7 +122,7 @@ void RegisterMyCommands() {
 		Util::ClientAddMsg(caller, buff);
 	});
 
-
+	
 	GConsole.RegisterCommand(L"test", [](AMistOasisPlayerController* caller, auto args) {
 
 		wchar_t buff[1024];
@@ -198,6 +201,18 @@ void RegisterMyCommands() {
 		}
 
 
+		if (wcscmp(args, L"8") == 0) {
+			auto gameinstance = AActor_GetGameInstance(caller);
+			auto items = UMistGameInstance_GetAllBlueprintsOfClassItem(gameinstance);
+			int i = 0;
+		}
+
+		
+
+
 	});
+	*/
+
+
 
 }

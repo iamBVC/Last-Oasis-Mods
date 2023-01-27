@@ -2,6 +2,8 @@
 
 #include "Native/Symbol.h"
 
+#define MAX_ONLINE_MEMBERS		10
+
 struct ClanData {
 	int64_t ID;
 	int32_t count;
@@ -23,7 +25,7 @@ float SoftClanCapFn(AMistOasisGameState* self, AMistOasisPlayerState* playerstat
 	for (uint32 i = 0; i < self->ClanMemberCount.Count; i++) {
 		if (data[i].ID == clanID) {
 
-			if (data[i].count > 10) {
+			if (data[i].count > MAX_ONLINE_MEMBERS) {
 
 				if (playerstate->PawnPrivate != nullptr) {
 					auto controller = APawn_GetControllerMist(playerstate->PawnPrivate);

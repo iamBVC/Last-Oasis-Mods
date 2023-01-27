@@ -89,28 +89,78 @@ void onUnpossessed(AMistPlayer* player, AMistOasisPlayerController* controller) 
 
 void onPossessed(AMistPlayer* player, AMistOasisPlayerController* controller) {
 
-	GHooker.OrigFn(onUnpossessed)(player, controller);
+	GHooker.OrigFn(onPossessed)(player, controller);
 
 	auto playerState = APawn_GetPlayerStateMist(player);
+	auto location = player->CharacterMovement->LastUpdateLocation;
 	wchar_t log[256];
-	swprintf_s(log, L"%s (%s) [%s] logged in", playerState->PlayerNamePrivate.c_str(), playerState->Clan.Name.c_str(), playerState->AccountName.c_str());
+	swprintf_s(log, L"%s (%s) [%s] logged in at %.0f %.0f %.0f", playerState->PlayerNamePrivate.c_str(), playerState->Clan.Name.c_str(), playerState->AccountName.c_str(), location.X, location.Y, location.Z);
 	Util::logOnFile("login", log);
 
 }
 
 
-void onSafelog(UMistSafeLogOutComponent* self, float time, FString* text) {
-	/*
+void onSafelog(UMistSafeLogOutComponent* self, float time, FString* playerName) {
+	
+	auto walker = self->InitialTravelParty.Walker;
+	auto playerState = self->PlayerStateOwner;
 	wchar_t log[256];
-	swprintf_s(log, L"%s (%s) started safelog of %s owned by %s (%s)",
-		self->InitiatorPlayerState->PlayerNamePrivate.c_str(), self->InitiatorPlayerState->Clan.Name.c_str(),
-		walker->PlaceableName.c_str(),
+	swprintf_s(log, L"%s (%s) started safelog of \"%s\" (%u) %s owned by %s (%s)",
+		playerState->PlayerNamePrivate.c_str(), playerState->Clan.Name.c_str(),
+		walker->CustomName.c_str(), walker->WalkerType, walker->WalkerGuid.c_str(),
 		walker->ClanOwnershipComponent->OwnerCharacter.Name.c_str(), walker->ClanOwnershipComponent->OwnerClan.Name.c_str()
 	);
 	Util::logOnFile("safelog", log);
-	*/
-	GHooker.OrigFn(onSafelog)(self, time, text);
+	
+	GHooker.OrigFn(onSafelog)(self, time, playerName);
 }
+
+
+
+
+void MulticastSetCheatValue(AMistOasisGameState* self, FName* name, bool value) {
+
+	auto fnName = name->c_str();
+
+	if (wcscmp(fnName, L"CheatFreeBuilding") == 0) {
+		value = false;
+		Warning(L"Someone used command %s", fnName);
+	}
+
+	GHooker.OrigFn(MulticastSetCheatValue)(self, name, value);
+
+}
+
+
+/*
+int addItem(UMistInventoryComponent* self, FMistItem* item, int amount, FMistInventoryOperationTarget* target, FMistInventoryOperationParams* params) {
+
+
+	Warning(L"Giving %i %s to %s", amount, item->Template->NamePrivate.c_str(), self->CharacterOwner->PlayerState->PlayerNamePrivate.c_str());
+
+	auto value = GHooker.OrigFn(addItem)(self, item, amount, target, params);
+	return value;
+}
+
+
+int64 removeItem(UMistInventoryComponent* self, FMistInventoryOperationSource* source, FMistInventoryOperationParams* params) {
+
+	Warning(L"Removing %i %s from %s", source->NumItems, source->Item.Template->NamePrivate.c_str(), self->CharacterOwner->PlayerState->PlayerNamePrivate.c_str());
+
+	auto value = GHooker.OrigFn(removeItem)(self, source, params);
+	return value;
+}
+
+
+
+void updateContainer(UMistContainerComponent* container, int id1, int id2, FMistContainerSlotUpdateData* data) {
+
+	Warning(L"updateContainer");
+	GHooker.OrigFn(updateContainer)(container, id1, id2, data);
+	int i = 0;
+}
+*/
+
 
 
 
@@ -127,4 +177,13 @@ void ServerInfoLogInit() {
 
 	GHooker.Add(onSafelog, SYM_B5816A61F71E11DB914B9EAE80E67507); //UMistSafeLogOutComponent_ClientStartSafeLogOutAttempt
 	
+	GHooker.Add(MulticastSetCheatValue, SYM_FA4027FB4BE097FAAAF0AC1CEE0BC675); //AMistOasisGameState_MulticastSetCheatValue
+
+	
+	//GHooker.Add(addItem, SYM_C79C389DD7D5054841361EEE09867623); //UMistInventoryComponent_Add
+
+	//GHooker.Add(removeItem, SYM_5F4009B174CA6865C6F7156CDEFAC4D7); //UMistInventoryComponent_Remove
+
+	//GHooker.Add(updateContainer, SYM_5377B33C7511FF50167EF44D532095B1); //UMistInventoryComponent_ClientUpdateContainer
+
 }

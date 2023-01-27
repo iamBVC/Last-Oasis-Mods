@@ -99,6 +99,7 @@ extern void (*AActor_ReceiveAnyDamage)(AActor* self, float value, UDamageType* t
 extern void (*AActor_ReceivePointDamage)(AActor* self, float value, UDamageType* type, FDamageSource* source, FHitResult* result);
 extern void (*AActor_ReceiveRadialDamage)(AActor* self, float value, UDamageType* type, FVector position, FDamageSource* source, FHitResult* result);
 extern float (*AActor_TakeDamage)(AActor* self, float value, FDamageEvent* event, FDamageSource* source);
+extern UMistGameInstance* (*AActor_GetGameInstance)(AActor* self);
 
 extern APlayerState* (*APawn_GetPlayerState)(APawn* self);
 extern AMistOasisPlayerState* (*APawn_GetPlayerStateMist)(APawn* self);
@@ -153,6 +154,8 @@ extern void (*UMistCheatingComponent_ServerCreateClan_Implementation)(UMistCheat
 extern void (*UMistClanScreen_CreateClan)(UMistClanScreen* self, FString* name, int flag, int emblem);
 extern void (*UMistClanScreen_LeaveClan)(UMistClanScreen* self);
 
+extern TArray<UMistItemTemplate*> (*UMistGameInstance_GetAllBlueprintsOfClassItem)(UMistGameInstance* self); //crash
+
 extern void (*UMistHealthComponent_HandleAnyDamage)(UMistHealthComponent* self, AActor* actor, float damage, UDamageType* damageType, FDamageSource* damageSource);
 extern void (*UMistHealthComponent_SetHealth)(UMistHealthComponent* self, float health);
 
@@ -170,6 +173,8 @@ extern void (*UMistPlayerMessengerComponent_ClientAddReachedLevelMessage)(UMistP
 extern UClass* (*UMistPlayerMessengerComponent_GetPrivateStaticClass)(UMistPlayerMessengerComponent* self);
 
 extern void (*UMistCharacterMovementComponent_TeleportTo)(UMistCharacterMovementComponent* self, const FTransform* location);
+
+extern UClass* (*UMistItemTemplate_GetPrivateStaticClass)(void);
 
 extern void (*UMistWorldEventsManager_AddWorldEventAsteroid)(UMistWorldEventsManager* self);
 

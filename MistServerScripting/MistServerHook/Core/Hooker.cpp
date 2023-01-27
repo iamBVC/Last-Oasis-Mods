@@ -61,7 +61,7 @@ void Hooker::Install(){
 	Enqueue(EngineInit, SYM_998AD7FD6542D0AEC72777A33587BC5A, reinterpret_cast<void**>(&OrigEngineInit));
 
 	//use this for debug only, very heavy function
-//	Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
+	//Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
 
 	auto status = MH_ApplyQueued();
 	if (status != MH_OK)
@@ -90,13 +90,18 @@ bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
 {
 	auto isAllowed = true;
 
+	Warning(L"Class %s   Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
+
+
+	if (wcscmp(self->ClassPrivate->NamePrivate.c_str(), L"MistInventoryComponent") == 0) {
+		Error(L"Class %s   Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
+	}
+
 	for (auto entry : ProcessEventHooks)
 	{
 		if (entry.Function == fn->NamePrivate)
 		{
-			Warning(L"Class %s  Function %s",
-				self->ClassPrivate->NamePrivate.c_str(),
-				fn->NamePrivate.c_str());
+			Warning(L"Class %s  Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
 		}
 
 		if (entry.Class == self->ClassPrivate->NamePrivate

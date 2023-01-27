@@ -3,8 +3,8 @@
 #include "Native/Symbol.h"
 
 #define MOTD L"\
-Welcome to the mods/scripts development server!\n\
-If you can read this message means our ScriptHook is working :)\n\
+Welcome to LO Classic Server!\n\
+First server with mods and script!\n\
 Type /help for more info\
 "
 
