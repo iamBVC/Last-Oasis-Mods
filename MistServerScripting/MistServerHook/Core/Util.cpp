@@ -160,10 +160,12 @@ namespace Util {
 
 	bool logOnFile(const char* fileName, const wchar_t* data)
 	{
-		wchar_t buff[256];
+		wchar_t buff[128];
+
 		int utcTime[8] = {};
 		FWindowsPlatformTime_UtcTime(&utcTime[0], &utcTime[1], &utcTime[2], &utcTime[3], &utcTime[4], &utcTime[5], &utcTime[6], &utcTime[7]);
-		swprintf_s(buff, L"[%i/%02i/%02i %02i:%02i:%02i] %s\n", utcTime[0], utcTime[1], utcTime[3], utcTime[4], utcTime[5], utcTime[6], data);
+
+		swprintf_s(buff, L"\n[%i/%02i/%02i %02i:%02i:%02i] ", utcTime[0], utcTime[1], utcTime[3], utcTime[4], utcTime[5], utcTime[6]);
 
 		char newfilename[64];
 		sprintf_s(newfilename, "../../Saved/Logs/%s_%i_%i_%i.log", fileName, utcTime[0], utcTime[1], utcTime[3]);
@@ -171,7 +173,9 @@ namespace Util {
 		FILE* fptr;
 		fopen_s(&fptr, newfilename, "a, ccs=UTF-8");
 		if (fptr == nullptr) return false;
-		auto count = fwprintf(fptr, buff);
+		int count = 0;
+		count += fwprintf(fptr, buff);
+		count += fwprintf(fptr, data);
 		fclose(fptr);
 		if (count == 0) return false;
 		return true;

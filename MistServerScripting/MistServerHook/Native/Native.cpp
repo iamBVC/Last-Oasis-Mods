@@ -164,6 +164,8 @@ N(UMistHealthComponent_SetHealth, SYM_47206A1D6C53407CB7F22D33F88EC86C);
 
 N(UMistItemTemplate_GetPrivateStaticClass, SYM_BE76B62D8D29214B784C080A48A626AD);
 
+N(UMistInventoryComponent_ServerOpen_Implementation, SYM_1654F54D7B6BD353E56543B3BB2F27A9);
+
 N(UMistPlayerMessengerComponent_ClientAddAnnouncementMessage, SYM_4F12E5A277445C53FC7B5D21BC43D76B);
 N(UMistPlayerMessengerComponent_ClientAddClanChatMessage, SYM_FA511414B18E8A04F472028B9DF93B5E);
 N(UMistPlayerMessengerComponent_ClientAddCombatHitMessage, SYM_31F3C55AB85A74737F5DDF58A5CCE5E2);

@@ -49,6 +49,8 @@ float onTakeDamage(AActor* self, float value, FDamageEvent* event, FDamageSource
 	if (ownershipTarget == nullptr) return status;
 	if (instigatorState == nullptr) return status;
 
+
+
 	swprintf_s(log, L"%s (%s) damaged %s with %s owned by %s (%s) at %.0f %.0f %.0f",
 		character->PlayerState->PlayerNamePrivate.c_str(),
 		instigatorState->Clan.Name.c_str(),
@@ -159,7 +161,37 @@ void updateContainer(UMistContainerComponent* container, int id1, int id2, FMist
 	GHooker.OrigFn(updateContainer)(container, id1, id2, data);
 	int i = 0;
 }
+
 */
+
+
+void InventoryOpen(UMistInventoryComponent* self, AActor* actor, TArray<UMistContainerComponent*>& data)
+{
+	GHooker.OrigFn(InventoryOpen)(self, actor, data);
+
+	auto playerState = APawn_GetPlayerStateMist(self->PlayerOwner);
+	if (playerState == nullptr) return;
+	auto location = &(self->PlayerOwner->CharacterMovement->LastUpdateLocation);
+	auto actorOwnership = FMistClanUtils_GetOwnershipComponent(actor, true);
+	if (actorOwnership == nullptr) return;
+
+	wchar_t buff[2048];
+	swprintf_s(buff, L"%s (%s) opened %s owned by %s (%s) at %.0f %.0f %.0f containing:\n",
+		playerState->PlayerNamePrivate.c_str(), playerState->Clan.Name.c_str(),
+		actor->NamePrivate.c_str(), actorOwnership->OwnerCharacter.Name.c_str(), actorOwnership->OwnerClan.Name.c_str(),
+		location->X, location->Y, location->Z);
+
+	for (int32 i = 0; i < data.Count; i++) {
+		for (int32 j = 0; j < data.Data[i]->Slots.Count; j++) {
+			auto item = &(data.Data[i]->Slots.Data[j]);
+			if (item->Count == 0) continue;
+			swprintf_s(buff, L"%s x%i Q%u %s\n", buff, item->Count, item->Item.Quality, item->Item.Template->NamePrivate.c_str());
+		}
+	}
+
+	Util::logOnFile("items", buff);
+}
+
 
 
 
@@ -185,5 +217,7 @@ void ServerInfoLogInit() {
 	//GHooker.Add(removeItem, SYM_5F4009B174CA6865C6F7156CDEFAC4D7); //UMistInventoryComponent_Remove
 
 	//GHooker.Add(updateContainer, SYM_5377B33C7511FF50167EF44D532095B1); //UMistInventoryComponent_ClientUpdateContainer
+
+	GHooker.Add(InventoryOpen, SYM_1654F54D7B6BD353E56543B3BB2F27A9); //UMistInventoryComponent_ServerOpen_Implementation
 
 }

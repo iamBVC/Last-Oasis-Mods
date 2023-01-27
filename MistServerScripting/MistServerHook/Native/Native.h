@@ -159,6 +159,8 @@ extern TArray<UMistItemTemplate*> (*UMistGameInstance_GetAllBlueprintsOfClassIte
 extern void (*UMistHealthComponent_HandleAnyDamage)(UMistHealthComponent* self, AActor* actor, float damage, UDamageType* damageType, FDamageSource* damageSource);
 extern void (*UMistHealthComponent_SetHealth)(UMistHealthComponent* self, float health);
 
+extern void (*UMistInventoryComponent_ServerOpen_Implementation)(UMistInventoryComponent* self, AActor* actor, TArray<UMistContainerComponent*>& data);
+
 extern UClass* (*UMistPlayerMessengerComponent_StaticClass)();
 extern void (*UMistPlayerMessengerComponent_ServerMapChat)(UMistPlayerMessengerComponent* self, FString* text);
 extern void (*UMistPlayerMessengerComponent_ClientAddAnnouncementMessage)(UMistPlayerMessengerComponent* self, const FText& text);

@@ -2496,8 +2496,9 @@ struct FMistInteraction {
 // Size: 0x18 (Inherited: 0x00)
 struct FMistItem {
 	struct UMistItemTemplate* Template; // 0x00(0x08)
-	int64_t CustomValue1; // 0x08(0x08)
-	int64_t CustomValue2; // 0x10(0x08)
+	char pad_8[0x05]; // 0x08(0x05)
+	uint8 Quality; // 0x0D(0x01)
+	char pad_E[0x0A]; // 0x0E(0x0A)
 };
 
 // ScriptStruct Mist.MistAnimEventRequest
@@ -2586,7 +2587,7 @@ struct FMistContainerSlot {
 	int32_t Count; // 0x18(0x04)
 	bool bDirty; // 0x1c(0x01)
 	bool bNewEntry; // 0x1d(0x01)
-	uint16 Quality; // 0x1e(0x02)
+	uint16 pad_1e; // 0x1e(0x02)
 };
 
 // ScriptStruct Mist.MistContainerSlotInitialItem

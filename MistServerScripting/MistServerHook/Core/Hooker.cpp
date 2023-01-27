@@ -63,7 +63,7 @@ void Hooker::Install(){
 	Enqueue(EngineInit, SYM_998AD7FD6542D0AEC72777A33587BC5A, reinterpret_cast<void**>(&OrigEngineInit));
 
 	//use this for debug only, very heavy function
-	//Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
+	Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
 
 	auto status = MH_ApplyQueued();
 	if (status != MH_OK)
@@ -92,19 +92,38 @@ bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
 {
 	auto isAllowed = true;
 
-	Warning(L"Class %s   Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
+	auto className = self->ClassPrivate->NamePrivate.c_str();
+	auto fnName = fn->NamePrivate.c_str();
 
 
-	if (wcscmp(self->ClassPrivate->NamePrivate.c_str(), L"MistInventoryComponent") == 0) {
-		Error(L"Class %s   Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
+
+	if (
+
+		(wcscmp(fnName, L"UpdateBehavior") != 0) &&
+		(wcscmp(className, L"WalkerVehicleMovementComponent") != 0) &&
+		(wcscmp(className, L"SunsetSkywalker_C") != 0) &&
+		(wcscmp(className, L"MistSunsetMovementComponent") != 0) &&
+		(wcscmp(className, L"SunsetMasterTether_C") != 0) &&
+		(wcscmp(className, L"WalkerCollisionSoundComponent_C") != 0) &&
+		(wcscmp(fnName, L"ReadyToEndMatch") != 0) &&
+		(wcscmp(fnName, L"ServerMoveNoBase") != 0) &&
+		(wcscmp(fnName, L"ReceiveExecuteAI") != 0) &&
+		(wcscmp(fnName, L"ClientAckGoodMove") != 0) &&
+		(wcscmp(fnName, L"ServerUpdateCamera") != 0) &&
+		(wcscmp(className, L"Character_AnimBP_C") != 0) 
+		) {
+
+		Warning(L"Class %s   Function %s", className, fnName);
+
 	}
+
 
 
 	for (auto entry : ProcessEventHooks)
 	{
 		if (entry.Function == fn->NamePrivate)
 		{
-			Warning(L"Class %s  Function %s", self->ClassPrivate->NamePrivate.c_str(), fn->NamePrivate.c_str());
+			Warning(L"Class %s  Function %s", className, fnName);
 		}
 
 		if (entry.Class == self->ClassPrivate->NamePrivate

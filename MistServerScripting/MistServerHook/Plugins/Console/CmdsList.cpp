@@ -85,7 +85,7 @@ void RegisterMyCommands() {
 	//---- other commands for development purposes -----------------------------
 
 
-	/*
+	
 
 	static int woot = 7;
 	Config::RegisterVariable(L"gg.Woot", woot, false);
@@ -202,16 +202,17 @@ void RegisterMyCommands() {
 
 
 		if (wcscmp(args, L"8") == 0) {
-			auto gameinstance = AActor_GetGameInstance(caller);
-			auto items = UMistGameInstance_GetAllBlueprintsOfClassItem(gameinstance);
-			int i = 0;
+			
+
+
+
 		}
 
 		
 
 
 	});
-	*/
+	
 
 
 
