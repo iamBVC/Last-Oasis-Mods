@@ -9,7 +9,7 @@ namespace NativeGen
 
         public string Unmangled { get; set; }
 
-        public ulong Offset { get; set; }
+        public int Offset { get; set; }
 
         public string GetHash()
         {

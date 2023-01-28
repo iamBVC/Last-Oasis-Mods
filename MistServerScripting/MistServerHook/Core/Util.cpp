@@ -7,21 +7,26 @@
 
 #define nullArg			(L"0")
 
+using namespace std;
 
-//save all the functions to execute every World tick here
-std::vector<void(*)(UWorld* world, int level, float delta)> funcToTick;
+namespace Util
+{
+	FName Info, Warning, Error;
 
-
-namespace Util {
+	OnEngineInit(Init)
+	{
+		Info = FName::Find(L"Info");
+		Warning = FName::Find(L"Warning");
+		Error = FName::Find(L"Error");
+	}
 
 	void ConsoleCommand(const wchar_t* cmd)
 	{
-		TArrayFString_AddUniqueImpl(&(GEngine->DeferredCommands), cmd);
+		TArrayFString_AddUniqueImpl(&(*GEngine)->DeferredCommands, cmd);
 	}
 
-	void ForEachPlayerController(UObject* any, std::function<void(AMistOasisPlayerController*)> fn)
+	void ForEachPlayerInWorld(UWorld* world, function<void(AMistOasisPlayerController*)> fn)
 	{
-		auto world = UObject_GetWorld(any);
 		TIndexedIterator<TWeakObjectPtr<APlayerController>> it;
 		UWorld_GetPlayerControllerIterator(world, &it);
 
@@ -29,28 +34,47 @@ namespace Util {
 			fn(static_cast<AMistOasisPlayerController*>(it.Array->Data[i].Get()));
 	}
 
-
-	void ClientAddMsg(AMistOasisPlayerController* player, const wchar_t* msg)
+	void ForEachPlayer(UObject* any, function<void(AMistOasisPlayerController*)> fn)
 	{
-		auto messengerClass = UMistPlayerMessengerComponent_StaticClass();
-		auto messenger = static_cast<UMistPlayerMessengerComponent*>(AActor_GetComponentByClass(player, messengerClass));
-		if (messenger == nullptr) return;
-		auto str = FString(msg);
-		auto text = FText(str);
-		UMistPlayerMessengerComponent_ClientAddInformationMessage(messenger, text);
+		auto world = UObject_GetWorld(any);
+		if (world) ForEachPlayerInWorld(world, fn);
 	}
 
-
-	void ClientAddRedMsg(AMistOasisPlayerController* player, const wchar_t* msg)
+	void ClientAddMsg(AMistOasisPlayerController* controller, const wchar_t* msg)
 	{
-		auto messengerClass = UMistPlayerMessengerComponent_StaticClass();
-		auto messenger = static_cast<UMistPlayerMessengerComponent*>(AActor_GetComponentByClass(player, messengerClass));
-		if (messenger == nullptr) return;
-		auto str = FString(msg);
-		auto text = FText(str);
-		UMistPlayerMessengerComponent_ClientAddAnnouncementMessage(messenger, text);
+		UMistPlayerMessengerComponent_ClientAddInformationMessage(controller->MessengerComponent, FText(FString(msg)));
 	}
 
+	void ClientAddRedMsg(AMistOasisPlayerController* controller, const wchar_t* msg)
+	{
+		UMistPlayerMessengerComponent_ClientAddAnnouncementMessage(controller->MessengerComponent, FText(FString(msg)));
+	}
+
+	void ClientAddHudLogInfo(AMistOasisPlayerController* controller, const wchar_t* msg)
+	{
+		AMistOasisPlayerController_ClientAddHudLog(controller, Info, FText(FString(msg)));
+	}
+
+	void ClientAddHudLogWarning(AMistOasisPlayerController* controller, const wchar_t* msg)
+	{
+		AMistOasisPlayerController_ClientAddHudLog(controller, Warning, FText(FString(msg)));
+	}
+
+	void ClientAddHudLogError(AMistOasisPlayerController* controller, const wchar_t* msg)
+	{
+		AMistOasisPlayerController_ClientAddHudLog(controller, Error, FText(FString(msg)));
+	}
+
+	void ClientAddHudMessage(AMistOasisPlayerController* controller, const wchar_t* msg, float duration, bool esc)
+	{
+		FMistHudMessageOptions opts;
+		memset(&opts, 0, sizeof(opts));
+		opts.MessageText = FText(FString(msg));
+		opts.DisplayDuration = duration;
+		opts.bRequiresConfirmation = esc;
+
+		AMistOasisPlayerController_ClientAddHudMessage(controller, opts);
+	}
 
 	bool AppendTextFile(const wchar_t* path, const wchar_t* format, ...)
 	{
@@ -70,8 +94,8 @@ namespace Util {
 		WideCharToMultiByte(CP_UTF8, 0, wide, widelen, mb, mbsize, NULL, NULL);
 		mb[mbsize] = 0;
 
-		auto fspath = std::filesystem::path(path);
-		std::filesystem::create_directories(fspath.parent_path());
+		auto fspath = filesystem::path(path);
+		filesystem::create_directories(fspath.parent_path());
 
 		auto file = CreateFileW(path, FILE_APPEND_DATA, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
 		if (file == INVALID_HANDLE_VALUE)
@@ -90,12 +114,10 @@ namespace Util {
 		}
 	}
 
-
-
 	bool DumpFile(const wchar_t* path, void* content, uint32 size)
 	{
-		auto fspath = std::filesystem::path(path);
-		std::filesystem::create_directories(fspath.parent_path());
+		auto fspath = filesystem::path(path);
+		filesystem::create_directories(fspath.parent_path());
 
 		auto file = CreateFileW(path, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
 		if (file == INVALID_HANDLE_VALUE)
@@ -111,6 +133,33 @@ namespace Util {
 				Error(L"WriteFile error %08X", GetLastError());
 			CloseHandle(file);
 			return result;
+		}
+	}
+
+	void Tokenize(const FString& str, vector<FName>& vec)
+	{
+		if (str.Count == 0) return;
+
+		int count = 1;
+		for (int i = 0; i < str.Count; i++)
+		{
+			if (str.Data[i] == L' ')
+			{
+				str.Data[i] = 0;
+				count++;
+			}
+		}
+
+		auto ptr = str.Data;
+		for (int i = 0; i < str.Count; i++)
+		{
+			if (str.Data[i] == 0)
+			{
+				const auto name = FName::Find(ptr);
+				if (name) vec.push_back(name);
+				else Error(L"Tokenize  FName not found: %s", ptr);
+				ptr = &str.Data[i + 1];
+			}
 		}
 	}
 

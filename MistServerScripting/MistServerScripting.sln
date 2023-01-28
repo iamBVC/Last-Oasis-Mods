@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MistServerHook", "MistServe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeGen", "NativeGen\NativeGen.csproj", "{146100BB-D056-498C-A5CD-1BC7D88D6330}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExamplePlugin", "ExamplePlugin\ExamplePlugin.vcxproj", "{F121C551-C11F-4678-8168-5FDAEFEA83D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Debug|x64.Build.0 = Debug|x64
 		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Release|x64.ActiveCfg = Release|x64
 		{146100BB-D056-498C-A5CD-1BC7D88D6330}.Release|x64.Build.0 = Release|x64
+		{F121C551-C11F-4678-8168-5FDAEFEA83D6}.Debug|x64.ActiveCfg = Debug|x64
+		{F121C551-C11F-4678-8168-5FDAEFEA83D6}.Debug|x64.Build.0 = Debug|x64
+		{F121C551-C11F-4678-8168-5FDAEFEA83D6}.Release|x64.ActiveCfg = Release|x64
+		{F121C551-C11F-4678-8168-5FDAEFEA83D6}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

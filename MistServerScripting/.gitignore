@@ -614,5 +614,4 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,csharp
 
-Symbol.h
 launchSettings.json

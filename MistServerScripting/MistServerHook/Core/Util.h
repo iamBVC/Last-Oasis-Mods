@@ -1,24 +1,21 @@
 #pragma once
-#include "Hooker.h"
-#include <vector>
+#include "Core.h"
+#include "functional"
 
-typedef struct {
-	uint32 uintData[32];
-	int32 intData[32];
-	float floatData[32];
-}serverData_t;
-
-extern std::vector<void(*)(UWorld* world, int level, float delta)> funcToTick;
-
-
-namespace Util{
-
+namespace Util
+{
 	void ConsoleCommand(const wchar_t* cmd);
-	void ForEachPlayerController(UObject* any, std::function<void(AMistOasisPlayerController*)> fn);
-	void ClientAddMsg(AMistOasisPlayerController* player, const wchar_t* msg);
-	void ClientAddRedMsg(AMistOasisPlayerController* player, const wchar_t* msg);
+	void ForEachPlayerInWorld(UWorld* world, std::function<void(AMistOasisPlayerController*)> fn);
+	void ForEachPlayer(UObject* any, std::function<void(AMistOasisPlayerController*)> fn);
+	void ClientAddMsg(AMistOasisPlayerController* controller, const wchar_t* msg);
+	void ClientAddRedMsg(AMistOasisPlayerController* controller, const wchar_t* msg);
+	void ClientAddHudLogInfo(AMistOasisPlayerController* controller, const wchar_t* msg);
+	void ClientAddHudLogWarning(AMistOasisPlayerController* controller, const wchar_t* msg);
+	void ClientAddHudLogError(AMistOasisPlayerController* controller, const wchar_t* msg);
+	void ClientAddHudMessage(AMistOasisPlayerController* controller, const wchar_t* msg, float duration, bool esc);
 	bool AppendTextFile(const wchar_t* path, const wchar_t* text, ...);
 	bool DumpFile(const wchar_t* path, void* content, uint32 size);
+	void Tokenize(const FString& str, std::vector<FName>& vec);
 	const wchar_t* getArg(const wchar_t* args, uint16 nArg, uint16* argLenPtr);
 	bool saveOnFile(const char* fileName, uint64 dataSize, void* data);
 	bool logOnFile(const char* fileName, const wchar_t* data);

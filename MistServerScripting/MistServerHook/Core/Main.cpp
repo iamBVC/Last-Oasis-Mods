@@ -1,31 +1,19 @@
-#include "Hooker.h"
+#pragma once
 #include "Windows.h"
 
-extern uint64 BaseAddress;
-extern void* NativeSection;
+namespace Hooker
+{
+	extern void MainStartup(DWORD64 moduleBase);
+}
 
 extern "C"
 {
 	BOOL APIENTRY DllMain(HMODULE hModule, DWORD fdwReason, LPVOID lpvReserved)
 	{
-		if (fdwReason == DLL_PROCESS_ATTACH)
-		{
-			BaseAddress = reinterpret_cast<uint64>(GetModuleHandleA(NULL));
-			auto ptr = &NativeSection;
-			while (*++ptr != nullptr) *reinterpret_cast<uint64*>(ptr) += BaseAddress;
+		if (fdwReason != DLL_PROCESS_ATTACH) return FALSE;
 
-			auto status = MH_Initialize();
-			if (status != MH_OK)
-			{
-				MessageBoxA(NULL, MH_StatusToString(status), "MistServerHook", MB_ICONERROR);
-				return FALSE;
-			}
-
-			GHooker.Install();
-			return TRUE;
-		}
-
-		return FALSE;
+		Hooker::MainStartup(reinterpret_cast<DWORD64>(hModule));
+		return TRUE;
 	}
 
 	HRESULT WINAPI DirectSoundCreate(LPGUID lpGuid, LPVOID* ppDS, LPVOID pUnkOuter)

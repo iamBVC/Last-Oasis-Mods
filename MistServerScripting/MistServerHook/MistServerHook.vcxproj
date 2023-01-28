@@ -44,14 +44,18 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir);$(ProjectDir)\Core;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
     <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
     <TargetName>dsound</TargetName>
+    <LinkIncremental>
+    </LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(ProjectDir);$(ProjectDir)\Core;$(IncludePath)</IncludePath>
     <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
     <TargetName>dsound</TargetName>
+    <LinkIncremental>
+    </LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -66,9 +70,11 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(ProjectDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libMinHook-x64-v141-mdd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>minhook.x64d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>DSOUND.def</ModuleDefinitionFile>
       <AdditionalOptions>/IGNORE:4104 %(AdditionalOptions)</AdditionalOptions>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y "$(OutDir)\$(TargetName).*"  "$(LastOasisDir)\$(TargetName).*"</Command>
@@ -88,12 +94,13 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(ProjectDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libMinHook-x64-v141-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>minhook.x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>DSOUND.def</ModuleDefinitionFile>
       <AdditionalOptions>/IGNORE:4104 %(AdditionalOptions)</AdditionalOptions>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y "$(OutDir)\$(TargetName).*"  "$(LastOasisDir)\$(TargetName).*"</Command>
@@ -101,122 +108,93 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Core\Config.h" />
-    <ClInclude Include="Plugins\Console\CmdsList.h" />
-    <ClInclude Include="Plugins\Console\CMDs\AnnounceCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\BroadcastCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\CountdownCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\GiveFlobsCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\HelpCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\HudMessageCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\KickCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\NotifyCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\PlayerInfoCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\PopCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\RenameWalkerCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\SetWalkerParamCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\ShutdownServerCmd.h" />
-    <ClInclude Include="Plugins\Console\CMDs\WalkerInfoCmd.h" />
-    <ClInclude Include="Core\Hooker.h" />
-    <ClInclude Include="Plugins\Console\Console.h" />
-    <ClInclude Include="Plugins\DuelSystem\DuelSystem.h" />
-    <ClInclude Include="Plugins\DuelSystem\DuelSystemCmds.h" />
-    <ClInclude Include="Plugins\DuelSystem\DuelSystemUtils.h" />
-    <ClInclude Include="Plugins\DumpBackend\DumpBackend.h" />
-    <ClInclude Include="Plugins\LoginInfo\LoginInfo.h" />
-    <ClInclude Include="Plugins\ServerInfoLog\ServerInfoLog.h" />
-    <ClInclude Include="Plugins\SoftClanCap\SoftClanCap.h" />
-    <ClInclude Include="Plugins\WalkerSpeedometer\WalkerSpeedometer.h" />
+    <ClInclude Include="Core\Core.h" />
+    <ClInclude Include="Core\Plugin.h" />
+    <ClInclude Include="Core\Symbol.h" />
     <ClInclude Include="Core\Util.h" />
-    <ClInclude Include="include\MinHook.h" />
-    <ClInclude Include="MistServer\AIModule_classes.h" />
-    <ClInclude Include="MistServer\AIModule_struct.h" />
-    <ClInclude Include="MistServer\AnimationBudgetAllocator_classes.h" />
-    <ClInclude Include="MistServer\AnimationBudgetAllocator_struct.h" />
-    <ClInclude Include="MistServer\AnimationCore_classes.h" />
-    <ClInclude Include="MistServer\AnimationCore_struct.h" />
-    <ClInclude Include="MistServer\AnimGraphRuntime_classes.h" />
-    <ClInclude Include="MistServer\AnimGraphRuntime_struct.h" />
-    <ClInclude Include="MistServer\AudioExtensions_classes.h" />
-    <ClInclude Include="MistServer\AudioExtensions_struct.h" />
-    <ClInclude Include="MistServer\AudioPlatformConfiguration_struct.h" />
-    <ClInclude Include="MistServer\CoreUObject_classes.h" />
-    <ClInclude Include="MistServer\CoreUObject_struct.h" />
-    <ClInclude Include="MistServer\DeviceLighting_classes.h" />
-    <ClInclude Include="MistServer\DeviceLighting_struct.h" />
-    <ClInclude Include="MistServer\Engine_classes.h" />
-    <ClInclude Include="MistServer\Engine_struct.h" />
-    <ClInclude Include="MistServer\Foliage_classes.h" />
-    <ClInclude Include="MistServer\Foliage_struct.h" />
-    <ClInclude Include="MistServer\GameplayTags_classes.h" />
-    <ClInclude Include="MistServer\GameplayTags_struct.h" />
-    <ClInclude Include="MistServer\GameplayTasks_classes.h" />
-    <ClInclude Include="MistServer\GameplayTasks_struct.h" />
-    <ClInclude Include="MistServer\InputCore_classes.h" />
-    <ClInclude Include="MistServer\InputCore_struct.h" />
-    <ClInclude Include="MistServer\LevelSequence_classes.h" />
-    <ClInclude Include="MistServer\LevelSequence_struct.h" />
-    <ClInclude Include="MistServer\MinimapPlugin_classes.h" />
-    <ClInclude Include="MistServer\MinimapPlugin_struct.h" />
-    <ClInclude Include="MistServer\Mist_classes.h" />
-    <ClInclude Include="MistServer\Mist_struct.h" />
-    <ClInclude Include="MistServer\MovieSceneTracks_classes.h" />
-    <ClInclude Include="MistServer\MovieSceneTracks_struct.h" />
-    <ClInclude Include="MistServer\MovieScene_classes.h" />
-    <ClInclude Include="MistServer\MovieScene_struct.h" />
-    <ClInclude Include="MistServer\NavigationSystem_classes.h" />
-    <ClInclude Include="MistServer\NavigationSystem_struct.h" />
-    <ClInclude Include="MistServer\PacketHandler_classes.h" />
-    <ClInclude Include="MistServer\PhysicsCore_struct.h" />
-    <ClInclude Include="MistServer\PropertyPath_struct.h" />
-    <ClInclude Include="MistServer\ReplicationGraph_classes.h" />
-    <ClInclude Include="MistServer\ReplicationGraph_struct.h" />
-    <ClInclude Include="MistServer\SlateCore_classes.h" />
-    <ClInclude Include="MistServer\SlateCore_struct.h" />
-    <ClInclude Include="MistServer\Slate_classes.h" />
-    <ClInclude Include="MistServer\Slate_struct.h" />
-    <ClInclude Include="MistServer\UMG_classes.h" />
-    <ClInclude Include="MistServer\UMG_struct.h" />
-    <ClInclude Include="Native\Native.h" />
-    <ClInclude Include="Native\Symbol.h" />
-    <ClInclude Include="Plugins\Hooks\NativeHooks.h" />
-    <ClInclude Include="Plugins\Leaderboard\Leaderboard.h" />
-    <ClInclude Include="UnrealEngine\DataTypes.h" />
-    <ClInclude Include="UnrealEngine\Enums.h" />
-    <ClInclude Include="UnrealEngine\Types.h" />
+    <ClInclude Include="MistServer\DataType.h" />
+    <ClInclude Include="MistServer\Define.h" />
+    <ClInclude Include="MistServer\Enum.h" />
+    <ClInclude Include="MistServer\Generated\AIModule_classes.h" />
+    <ClInclude Include="MistServer\Generated\AIModule_struct.h" />
+    <ClInclude Include="MistServer\Generated\AnimationBudgetAllocator_classes.h" />
+    <ClInclude Include="MistServer\Generated\AnimationBudgetAllocator_struct.h" />
+    <ClInclude Include="MistServer\Generated\AnimationCore_classes.h" />
+    <ClInclude Include="MistServer\Generated\AnimationCore_struct.h" />
+    <ClInclude Include="MistServer\Generated\AnimGraphRuntime_classes.h" />
+    <ClInclude Include="MistServer\Generated\AnimGraphRuntime_struct.h" />
+    <ClInclude Include="MistServer\Generated\AssetRegistry_struct.h" />
+    <ClInclude Include="MistServer\Generated\AudioExtensions_classes.h" />
+    <ClInclude Include="MistServer\Generated\AudioExtensions_struct.h" />
+    <ClInclude Include="MistServer\Generated\AudioPlatformConfiguration_struct.h" />
+    <ClInclude Include="MistServer\Generated\CoreUObject_classes.h" />
+    <ClInclude Include="MistServer\Generated\CoreUObject_struct.h" />
+    <ClInclude Include="MistServer\Generated\DeviceLighting_classes.h" />
+    <ClInclude Include="MistServer\Generated\DeviceLighting_struct.h" />
+    <ClInclude Include="MistServer\Generated\Engine_struct.h" />
+    <ClInclude Include="MistServer\Generated\Foliage_classes.h" />
+    <ClInclude Include="MistServer\Generated\Foliage_struct.h" />
+    <ClInclude Include="MistServer\Generated\GameplayTags_classes.h" />
+    <ClInclude Include="MistServer\Generated\GameplayTags_struct.h" />
+    <ClInclude Include="MistServer\Generated\GameplayTasks_classes.h" />
+    <ClInclude Include="MistServer\Generated\GameplayTasks_struct.h" />
+    <ClInclude Include="MistServer\Generated\InputCore_classes.h" />
+    <ClInclude Include="MistServer\Generated\InputCore_struct.h" />
+    <ClInclude Include="MistServer\Generated\LevelSequence_classes.h" />
+    <ClInclude Include="MistServer\Generated\LevelSequence_struct.h" />
+    <ClInclude Include="MistServer\Generated\MinimapPlugin_classes.h" />
+    <ClInclude Include="MistServer\Generated\MinimapPlugin_struct.h" />
+    <ClInclude Include="MistServer\Generated\Mist_classes.h" />
+    <ClInclude Include="MistServer\Generated\Mist_struct.h" />
+    <ClInclude Include="MistServer\Generated\MovieSceneTracks_classes.h" />
+    <ClInclude Include="MistServer\Generated\MovieSceneTracks_struct.h" />
+    <ClInclude Include="MistServer\Generated\MovieScene_classes.h" />
+    <ClInclude Include="MistServer\Generated\MovieScene_struct.h" />
+    <ClInclude Include="MistServer\Generated\NavigationSystem_classes.h" />
+    <ClInclude Include="MistServer\Generated\NavigationSystem_struct.h" />
+    <ClInclude Include="MistServer\Generated\PacketHandler_classes.h" />
+    <ClInclude Include="MistServer\Generated\PhysicsCore_struct.h" />
+    <ClInclude Include="MistServer\Generated\PropertyPath_struct.h" />
+    <ClInclude Include="MistServer\Generated\ReplicationGraph_classes.h" />
+    <ClInclude Include="MistServer\Generated\ReplicationGraph_struct.h" />
+    <ClInclude Include="MistServer\Generated\SlateCore_classes.h" />
+    <ClInclude Include="MistServer\Generated\SlateCore_struct.h" />
+    <ClInclude Include="MistServer\Generated\Slate_classes.h" />
+    <ClInclude Include="MistServer\Generated\Slate_struct.h" />
+    <ClInclude Include="MistServer\Generated\UMG_classes.h" />
+    <ClInclude Include="MistServer\Generated\UMG_struct.h" />
+    <ClInclude Include="MistServer\Native.h" />
+    <ClInclude Include="MistServer\Type.h" />
+    <ClInclude Include="Scripts\Basic\Motd.h" />
+    <ClInclude Include="Scripts\ChatConsole\ChatConsole.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Plugins\Console\CmdsList.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\AnnounceCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\BroadcastCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\CountdownCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\GiveFlobsCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\HelpCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\HudMessageCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\KickCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\NotifyCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\PlayerInfoCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\PopCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\RenameWalkerCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\SetWalkerParamCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\ShutdownServerCmd.cpp" />
-    <ClCompile Include="Plugins\Console\CMDs\WalkerInfoCmd.cpp" />
+    <ClCompile Include="Core\Symbol.cpp" />
     <ClCompile Include="Core\Hooker.cpp" />
     <ClCompile Include="Core\Main.cpp" />
-    <ClCompile Include="Plugins\Console\Console.cpp" />
-    <ClCompile Include="Plugins\DuelSystem\DuelSystem.cpp" />
-    <ClCompile Include="Plugins\DuelSystem\DuelSystemCmds.cpp" />
-    <ClCompile Include="Plugins\DuelSystem\DuelSystemUtils.cpp" />
-    <ClCompile Include="Plugins\DumpBackend\DumpBackend.cpp" />
-    <ClCompile Include="Plugins\LoginInfo\LoginInfo.cpp" />
-    <ClCompile Include="Plugins\ServerInfoLog\ServerInfoLog.cpp" />
-    <ClCompile Include="Plugins\SoftClanCap\SoftClanCap.cpp" />
-    <ClCompile Include="Plugins\WalkerSpeedometer\WalkerSpeedometer.cpp" />
     <ClCompile Include="Core\Util.cpp" />
-    <ClCompile Include="Plugins\InitPlugins.cpp" />
-    <ClCompile Include="Native\Native.cpp" />
-    <ClCompile Include="Plugins\Hooks\NativeHooks.cpp" />
-    <ClCompile Include="Plugins\Leaderboard\Leaderboard.cpp" />
-    <ClCompile Include="UnrealEngine\Types.cpp" />
+    <ClCompile Include="Scripts\Basic\Eac.cpp" />
+    <ClCompile Include="Scripts\Basic\Motd.cpp" />
+    <ClCompile Include="Scripts\Basic\DumpBackend.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\ChatConsole.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\AnnounceCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\BroadcastCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\CountdownCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\GiveFlobsCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\HudMessageCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\KickCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\NotifyCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\PlayerInfoCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\PopCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RenameWalkerCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\SetWalkerParamCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\ShutdownServerCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\ConCommands.cpp" />
+    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp" />
+    <ClCompile Include="Scripts\LogUFunc\Log.cpp" />
+    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp" />
+    <ClCompile Include="Scripts\ServerInfoLog\ServerInfoLog.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

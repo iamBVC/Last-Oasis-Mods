@@ -55,7 +55,7 @@ public unsafe class DbgHelp : IDisposable
     private IntPtr _process;
     private ulong _base;
 
-    public delegate void SymbolVisitor(ulong offset, string name, string undName);
+    public delegate void SymbolVisitor(int offset, string name, string undName);
 
     public DbgHelp(string path)
     {
@@ -95,14 +95,14 @@ public unsafe class DbgHelp : IDisposable
 
     private static bool EnumCallbackImpl(SymbolInfo* sym, uint sz, SymbolVisitor visitor)
     {
-        if (sym->Tag == 10 && (sym->Flags & 0x00400000) == 0x00400000)
+        //if (sym->Tag == 10 && (sym->Flags & 0x00400000) == 0x00400000)
         {
             var len = 256;
             byte* buff = stackalloc byte[len];
             len = UnDecorateSymbolName(&sym->Name, buff, len, 0x0008 | 0x0010 | 0x0080 | 0x0200);
 
             visitor(
-                sym->Address - sym->ModBase,
+                (int)(sym->Address - sym->ModBase),
                 Encoding.ASCII.GetString(&sym->Name, (int)sym->NameLen),
                 Encoding.ASCII.GetString(buff, len));
         }

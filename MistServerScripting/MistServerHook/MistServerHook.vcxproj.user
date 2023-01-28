@@ -5,9 +5,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-log -force_steamclient_link -messaging -NoLiveServer -noupnp -EnableCheats -backendapiurloverride="classic-backend.last-oasis.com" -identifier="Server 1" -port=5555 -CustomerKey=yzECwUFH3U3e2jpK -ProviderKey=JCU9XpxeyARMQIPM -slots=10 -QueryPort=27015 -OverrideConnectionAddress=castellese.zapto.org</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-log -force_steamclient_link -messaging -NoLiveServer -noupnp -EnableCheats -backendapiurloverride="classic-backend.last-oasis.com" -identifier="Server 1" -port=5555 -CustomerKey=yzECwUFH3U3e2jpK -ProviderKey=JCU9XpxeyARMQIPM -slots=30 -QueryPort=27015 -OverrideConnectionAddress=castellese.zapto.org</LocalDebuggerCommandArguments>
     <LocalDebuggerCommand>$(LastOasisDir)\MistServer-Win64-Shipping.exe</LocalDebuggerCommand>
     <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+    <LocalDebuggerWorkingDirectory>$(LastOasisDir)\</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>

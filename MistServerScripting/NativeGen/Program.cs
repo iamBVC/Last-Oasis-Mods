@@ -1,4 +1,7 @@
-﻿namespace NativeGen
+﻿using System.IO;
+using System.Text;
+
+namespace NativeGen
 {
     internal class NativeGen
     {
@@ -6,16 +9,13 @@
         {
             var natives = new List<Native>();
 
-            using (var dbg = new DbgHelp(args[0]))
+            using (var dbg = new DbgHelp(args[0] + "\\MistServer-Win64-Shipping.exe"))
             {
-                dbg.EnumAll((ulong offset, string name, string undName) =>
+                dbg.EnumAll((int offset, string name, string undName) =>
                 {
-                    if (name.Contains("Widget")
-                        || name.Contains("Slate")
-                        || name.Contains("Render")
+                    if (name.Contains("Render")
                         || name.Contains("Movie")
                         || name.Contains("PostProcess")
-                        || name.Contains("Camera")
                         ) return;
 
                     natives.Add(new Native
@@ -29,21 +29,31 @@
 
             natives.Sort((a, b) => a.Unmangled.CompareTo(b.Unmangled));
 
-            var file = args[1];
-            File.Create(file).Close();
-            File.AppendAllLines(file, new[] { "#pragma once", "", "", ""});
-
-            foreach (var native in natives)
+            using (var msFile = File.Create(args[0] + "\\Symbols.bin"))
+            using (var wrFile = new BinaryWriter(msFile))
             {
-                var s = $@"
-/*
- *  {native.Unmangled}
-*/
-#define SYM_{native.GetHash()} 0x{native.Offset:x2}
+                wrFile.Write(natives.Count);
 
+                using (var msPairs = new MemoryStream())
+                using (var msText = new MemoryStream())
+                using (var wrPairs = new BinaryWriter(msPairs))
+                using (var wrText = new BinaryWriter(msText))
+                {
+                    var ptText = 0;
+                    for (int i = 0; i < natives.Count; i++)
+                    {
+                        var native = natives[i];
+                        var ascii = Encoding.ASCII.GetBytes(native.Symbol);
+                        wrPairs.Write(ptText);
+                        wrPairs.Write(native.Offset);
+                        wrText.Write(ascii);
+                        wrText.Write('\0');
+                        ptText += ascii.Length + 1;
+                    }
 
-";
-                File.AppendAllText(file, s);
+                    msPairs.WriteTo(msFile);
+                    msText.WriteTo(msFile);
+                }
             }
         }
     }

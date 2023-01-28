@@ -2,7 +2,7 @@
   "profiles": {
     "NativeGen": {
       "commandName": "Project",
-      "commandLineArgs": "\"F:\\Programmi\\Steam\\steamapps\\common\\Last Oasis - Dedicated Server\\Mist\\Binaries\\Win64\\MistServer-Win64-Shipping.exe\" \"$(SolutionDir)\\MistServerHook\\Native\\Symbol.h\""
+      "commandLineArgs": "\"F:\\Programmi\\Steam\\steamapps\\common\\Last Oasis - Dedicated Server\\Mist\\Binaries\\Win64\""
     }
   }
 }

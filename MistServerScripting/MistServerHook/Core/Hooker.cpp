@@ -1,138 +1,154 @@
-#include "Hooker.h"
+#include "Symbol.h"
+#include "include/MinHook.h"
+#include "filesystem"
+#include "Windows.h"
 
-#include "Native/Symbol.h"
-#include "Util.h"
+API FName GScriptName;
+API UEngine** GEngine;
+API void** IConsoleManager;
 
-#define HookerName ("MistServerHook")
+using namespace std;
 
-
-uint64 BaseAddress;
-Hooker GHooker;
-FName GScriptName;
-UEngine* GEngine;
-void* IConsoleManager;
-
-extern void InitPlugins();
-
-
-
-void EngineInit(UEngine* engine, void* loop)
+namespace Hooker
 {
-	GEngine = engine;
-	IConsoleManager = *reinterpret_cast<decltype(IConsoleManager)*>(BaseAddress + 0x4a0c490);
+	vector<uint64>* Plugins;
+	Symbol* Sym;
 
-	GHooker.OrigEngineInit(engine, loop);
-
-	GScriptName = FName(L"LogScript");
-	Warning(L"Hooker is running, this is a modded server now");
-
-	Util::logOnFile("reboot", L"Server started");
-
-	InitPlugins();
-
-	auto status = MH_ApplyQueued();
-	if (status != MH_OK)
-		MessageBoxA(NULL, MH_StatusToString(status), HookerName, MB_ICONERROR);
-}
-
-void ProcessEvent(UObject* self, UFunction* fn, void* params)
-{
-	bool status = GHooker.OnProcessEvent(self, fn, params); //execute hooked function
-	if (status == true) GHooker.OrigProcessEvent(self, fn, params); //execute also the original function if the hooked function returns true
-}
-
-
-void Hooker::Enqueue(void* hook, uint64 offset, void** original)
-{
-	auto targetPtr = reinterpret_cast<void*>(BaseAddress + offset);
-	auto status = MH_CreateHook(targetPtr, hook, original);
-	if (status != MH_OK)
+	template <typename T>
+	void GetSection(uint64 module, const char* name, T* start, T* end)
 	{
-		MessageBoxA(NULL, MH_StatusToString(status), HookerName, MB_ICONERROR);
-		return;
-	}
+		*start = 0;
+		*end = 0;
 
-	status = MH_QueueEnableHook(targetPtr);
-	if (status != MH_OK)
-		MessageBoxA(NULL, MH_StatusToString(status), HookerName, MB_ICONERROR);
-}
+		auto dosHeader = (PIMAGE_DOS_HEADER)module;
+		auto ntHeaders = (PIMAGE_NT_HEADERS)(module + dosHeader->e_lfanew);
+		auto firstSection = (PIMAGE_SECTION_HEADER)(ntHeaders + 1);
+		auto lastSection = firstSection + ntHeaders->FileHeader.NumberOfSections;
 
-void Hooker::Install(){
-
-	//hook the base functions on the server
-	Enqueue(EngineInit, SYM_998AD7FD6542D0AEC72777A33587BC5A, reinterpret_cast<void**>(&OrigEngineInit));
-
-	//use this for debug only, very heavy function
-	//Enqueue(ProcessEvent, SYM_79D31A73B9FC488D79EF1438B1760199, reinterpret_cast<void**>(&OrigProcessEvent));
-
-	auto status = MH_ApplyQueued();
-	if (status != MH_OK)
-		MessageBoxA(NULL, MH_StatusToString(status), HookerName, MB_ICONERROR);
-
-	NativeHooks.reserve(32);
-	ProcessEventHooks.reserve(32);
-}
-
-void Hooker::Add(void* hook, uint64 offset)
-{
-	void* original;
-	Enqueue(hook, offset, &original);
-	NativeHooks.push_back(NativeHook{ hook, original });
-	Warning(L"Hooked 0x%08X", offset);
-}
-
-void Hooker::AddProcessEvent(const wchar_t* cls, const wchar_t* fn, bool (*cb)(UObject* self, UFunction* fn, void* params))
-{
-	auto hook = ProcessEventHook{ FName::Find(cls), FName::Find(fn), cb };
-	ProcessEventHooks.push_back(hook);
-	Warning(L"Hooked ProcessEvent for %s %s", hook.Class.c_str(), hook.Function.c_str());
-}
-
-bool Hooker::OnProcessEvent(UObject* self, UFunction* fn, void* params)
-{
-	auto isAllowed = true;
-
-	auto className = self->ClassPrivate->NamePrivate.c_str();
-	auto fnName = fn->NamePrivate.c_str();
-
-	
-	if (
-
-		(wcscmp(fnName, L"UpdateBehavior") != 0) &&
-		(wcscmp(className, L"WalkerVehicleMovementComponent") != 0) &&
-		(wcscmp(className, L"SunsetSkywalker_C") != 0) &&
-		(wcscmp(className, L"MistSunsetMovementComponent") != 0) &&
-		(wcscmp(className, L"SunsetMasterTether_C") != 0) &&
-		(wcscmp(className, L"WalkerCollisionSoundComponent_C") != 0) &&
-		(wcscmp(fnName, L"ReadyToEndMatch") != 0) &&
-		(wcscmp(fnName, L"ServerMoveNoBase") != 0) &&
-		(wcscmp(fnName, L"ReceiveExecuteAI") != 0) &&
-		(wcscmp(fnName, L"ClientAckGoodMove") != 0) &&
-		(wcscmp(fnName, L"ServerUpdateCamera") != 0) &&
-		(wcscmp(className, L"Character_AnimBP_C") != 0) 
-		) {
-
-		Warning(L"Class %s   Function %s", className, fnName);
-
-	}
-
-
-
-	for (auto entry : ProcessEventHooks)
-	{
-		if (entry.Function == fn->NamePrivate)
+		for (auto section = firstSection; section < lastSection; section++)
 		{
-			Warning(L"Class %s  Function %s", className, fnName);
-		}
-
-		if (entry.Class == self->ClassPrivate->NamePrivate
-			&& entry.Function == fn->NamePrivate)
-		{
-			Warning(L"ProcessEvent   %s %s", entry.Class.c_str(), entry.Function.c_str());
-			isAllowed &= entry.Callback(self, fn, params);
+			if (strncmp((char*)section->Name, name, sizeof(section->Name)) == 0)
+			{
+				*start = (T)(module + section->VirtualAddress);
+				*end = (T)(module + section->VirtualAddress + section->Misc.VirtualSize);
+			}
 		}
 	}
-	
 
-	return isAllowed;
+	void SymNotFound(const char* symbol)
+	{
+		char buff[0x400];
+		sprintf_s(buff, "Symbol not found!\n\n%s", symbol);
+		MessageBoxA(NULL, buff, "MistServerHook", MB_ICONERROR);
+	}
+
+	void RelocateNatives(uint64 module)
+	{
+		uint64* ptr, * end;
+		GetSection(module, ".native", &ptr, &end);
+		for (; ptr < end; ptr++)
+		{
+			if (*ptr)
+			{
+				auto name = (char**)(ptr);
+				if (!Sym->Exchange(name))
+				{
+					SymNotFound(*name);
+					return;
+				}
+			}
+		}
+	}
+
+	void ApplyHooks(uint64 module)
+	{
+		HookEntry* start, * end;
+		GetSection(module, ".hooker", &start, &end);
+		size_t size = (uint64)end - (uint64)start;
+		if (size == 0) return;
+
+		for (auto ptr = start; ptr < end; ptr++)
+		{
+			if (ptr->Target == 0 && ptr->Hook == 0 && ptr->Orig == 0)
+				continue;
+
+			auto name = (char**)(&ptr->Target);
+			if (!Sym->Exchange(name))
+			{
+				SymNotFound(*name);
+				continue;
+			}
+
+			MH_CreateHook(ptr->Target, ptr->Hook, ptr->Orig);
+		}
+
+		MH_QueueEnableHook(MH_ALL_HOOKS);
+		MH_ApplyQueued();
+	}
+
+	void CallSymbolInit(uint64 module, const Symbol& sym)
+	{
+		PluginSymbolInit* ptr, * end;
+		GetSection(module, ".inits", &ptr, &end);
+		for (; ptr < end; ptr++)
+			if (*ptr) (*ptr)(sym);
+	}
+
+
+	void CallEngineInit()
+	{
+		for (const auto& plugin : *Plugins)
+		{
+			PluginEngineInit* ptr, * end;
+			GetSection(plugin, ".inite", &ptr, &end);
+			for (; ptr < end; ptr++)
+				if (*ptr) (*ptr)();
+		}
+
+		delete Plugins;
+		delete Sym;
+	}
+
+	void MainStartup(uint64 moduleBase)
+	{
+		Plugins = new vector<uint64>({ moduleBase });
+		Sym = new Symbol();
+		MH_Initialize();
+
+		RelocateNatives(moduleBase);
+		ApplyHooks(moduleBase);
+		CallSymbolInit(moduleBase, *Sym);
+
+		for (const auto& entry : filesystem::directory_iterator(L"Plugins"))
+		{
+			auto path = entry.path();
+			if (_wcsicmp(path.extension().c_str(), L".dll") != 0)
+				continue;
+
+			LoadLibraryW(path.c_str());
+		}
+	}
+
+	API void RegisterPlugin(uint64 pluginBase)
+	{
+		Plugins->push_back(pluginBase);
+		ApplyHooks(pluginBase);
+		CallSymbolInit(pluginBase, *Sym);
+	}
+
+#pragma section(".hooker$a")
+	_HookEx(".hooker$a", "?Init@UEngine@@UEAAXPEAVIEngineLoop@@@Z", void, EngineInit, void* self, void* loop)
+	{
+		OrigEngineInit(self, loop);
+
+		GScriptName = FName(L"LogScript");
+		Warning(L"MistServerHook is running, this is a modded server now");
+		CallEngineInit();
+	}
+
+	OnSymbolInit(SymbolInit, sym)
+	{
+		GEngine = sym.Find<UEngine*>("?GEngine@@3PEAVUEngine@@EA");
+		IConsoleManager = sym.Find<void*>("?Singleton@IConsoleManager@@0PEAU1@EA");
+	}
 }

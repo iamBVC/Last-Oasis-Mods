@@ -9,389 +9,305 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Headers\MistServer">
-      <UniqueIdentifier>{649a440d-dd98-4eb8-91e5-0eaaafb3666b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Headers\Core">
       <UniqueIdentifier>{866f56c5-ca68-49d4-8b95-7f1f662cea19}</UniqueIdentifier>
     </Filter>
     <Filter Include="Sources\Core">
       <UniqueIdentifier>{3d396c32-8efc-424b-a0f2-15e938ef549d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Sources\MistServer">
-      <UniqueIdentifier>{8154de43-d899-41df-97ff-e069aa656cb4}</UniqueIdentifier>
+    <Filter Include="Headers\MistServer">
+      <UniqueIdentifier>{27809668-1de7-4ef3-a8e3-017cd64bcdc9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\UnrealEngine">
-      <UniqueIdentifier>{a8559cf3-e5af-40d8-81ca-e51474c2d2e5}</UniqueIdentifier>
+    <Filter Include="Headers\MistServer\Generated">
+      <UniqueIdentifier>{9f7287b0-9df6-4900-820e-13e1f0ec05b9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Sources\UnrealEngine">
-      <UniqueIdentifier>{a6373381-7d54-4145-9f16-9a44a61c2aca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Headers\Native">
-      <UniqueIdentifier>{cbb9c68c-1fff-4553-af67-2d0f022290b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Sources\Native">
-      <UniqueIdentifier>{a72d3ad0-a817-43b0-a041-bd387a6b3274}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Sources\Plugins">
+    <Filter Include="Sources\Scripts">
       <UniqueIdentifier>{a0b925cf-db3a-44bd-8284-a0e5722e16d1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Sources\Plugins\Basic">
+    <Filter Include="Sources\Scripts\Basic">
       <UniqueIdentifier>{b6d7b960-d076-4fcb-b757-1d0b25e8be33}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\Plugins">
+    <Filter Include="Sources\Scripts\LogUFunc">
+      <UniqueIdentifier>{3d6fad08-8c98-4365-85c7-5968cc999490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scripts\PlacementBlocker">
+      <UniqueIdentifier>{790bde0f-60bf-4b3e-9696-4a40945697c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scripts\LoadObject">
+      <UniqueIdentifier>{5086c0d1-f1b1-4e8e-97c7-36d8f9400e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scripts\ChatConsole">
+      <UniqueIdentifier>{b3d05a50-8717-4e2b-ad5f-ab41450f5aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scripts">
       <UniqueIdentifier>{25fb992f-0ae8-4dd7-b267-ab94fe8d89c0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\Plugins\Basic">
-      <UniqueIdentifier>{b8b8c409-c392-4ff4-91fc-86446ef3dfef}</UniqueIdentifier>
+    <Filter Include="Headers\Scripts\ChatConsole">
+      <UniqueIdentifier>{8bf7c043-4749-46e4-8f38-ab2c2d32599d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scripts\Basic">
+      <UniqueIdentifier>{18b02b5c-4db4-4ea8-8774-e6eac82d47df}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Core\Hooker.h">
-      <Filter>Headers\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\Console.h">
-      <Filter>Headers\Core</Filter>
-    </ClInclude>
     <ClInclude Include="Core\Util.h">
       <Filter>Headers\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Native\Native.h">
-      <Filter>Headers\Native</Filter>
-    </ClInclude>
-    <ClInclude Include="Native\Symbol.h">
-      <Filter>Headers\Native</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AIModule_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AIModule_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimationBudgetAllocator_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimationBudgetAllocator_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimationCore_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimationCore_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimGraphRuntime_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AnimGraphRuntime_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AudioExtensions_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AudioExtensions_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\AudioPlatformConfiguration_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\CoreUObject_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\CoreUObject_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\DeviceLighting_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\DeviceLighting_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Engine_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Foliage_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Foliage_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\GameplayTags_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\GameplayTags_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\GameplayTasks_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\GameplayTasks_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\InputCore_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\InputCore_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\LevelSequence_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\LevelSequence_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MinimapPlugin_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MinimapPlugin_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Mist_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Mist_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MovieScene_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MovieScene_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MovieSceneTracks_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\MovieSceneTracks_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\NavigationSystem_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\NavigationSystem_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\PacketHandler_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\PhysicsCore_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\PropertyPath_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\ReplicationGraph_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\ReplicationGraph_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Slate_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Slate_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\SlateCore_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\SlateCore_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\UMG_classes.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\UMG_struct.h">
-      <Filter>Headers\MistServer</Filter>
-    </ClInclude>
-    <ClInclude Include="UnrealEngine\DataTypes.h">
-      <Filter>Headers\UnrealEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="UnrealEngine\Types.h">
-      <Filter>Headers\UnrealEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="UnrealEngine\Enums.h">
-      <Filter>Headers\UnrealEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\AnnounceCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\BroadcastCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\GiveFlobsCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\HelpCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\PlayerInfoCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\PopCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\RenameWalkerCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\SetWalkerParamCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\WalkerInfoCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CmdsList.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\KickCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\CountdownCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\NotifyCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\HudMessageCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Console\CMDs\ShutdownServerCmd.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\WalkerSpeedometer\WalkerSpeedometer.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\LoginInfo\LoginInfo.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MinHook.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Hooks\NativeHooks.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="MistServer\Engine_classes.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\ServerInfoLog\ServerInfoLog.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Plugins\Leaderboard\Leaderboard.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Core\Config.h">
-      <Filter>Headers</Filter>
+      <Filter>Headers\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Plugins\DumpBackend\DumpBackend.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Core\Symbol.h">
+      <Filter>Headers\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Plugins\SoftClanCap\SoftClanCap.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Core\Core.h">
+      <Filter>Headers\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Plugins\DuelSystem\DuelSystem.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="MistServer\DataType.h">
+      <Filter>Headers\MistServer</Filter>
     </ClInclude>
-    <ClInclude Include="Plugins\DuelSystem\DuelSystemUtils.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="MistServer\Define.h">
+      <Filter>Headers\MistServer</Filter>
     </ClInclude>
-    <ClInclude Include="Plugins\DuelSystem\DuelSystemCmds.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="MistServer\Enum.h">
+      <Filter>Headers\MistServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Native.h">
+      <Filter>Headers\MistServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Type.h">
+      <Filter>Headers\MistServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AIModule_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AIModule_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimationBudgetAllocator_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimationBudgetAllocator_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimationCore_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimationCore_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimGraphRuntime_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AnimGraphRuntime_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AssetRegistry_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AudioExtensions_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AudioExtensions_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\AudioPlatformConfiguration_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\CoreUObject_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\CoreUObject_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\DeviceLighting_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\DeviceLighting_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Engine_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Foliage_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Foliage_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\GameplayTags_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\GameplayTags_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\GameplayTasks_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\GameplayTasks_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\InputCore_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\InputCore_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\LevelSequence_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\LevelSequence_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MinimapPlugin_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MinimapPlugin_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Mist_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Mist_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MovieScene_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MovieScene_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MovieSceneTracks_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\MovieSceneTracks_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\NavigationSystem_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\NavigationSystem_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\PacketHandler_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\PhysicsCore_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\PropertyPath_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\ReplicationGraph_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\ReplicationGraph_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Slate_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\Slate_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\SlateCore_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\SlateCore_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\UMG_classes.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="MistServer\Generated\UMG_struct.h">
+      <Filter>Headers\MistServer\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ChatConsole\ChatConsole.h">
+      <Filter>Headers\Scripts\ChatConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Basic\Motd.h">
+      <Filter>Headers\Scripts\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Plugin.h">
+      <Filter>Headers\Core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Core\Hooker.cpp">
-      <Filter>Sources\Core</Filter>
-    </ClCompile>
     <ClCompile Include="Core\Main.cpp">
-      <Filter>Sources\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\Console\Console.cpp">
       <Filter>Sources\Core</Filter>
     </ClCompile>
     <ClCompile Include="Core\Util.cpp">
       <Filter>Sources\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\InitPlugins.cpp">
+    <ClCompile Include="Core\Hooker.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\Motd.cpp">
+      <Filter>Sources\Scripts\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\DumpBackend.cpp">
+      <Filter>Sources\Scripts\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\Eac.cpp">
+      <Filter>Sources\Scripts\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\LogUFunc\Log.cpp">
+      <Filter>Sources\Scripts\LogUFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp">
+      <Filter>Sources\Scripts\PlacementBlocker</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp">
+      <Filter>Sources\Scripts\LoadObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Symbol.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\ChatConsole.cpp">
+      <Filter>Sources\Scripts\ChatConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\ConCommands.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="UnrealEngine\Types.cpp">
-      <Filter>Sources\UnrealEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="Native\Native.cpp">
-      <Filter>Sources\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\Hooks\NativeHooks.cpp">
-      <Filter>Sources\Plugins\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\AnnounceCmd.cpp">
+    <ClCompile Include="Scripts\ServerInfoLog\ServerInfoLog.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\BroadcastCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\AnnounceCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\GiveFlobsCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\BroadcastCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\HelpCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\CountdownCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\PlayerInfoCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\GiveFlobsCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\PopCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\HudMessageCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\RenameWalkerCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\KickCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\SetWalkerParamCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\NotifyCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\WalkerInfoCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\PlayerInfoCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CmdsList.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\PopCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\KickCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RenameWalkerCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\CountdownCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\SetWalkerParamCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\NotifyCmd.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\ShutdownServerCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\HudMessageCmd.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\Console\CMDs\ShutdownServerCmd.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\WalkerSpeedometer\WalkerSpeedometer.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\LoginInfo\LoginInfo.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\ServerInfoLog\ServerInfoLog.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\Leaderboard\Leaderboard.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\DumpBackend\DumpBackend.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\SoftClanCap\SoftClanCap.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\DuelSystem\DuelSystem.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\DuelSystem\DuelSystemUtils.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plugins\DuelSystem\DuelSystemCmds.cpp">
+    <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
