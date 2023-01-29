@@ -2,17 +2,27 @@
 #include "Core/Util.h"
 #include "Windows.h"
 
+
+
 using namespace Util;
+
+
 
 namespace DumpBackend
 {
+
+
 	int32 IsEnabled = 0;
+
 
 	OnEngineInit(Init)
 	{
 		Config::RegisterVariable(L"DumpBackend.IsEnabled", IsEnabled, false);
 		Config::LoadIniSection(L"ScriptHook", L"Development");
 	}
+
+
+
 
 	wchar_t* FixAndGetApiPath(FString* url)
 	{
@@ -29,6 +39,9 @@ namespace DumpBackend
 
 		return start;
 	}
+
+
+
 
 	uint16 Hash;
 	Hook("?FinishRequest@FCurlHttpRequest@@UEAAXXZ", void, FinishRequest, void* request)
@@ -69,6 +82,9 @@ namespace DumpBackend
 		}
 	}
 
+
+
+
 	Hook("??_GFCurlHttpResponse@@UEAAPEAXI@Z", void*, ResponseDestructor, void* response, char a2)
 	{
 		if (IsEnabled)
@@ -97,4 +113,8 @@ namespace DumpBackend
 
 		return OrigResponseDestructor(response, a2);
 	}
+
+
+
+
 }

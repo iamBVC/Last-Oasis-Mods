@@ -116,7 +116,7 @@ namespace PlayerInfoCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"playerinfo", PlayerInfoCmdFn, L"print all the info of a player");
+		RegisterCommand(EMistAccountTier::Trusted, L"playerinfo", PlayerInfoCmdFn, L"[name] - Print all the info of a player");
 	}
 
 }

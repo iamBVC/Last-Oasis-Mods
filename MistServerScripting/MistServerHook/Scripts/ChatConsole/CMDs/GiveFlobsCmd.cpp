@@ -23,7 +23,7 @@ namespace GiveFlobsCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"giveflobs", GiveFlobsCmdFn, L"gives you flobs");
+		RegisterCommand(EMistAccountTier::Trusted, L"giveflobs", GiveFlobsCmdFn, L"[amount] - Gives you flobs");
 	}
 
 }

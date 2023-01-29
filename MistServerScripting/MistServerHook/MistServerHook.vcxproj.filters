@@ -241,23 +241,8 @@
     <ClCompile Include="Core\Hooker.cpp">
       <Filter>Sources\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Scripts\Basic\Motd.cpp">
-      <Filter>Sources\Scripts\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\Basic\DumpBackend.cpp">
-      <Filter>Sources\Scripts\Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Scripts\Basic\Eac.cpp">
       <Filter>Sources\Scripts\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\LogUFunc\Log.cpp">
-      <Filter>Sources\Scripts\LogUFunc</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp">
-      <Filter>Sources\Scripts\PlacementBlocker</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp">
-      <Filter>Sources\Scripts\LoadObject</Filter>
     </ClCompile>
     <ClCompile Include="Core\Symbol.cpp">
       <Filter>Sources\Core</Filter>
@@ -308,6 +293,24 @@
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\SoftClanCap\SoftClanCap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\LogUFunc\Log.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\DumpBackend.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\Motd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>

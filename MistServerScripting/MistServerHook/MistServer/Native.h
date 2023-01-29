@@ -60,3 +60,4 @@ Native("?GetTotalWater@AMistWalker@@QEAAHXZ", int64, AMistWalker_GetTotalWater, 
 Native("?GetMaximumWater@AMistWalker@@QEAAHXZ", int64, AMistWalker_GetMaximumWater, struct AMistWalker* self)
 Native("?GetCurrentSpeed@AMistWalker@@QEBAMXZ", float, AMistWalker_GetCurrentSpeed, struct AMistWalker* self)
 Native("??$GetController@VAMistOasisPlayerController@@@APawn@@QEBAPEAVAMistOasisPlayerController@@XZ", struct AMistOasisPlayerController*, APawn_GetControllerMist, struct APawn* self)
+Native("?AddImpulse@UCharacterMovementComponent@@UEAAXUFVector@@_N@Z", void, UCharacterMovementComponent_AddImpulse, struct UCharacterMovementComponent* self, struct FVector direction, bool value)

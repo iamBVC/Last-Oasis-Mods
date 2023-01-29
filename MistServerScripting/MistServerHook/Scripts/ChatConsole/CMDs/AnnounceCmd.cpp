@@ -22,7 +22,7 @@ namespace AnnounceCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"announce", AnnounceCmdFn, L"announce a message");
+		RegisterCommand(EMistAccountTier::Trusted, L"announce", AnnounceCmdFn, L"[msg] - Announce a message");
 	}
 
 }

@@ -25,7 +25,7 @@ namespace RenameWalkerCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"renamewalker", RenameWalkerCmdFn, L"renames the walker you are currently driving");
+		RegisterCommand(EMistAccountTier::Trusted, L"renamewalker", RenameWalkerCmdFn, L"[name] - Renames the walker you are currently driving");
 	}
 
 }

@@ -60,7 +60,7 @@ namespace WalkerInfoCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"walkerinfo", WalkerInfoCmdFn, L"print the infos of the walker you are driving");
+		RegisterCommand(EMistAccountTier::Trusted, L"walkerinfo", WalkerInfoCmdFn, L"- Print the infos of the walker you are driving");
 	}
 
 }

@@ -32,7 +32,7 @@ namespace HudMessageCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"hudmessage", HudMessageCmdFn, L"create a hud message for all the players");
+		RegisterCommand(EMistAccountTier::Trusted, L"hudmessage", HudMessageCmdFn, L"[msg] - Create a hud message for all the players");
 	}
 
 }

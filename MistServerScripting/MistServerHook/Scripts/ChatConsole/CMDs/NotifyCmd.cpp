@@ -23,11 +23,9 @@ namespace NotifyCmd
 
 		uint16 dataTextLen;
 		const wchar_t* dataText = Util::getArg(args, 2, &dataTextLen);
-		wchar_t textBuff[256];
-		_snwprintf_s(textBuff, wcslen(dataText), dataText);
 
 		FName id = FName(idBuff);
-		FString str = FString(textBuff);
+		FString str = FString(dataText);
 		FText text = FText(str);
 
 		//broadcast message
@@ -47,7 +45,7 @@ namespace NotifyCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"notify", NotifyCmdFn, L"create a notification message with custom icon");
+		RegisterCommand(EMistAccountTier::Trusted, L"notify", NotifyCmdFn, L"[icon] [msg] - Create a notification message with custom icon");
 	}
 
 }

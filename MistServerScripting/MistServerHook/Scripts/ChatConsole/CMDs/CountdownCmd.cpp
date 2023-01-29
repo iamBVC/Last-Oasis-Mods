@@ -49,7 +49,7 @@ namespace CountdownCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"countdown", CountdownCmdFn, L"[duration] [message]");
+		RegisterCommand(EMistAccountTier::Trusted, L"countdown", CountdownCmdFn, L"[duration] [title] [message] - Create a countdown for all the players");
 	}
 
 

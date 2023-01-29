@@ -17,7 +17,7 @@ namespace ShutdownServerCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"shutdown", ShutdownServerCmdFn, L"shutdown the server");
+		RegisterCommand(EMistAccountTier::Trusted, L"shutdown", ShutdownServerCmdFn, L"- Shutdown the server");
 	}
 
 }

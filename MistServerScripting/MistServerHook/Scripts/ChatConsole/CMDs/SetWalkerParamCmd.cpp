@@ -59,7 +59,7 @@ namespace SetWalkerParamCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"setwalkerparam", SetWalkerParamCmdFn, L"change a parameter of the walker you are driving");
+		RegisterCommand(EMistAccountTier::Trusted, L"setwalkerparam", SetWalkerParamCmdFn, L"[param] [value] - Change a parameter of the walker you are driving");
 	}
 
 }

@@ -9,6 +9,8 @@ namespace ChatConsole
 {
 	vector<Command> Commands;
 
+
+
 	void RegisterCommand(const Command& command)
 	{
 		if (Commands.size() == 0)
@@ -25,6 +27,8 @@ namespace ChatConsole
 
 		Commands.insert(upper_bound(Commands.begin(), Commands.end(), command), command);
 	}
+
+
 
 	bool ConsumeCommand(AMistOasisPlayerController* player, const wchar_t* cmd, const wchar_t* args)
 	{
@@ -45,6 +49,8 @@ namespace ChatConsole
 
 		return consumed;
 	}
+
+
 
 	bool CmdHandler(UMistPlayerMessengerComponent* self, const FString& msg)
 	{
@@ -71,17 +77,17 @@ namespace ChatConsole
 		return true;
 	}
 
+
+
 	Hook("?ServerMapChat_Implementation@UMistPlayerMessengerComponent@@UEAAXAEBVFString@@@Z",
 		bool, ServerMapChat, UMistPlayerMessengerComponent* self, const FString& msg)
 	{
-		return CmdHandler(self, msg);
+		auto status = CmdHandler(self, msg);
+		if(status) return OrigServerMapChat(self, msg);
+		return true;
 	}
 
-	Hook("?ServerClanChat_Implementation@UMistPlayerMessengerComponent@@UEAAXAEBVFString@@@Z",
-		bool, ServerClanChat, UMistPlayerMessengerComponent* self, const FString& msg)
-	{
-		return CmdHandler(self, msg);
-	}
+
 
 	void HelpCmd(AMistOasisPlayerController* player, const wchar_t* args)
 	{
@@ -126,8 +132,11 @@ namespace ChatConsole
 		ClientAddMsg(player, buff);
 	}
 
+
+
+	
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Default, L"help", HelpCmd, L"[command] - Display this message");
+		RegisterCommand(EMistAccountTier::Trusted, L"help", HelpCmd, L"[command] - Display this message");
 	}
 }

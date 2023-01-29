@@ -27,24 +27,23 @@ namespace ConCommands
 			}, L"test command");
 
 
-		RegisterCommand(EMistAccountTier::Trusted, L"red", [](auto caller, auto args)
+		RegisterCommand(EMistAccountTier::Trusted, L"yeet", [](auto caller, auto args)
 			{
-				if (!args) return;
-				ForEachPlayer(caller, [args](auto player)
-					{
-						ClientAddRedMsg(player, args);
-					});
-			}, L"test command");
+				FVector direction = {0.0f, 0.0f, 0.0f};
 
+				if (wcscmp(args, L"N") == 0) direction.Y = -10000.0f;
+				if (wcscmp(args, L"S") == 0) direction.Y = 10000.0f;
+				if (wcscmp(args, L"W") == 0) direction.X = -10000.0f;
+				if (wcscmp(args, L"E") == 0) direction.X = 10000.0f;
+				if (wcscmp(args, L"D") == 0) direction.Z = -10000.0f;
+				if (wcscmp(args, L"U") == 0) direction.Z = 10000.0f;
+				
 
-		RegisterCommand(EMistAccountTier::Trusted, L"white", [](auto caller, auto args)
-			{
-				if (!args) return;
-				ForEachPlayer(caller, [args](auto player)
-					{
-						ClientAddMsg(player, args);
-					});
-			}, L"test command");
+				auto movementComponent = ((AMistOasisPlayerController*)(caller))->PlayerCharacter->CharacterMovement;
+				UCharacterMovementComponent_AddImpulse(movementComponent, direction, true);
+
+			}, L"- Fly away");
+
 
 
 	}

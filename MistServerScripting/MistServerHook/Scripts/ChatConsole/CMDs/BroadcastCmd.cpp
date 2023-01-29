@@ -22,7 +22,7 @@ namespace BroadcastCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"broadcast", BroadcastCmdFn, L"broadcast a message");
+		RegisterCommand(EMistAccountTier::Trusted, L"broadcast", BroadcastCmdFn, L"[msg] - Broadcast a message");
 	}
 
 }

@@ -11,7 +11,7 @@ namespace KickCmd
 
 	void KickCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 
-		if (args == nullptr || args == L"") {
+		if (args == nullptr) {
 			ClientAddMsg(caller, L"write a player name");
 			return;
 		}
@@ -46,7 +46,7 @@ namespace KickCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"kick", KickCmdFn, L"kick a player from the server");
+		RegisterCommand(EMistAccountTier::Trusted, L"kick", KickCmdFn, L"[name] - Kick a player from the server");
 	}
 
 }
