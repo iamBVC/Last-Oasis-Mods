@@ -61,3 +61,15 @@ Native("?GetMaximumWater@AMistWalker@@QEAAHXZ", int64, AMistWalker_GetMaximumWat
 Native("?GetCurrentSpeed@AMistWalker@@QEBAMXZ", float, AMistWalker_GetCurrentSpeed, struct AMistWalker* self)
 Native("??$GetController@VAMistOasisPlayerController@@@APawn@@QEBAPEAVAMistOasisPlayerController@@XZ", struct AMistOasisPlayerController*, APawn_GetControllerMist, struct APawn* self)
 Native("?AddImpulse@UCharacterMovementComponent@@UEAAXUFVector@@_N@Z", void, UCharacterMovementComponent_AddImpulse, struct UCharacterMovementComponent* self, struct FVector direction, bool value)
+
+Native("?GetWeatherSystem@UMistBlueprintLibrary@@SAPEAVAMistWeatherSystem@@PEBVUObject@@@Z", struct AMistWeatherSystem*, UMistBlueprintLibrary_GetWeatherSystem, struct UObject*)
+Native("?StartEclipse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StartEclipse, struct AMistWeatherSystem* self)
+Native("?StartTraverse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StartTraverse, struct AMistWeatherSystem* self)
+Native("?StopEclipse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StopEclipse, struct AMistWeatherSystem* self)
+Native("?StopTraverse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StopTraverse, struct AMistWeatherSystem* self)
+Native("?SetWeatherPaused@AMistWeatherSystem@@QEAAX_N@Z", void, AMistWeatherSystem_SetWeatherPaused, struct AMistWeatherSystem* self, bool value)
+Native("?ForceNetUpdate@AActor@@QEAAX_N@Z", void, AActor_ForceNetUpdate, struct AActor* self, bool value)
+Native("?K2_TeleportTo@AActor@@QEAA_NUFVector@@UFRotator@@@Z", bool, AActor_K2_TeleportTo, struct AActor* self, struct FVector, struct FRotator)
+Native("??$GetGameState@VAMistOasisGameState@@@AActor@@QEBAPEAVAMistOasisGameState@@XZ", struct AMistOasisGameState*, AActor_GetGameState, struct AActor* self)
+
+

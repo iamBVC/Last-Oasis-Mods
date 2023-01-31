@@ -10,23 +10,29 @@ namespace CountdownCmd
 {
 	void CountdownCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 
+		if (args == nullptr) return;
+
 		uint16 argLen;
 		const wchar_t* argPtr;
 
 		//get params
 		wchar_t buff1[256];
 		argPtr = Util::getArg(args, 1, &argLen);
+		if (argPtr == nullptr) return;
 		_snwprintf_s(buff1, argLen, argPtr);
 		float duration = (float)(_wtof(buff1));
+		if (duration <= 0.0f || duration > 172800) return;
 
 		wchar_t buff2[256];
 		argPtr = Util::getArg(args, 2, &argLen);
-		_snwprintf_s(buff2, argLen, argPtr);
+		if (argPtr == nullptr) return;
+		_snwprintf_s(buff2, argLen+1, argPtr);
 		FString title = FString(buff2);
 
 		wchar_t buff3[256];
 		argPtr = Util::getArg(args, 3, &argLen);
-		swprintf_s(buff3, argPtr);
+		if (argPtr == nullptr) return;
+		_snwprintf_s(buff3, wcslen(argPtr)+1, argPtr);
 		FString text = FString(buff3);
 
 		FString id = FString(L"my countdown");
@@ -39,8 +45,11 @@ namespace CountdownCmd
 		UWorld_GetPlayerControllerIterator(worldPtr, &it);
 		for (auto i = 0; i < it.Array->Count; i++) {
 			auto controllerPtr = it.Array->Data[i].Get();
+			if (controllerPtr == nullptr) return;
 			auto playerPtr = AController_GetPawnPlayer(controllerPtr);
+			if (playerPtr == nullptr) return;
 			auto MistPlayerController = playerPtr->PossessedByPlayerController;
+			if (MistPlayerController == nullptr) return;
 			AMistOasisPlayerController_ClientAddHudCountdown(MistPlayerController, id, options);
 		}
 

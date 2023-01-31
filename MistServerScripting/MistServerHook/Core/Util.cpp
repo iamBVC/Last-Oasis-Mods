@@ -140,24 +140,31 @@ namespace Util
 	{
 		if (str.Count == 0) return;
 
+		//replace commas with EOL
 		int count = 1;
 		for (int i = 0; i < str.Count; i++)
 		{
-			if (str.Data[i] == L' ')
+			if (str.Data[i] == L',')
 			{
 				str.Data[i] = 0;
 				count++;
 			}
 		}
 
+		//add strings in the vector
 		auto ptr = str.Data;
 		for (int i = 0; i < str.Count; i++)
 		{
 			if (str.Data[i] == 0)
 			{
-				const auto name = FName::Find(ptr);
-				if (name) vec.push_back(name);
-				else Error(L"Tokenize  FName not found: %s", ptr);
+				//const auto name = FName::Find(ptr);
+				const auto name = FName(ptr);
+
+				if (name)
+					vec.push_back(name);
+				else
+					Error(L"Tokenize  FName not found: %s", ptr);
+
 				ptr = &str.Data[i + 1];
 			}
 		}
@@ -207,23 +214,23 @@ namespace Util
 
 
 
-	bool logOnFile(const char* fileName, const wchar_t* data)
+	bool logOnFile(AActor* caller, const char* fileName, const wchar_t* data)
 	{
-		wchar_t buff[128];
-
+		wchar_t timebuff[150];
 		int utcTime[8] = {};
 		FWindowsPlatformTime_UtcTime(&utcTime[0], &utcTime[1], &utcTime[2], &utcTime[3], &utcTime[4], &utcTime[5], &utcTime[6], &utcTime[7]);
+		swprintf_s(timebuff, L"\n[%i/%02i/%02i %02i:%02i:%02i] ", utcTime[0], utcTime[1], utcTime[3], utcTime[4], utcTime[5], utcTime[6]);
 
-		swprintf_s(buff, L"\n[%i/%02i/%02i %02i:%02i:%02i] ", utcTime[0], utcTime[1], utcTime[3], utcTime[4], utcTime[5], utcTime[6]);
-
-		char newfilename[64];
-		sprintf_s(newfilename, "../../Saved/Logs/%s_%i_%i_%i.log", fileName, utcTime[0], utcTime[1], utcTime[3]);
+		auto gamestate = AActor_GetGameState(caller);
+		auto tilename = gamestate->RealmInformation.Tile.Name.c_str();
+		char newfilename[150];
+		sprintf_s(newfilename, "../../Saved/Logs/%ws_%s_%i_%i_%i.log", tilename, fileName, utcTime[0], utcTime[1], utcTime[3]);
 
 		FILE* fptr;
 		fopen_s(&fptr, newfilename, "a, ccs=UTF-8");
 		if (fptr == nullptr) return false;
 		int count = 0;
-		count += fwprintf(fptr, buff);
+		count += fwprintf(fptr, timebuff);
 		count += fwprintf(fptr, data);
 		fclose(fptr);
 		if (count == 0) return false;

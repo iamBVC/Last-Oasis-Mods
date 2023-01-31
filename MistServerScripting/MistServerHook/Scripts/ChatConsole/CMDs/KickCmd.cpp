@@ -23,6 +23,7 @@ namespace KickCmd
 		for (uint8_t i = 0; i < it.Array->Count; i++) {
 
 			auto controllerPtr = it.Array->Data[i].Get();
+			if (controllerPtr == nullptr) continue;
 			auto playerPtr = AController_GetPawnPlayer(controllerPtr);
 			if (playerPtr == nullptr) continue;
 
@@ -31,6 +32,7 @@ namespace KickCmd
 			if (wcscmp(args, playerName) == 0) {
 
 				auto MistPlayerController = playerPtr->PossessedByPlayerController;
+				if (MistPlayerController == nullptr) continue;
 				FString str = FString(L"You have been kicked from an admin\ntake this as a warning sign");
 				FText text = FText(str);
 				AMistPlayerController_KickPlayer(MistPlayerController, text);

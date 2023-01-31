@@ -11,12 +11,17 @@ namespace RenameWalkerCmd
 
 	void RenameWalkerCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 
-		auto playerPtr = AController_GetPawnPlayer(caller);
-		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
-		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
-
-		if (!isOnWalker) return;
 		if (args == NULL) return;
+
+		auto playerPtr = AController_GetPawnPlayer(caller);
+		if (playerPtr == NULL) return;
+
+		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
+		if (walkerPtr == NULL) return;
+
+		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
+		if (!isOnWalker) return;
+		
 
 		auto str = FString(args);
 		AMistWalker_SetCustomName(walkerPtr, &str);

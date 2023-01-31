@@ -22,8 +22,11 @@ namespace HudMessageCmd
 		UWorld_GetPlayerControllerIterator(worldPtr, &it);
 		for (auto i = 0; i < it.Array->Count; i++) {
 			auto controllerPtr = it.Array->Data[i].Get();
+			if (controllerPtr == nullptr) return;
 			auto playerPtr = AController_GetPawnPlayer(controllerPtr);
+			if (playerPtr == nullptr) return;
 			auto MistPlayerController = playerPtr->PossessedByPlayerController;
+			if (MistPlayerController == nullptr) return;
 			AMistOasisPlayerController_ClientAddHudMessage(MistPlayerController, message);
 		}
 

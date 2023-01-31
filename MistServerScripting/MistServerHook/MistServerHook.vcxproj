@@ -173,9 +173,7 @@
     <ClCompile Include="Core\Hooker.cpp" />
     <ClCompile Include="Core\Main.cpp" />
     <ClCompile Include="Core\Util.cpp" />
-    <ClCompile Include="Scripts\Basic\DumpBackend.cpp" />
     <ClCompile Include="Scripts\Basic\Eac.cpp" />
-    <ClCompile Include="Scripts\Basic\Motd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\ChatConsole.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\AnnounceCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\BroadcastCmd.cpp" />
@@ -191,11 +189,7 @@
     <ClCompile Include="Scripts\ChatConsole\CMDs\ShutdownServerCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\ConCommands.cpp" />
-    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp" />
-    <ClCompile Include="Scripts\LogUFunc\Log.cpp" />
-    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp" />
     <ClCompile Include="Scripts\ServerInfoLog\ServerInfoLog.cpp" />
-    <ClCompile Include="Scripts\SoftClanCap\SoftClanCap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

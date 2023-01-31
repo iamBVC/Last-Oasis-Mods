@@ -14,7 +14,10 @@ namespace GiveFlobsCmd
 		if (args == nullptr || args == L"") return;
 
 		auto pawnPtr = APlayerController_GetPawnOrSpectator(caller);
+		if (pawnPtr == nullptr) return;
+
 		auto playerState = APawn_GetPlayerStateMist(pawnPtr);
+		if (playerState == nullptr) return;
 
 		auto value = _wtoi(args);
 

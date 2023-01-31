@@ -22,6 +22,8 @@ namespace PlayerInfoCmd
 		for (uint8_t i = 0; i < it.Array->Count; i++) {
 
 			auto controllerPtr = it.Array->Data[i].Get();
+			if (controllerPtr == nullptr) continue;
+
 			auto playerPtr = AController_GetPawnPlayer(controllerPtr);
 			if (playerPtr == nullptr) continue;
 
@@ -34,7 +36,9 @@ namespace PlayerInfoCmd
 				wchar_t buff[1024];
 
 				auto pawnPtr = APlayerController_GetPawnOrSpectator(controllerPtr);
+				if (pawnPtr == nullptr) return;
 				auto playerState = APawn_GetPlayerStateMist(pawnPtr);
+				if (playerState == nullptr) return;
 
 				swprintf_s(buff, L"Player info:\n");
 
@@ -100,7 +104,10 @@ namespace PlayerInfoCmd
 
 				FString str = FString(buff);
 				FMistHudMessageOptions message = { FText(str), 30.0f, true, true };
+
 				auto MistPlayerController = playerPtr->PossessedByPlayerController;
+				if (MistPlayerController == nullptr) return;
+
 				AMistOasisPlayerController_ClientAddHudMessage(MistPlayerController, message);
 
 				return;

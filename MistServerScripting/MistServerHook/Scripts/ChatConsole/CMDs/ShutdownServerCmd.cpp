@@ -12,6 +12,7 @@ namespace ShutdownServerCmd
 	void ShutdownServerCmdFn(AMistOasisPlayerController* caller, const wchar_t* args)
 	{
 		auto mistgamemode = AActor_GetMistGameMode(caller);
+		if (mistgamemode == nullptr) return;
 		AMistOasisGameMode_StartShutdown(mistgamemode, true);
 	}
 

@@ -17,7 +17,7 @@ struct ClanData {
 namespace SoftClanCap
 {
 
-	int32 IsEnabled = 1;
+	int32 IsEnabled = 0;
 	int32 capValue = 10;
 
 

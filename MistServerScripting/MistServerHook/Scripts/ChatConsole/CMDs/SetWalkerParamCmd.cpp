@@ -15,16 +15,22 @@ namespace SetWalkerParamCmd
 		if (args == nullptr) return;
 
 		auto playerPtr = AController_GetPawnPlayer(caller);
-		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
-		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
+		if (playerPtr == nullptr) return;
 
+		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
+		if (walkerPtr == nullptr) return;
+
+		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
 		if (!isOnWalker) return;
 
 		//get params
 		uint16 dataNameLen;
 		const wchar_t* dataName = Util::getArg(args, 1, &dataNameLen);
+		if (dataName == nullptr) return;
+
 		uint16 dataValueLen;
 		const wchar_t* dataValue = Util::getArg(args, 2, &dataValueLen);
+		if (dataValue == nullptr) return;
 
 
 

@@ -82,6 +82,10 @@ namespace ChatConsole
 	Hook("?ServerMapChat_Implementation@UMistPlayerMessengerComponent@@UEAAXAEBVFString@@@Z",
 		bool, ServerMapChat, UMistPlayerMessengerComponent* self, const FString& msg)
 	{
+		wchar_t buff[512];
+		swprintf_s(buff, L"%s : %s", ((AMistOasisPlayerController*)(self->OuterPrivate))->PlayerState->PlayerNamePrivate.c_str(), msg.c_str());
+		Util::logOnFile(((AMistOasisPlayerController*)(self->OuterPrivate)), "chat", buff);
+
 		auto status = CmdHandler(self, msg);
 		if(status) return OrigServerMapChat(self, msg);
 		return true;

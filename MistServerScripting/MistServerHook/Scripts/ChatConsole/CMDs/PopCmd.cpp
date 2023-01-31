@@ -12,6 +12,8 @@ namespace PopCmd
 	void PopCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 
 		auto gamemode = AActor_GetGameMode(caller);
+		if (gamemode == nullptr) return;
+
 		auto pop = AGameMode_GetNumPlayers(gamemode);
 
 		if (pop == 1) {

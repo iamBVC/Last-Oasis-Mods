@@ -10,7 +10,7 @@ namespace ConCommands
 {
 	OnEngineInit(Init)
 	{
-
+		/*
 		RegisterCommand(EMistAccountTier::Trusted, L"rcon", [](auto caller, auto args)
 			{
 				if (args) ConsoleCommand(args);
@@ -26,23 +26,61 @@ namespace ConCommands
 				ClientAddMsg(caller, buff);
 			}, L"test command");
 
-
+			*/
 		RegisterCommand(EMistAccountTier::Trusted, L"yeet", [](auto caller, auto args)
 			{
+
+				auto playerPtr = AController_GetPawnPlayer(caller);
+				if (playerPtr == nullptr) return;
+
+				if (args == nullptr) return;
+
 				FVector direction = {0.0f, 0.0f, 0.0f};
 
-				if (wcscmp(args, L"N") == 0) direction.Y = -10000.0f;
-				if (wcscmp(args, L"S") == 0) direction.Y = 10000.0f;
-				if (wcscmp(args, L"W") == 0) direction.X = -10000.0f;
-				if (wcscmp(args, L"E") == 0) direction.X = 10000.0f;
-				if (wcscmp(args, L"D") == 0) direction.Z = -10000.0f;
-				if (wcscmp(args, L"U") == 0) direction.Z = 10000.0f;
+				if (wcscmp(args, L"n") == 0) direction.Y = -10000.0f;
+				if (wcscmp(args, L"s") == 0) direction.Y = 10000.0f;
+				if (wcscmp(args, L"w") == 0) direction.X = -10000.0f;
+				if (wcscmp(args, L"e") == 0) direction.X = 10000.0f;
+				if (wcscmp(args, L"d") == 0) direction.Z = -10000.0f;
+				if (wcscmp(args, L"u") == 0) direction.Z = 10000.0f;
+				
+				auto movementComponent = ((AMistOasisPlayerController*)(caller))->PlayerCharacter->CharacterMovement;
+				if (movementComponent == nullptr) return;
+
+				FRotator rotation = { 0, 0, 0 };
+				AActor_K2_TeleportTo(playerPtr, movementComponent->LastUpdateLocation, rotation);
+				UCharacterMovementComponent_AddImpulse(movementComponent, direction, true);
 				
 
-				auto movementComponent = ((AMistOasisPlayerController*)(caller))->PlayerCharacter->CharacterMovement;
-				UCharacterMovementComponent_AddImpulse(movementComponent, direction, true);
-
 			}, L"- Fly away");
+
+
+
+		RegisterCommand(EMistAccountTier::Trusted, L"test", [](auto caller, auto args)
+			{
+
+				auto weatherSystem = UMistBlueprintLibrary_GetWeatherSystem(caller);
+
+				if (args == nullptr) return;
+
+				if (*args == L'0') {
+					AMistWeatherSystem_StartEclipse(weatherSystem);
+				}
+
+				if (*args == L'1') {
+					AMistWeatherSystem_StopEclipse(weatherSystem);
+				}
+
+				if (*args == L'2') {
+					AMistWeatherSystem_StartTraverse(weatherSystem);
+				}
+
+				if (*args == L'3') {
+					AMistWeatherSystem_StopTraverse(weatherSystem);
+				}
+
+			}, L"test command");
+
 
 
 

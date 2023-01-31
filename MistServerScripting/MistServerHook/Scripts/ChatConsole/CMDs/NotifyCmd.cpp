@@ -18,11 +18,13 @@ namespace NotifyCmd
 
 		uint16 dataIdLen;
 		const wchar_t* dataId = Util::getArg(args, 1, &dataIdLen);
+		if (dataId == nullptr) return;
 		wchar_t idBuff[32];
 		_snwprintf_s(idBuff, dataIdLen, dataId);
 
 		uint16 dataTextLen;
 		const wchar_t* dataText = Util::getArg(args, 2, &dataTextLen);
+		if (dataText == nullptr) return;
 
 		FName id = FName(idBuff);
 		FString str = FString(dataText);
@@ -34,8 +36,11 @@ namespace NotifyCmd
 		UWorld_GetPlayerControllerIterator(worldPtr, &it);
 		for (auto i = 0; i < it.Array->Count; i++) {
 			auto controllerPtr = it.Array->Data[i].Get();
+			if (controllerPtr == nullptr) continue;
 			auto playerPtr = AController_GetPawnPlayer(controllerPtr);
+			if (playerPtr == nullptr) continue;
 			auto MistPlayerController = playerPtr->PossessedByPlayerController;
+			if (MistPlayerController == nullptr) continue;
 			AMistOasisPlayerController_ClientAddHudLog(MistPlayerController, id, text);
 		}
 

@@ -12,9 +12,12 @@ namespace WalkerInfoCmd
 	void WalkerInfoCmdFn(AMistOasisPlayerController* caller, const wchar_t* args) {
 
 		auto playerPtr = AController_GetPawnPlayer(caller);
-		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
-		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
+		if (playerPtr == nullptr) return;
 
+		auto walkerPtr = AMistPlayer_GetWalker(playerPtr);
+		if (walkerPtr == nullptr) return;
+
+		auto isOnWalker = AMistPlayer_IsManningWalker(playerPtr);
 		if (!isOnWalker) return;
 
 		wchar_t buff[1024];
@@ -54,6 +57,7 @@ namespace WalkerInfoCmd
 		FString str = FString(buff);
 		FMistHudMessageOptions message = { FText(str), 30.0f, true, true };
 		auto MistPlayerController = playerPtr->PossessedByPlayerController;
+		if (MistPlayerController == nullptr) return;
 		AMistOasisPlayerController_ClientAddHudMessage(MistPlayerController, message);
 	}
 

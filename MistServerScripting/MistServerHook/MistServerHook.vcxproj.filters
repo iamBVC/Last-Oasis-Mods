@@ -295,23 +295,5 @@
     <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Scripts\SoftClanCap\SoftClanCap.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\PlacementBlocker\Block.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\LogUFunc\Log.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\LoadObject\LoadObject.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\Basic\DumpBackend.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Scripts\Basic\Motd.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
