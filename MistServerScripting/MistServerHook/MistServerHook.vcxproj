@@ -110,6 +110,7 @@
     <ClInclude Include="Core\Config.h" />
     <ClInclude Include="Core\Core.h" />
     <ClInclude Include="Core\Plugin.h" />
+    <ClInclude Include="Core\SQL_Utils.h" />
     <ClInclude Include="Core\Symbol.h" />
     <ClInclude Include="Core\Util.h" />
     <ClInclude Include="MistServer\DataType.h" />
@@ -169,13 +170,17 @@
     <ClInclude Include="Scripts\ChatConsole\ChatConsole.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\SQL_Utils.cpp" />
     <ClCompile Include="Core\Symbol.cpp" />
     <ClCompile Include="Core\Hooker.cpp" />
     <ClCompile Include="Core\Main.cpp" />
     <ClCompile Include="Core\Util.cpp" />
     <ClCompile Include="Scripts\Basic\Eac.cpp" />
+    <ClCompile Include="Scripts\Basic\Motd.cpp" />
+    <ClCompile Include="Scripts\Basic\WorldTick.cpp" />
     <ClCompile Include="Scripts\ChatConsole\ChatConsole.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\AnnounceCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\BanCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\BroadcastCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\CountdownCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\GiveFlobsCmd.cpp" />
@@ -185,11 +190,17 @@
     <ClCompile Include="Scripts\ChatConsole\CMDs\PlayerInfoCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\PopCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\RenameWalkerCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RestartServerCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RulesCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\SetWalkerParamCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\ShutdownServerCmd.cpp" />
+    <ClCompile Include="Scripts\ChatConsole\CMDs\SQLtest.cpp" />
     <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp" />
     <ClCompile Include="Scripts\ChatConsole\ConCommands.cpp" />
+    <ClCompile Include="Scripts\CommandBlocker\CommandBlocker.cpp" />
+    <ClCompile Include="Scripts\DamageModifier\DamageModifier.cpp" />
     <ClCompile Include="Scripts\ServerInfoLog\ServerInfoLog.cpp" />
+    <ClCompile Include="Scripts\SoftClanCap\SoftClanCap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

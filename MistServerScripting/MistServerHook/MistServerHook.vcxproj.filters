@@ -230,6 +230,9 @@
     <ClInclude Include="Core\Plugin.h">
       <Filter>Headers\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Core\SQL_Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core\Main.cpp">
@@ -293,6 +296,36 @@
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Scripts\ChatConsole\CMDs\WalkerInfoCmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\SoftClanCap\SoftClanCap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\Motd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RulesCmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\CMDs\RestartServerCmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\CommandBlocker\CommandBlocker.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\DamageModifier\DamageModifier.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SQL_Utils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\CMDs\SQLtest.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChatConsole\CMDs\BanCmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Basic\WorldTick.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>

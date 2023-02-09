@@ -62,7 +62,7 @@ Native("?GetCurrentSpeed@AMistWalker@@QEBAMXZ", float, AMistWalker_GetCurrentSpe
 Native("??$GetController@VAMistOasisPlayerController@@@APawn@@QEBAPEAVAMistOasisPlayerController@@XZ", struct AMistOasisPlayerController*, APawn_GetControllerMist, struct APawn* self)
 Native("?AddImpulse@UCharacterMovementComponent@@UEAAXUFVector@@_N@Z", void, UCharacterMovementComponent_AddImpulse, struct UCharacterMovementComponent* self, struct FVector direction, bool value)
 
-Native("?GetWeatherSystem@UMistBlueprintLibrary@@SAPEAVAMistWeatherSystem@@PEBVUObject@@@Z", struct AMistWeatherSystem*, UMistBlueprintLibrary_GetWeatherSystem, struct UObject*)
+Native("?GetWeatherSystem@UMistBlueprintLibrary@@SAPEAVAMistWeatherSystem@@PEBVUObject@@@Z", struct AMistWeatherSystem*, UMistBlueprintLibrary_GetWeatherSystem, struct UObject* object)
 Native("?StartEclipse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StartEclipse, struct AMistWeatherSystem* self)
 Native("?StartTraverse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StartTraverse, struct AMistWeatherSystem* self)
 Native("?StopEclipse@AMistWeatherSystem@@AEAAXXZ", void, AMistWeatherSystem_StopEclipse, struct AMistWeatherSystem* self)
@@ -71,5 +71,19 @@ Native("?SetWeatherPaused@AMistWeatherSystem@@QEAAX_N@Z", void, AMistWeatherSyst
 Native("?ForceNetUpdate@AActor@@QEAAX_N@Z", void, AActor_ForceNetUpdate, struct AActor* self, bool value)
 Native("?K2_TeleportTo@AActor@@QEAA_NUFVector@@UFRotator@@@Z", bool, AActor_K2_TeleportTo, struct AActor* self, struct FVector, struct FRotator)
 Native("??$GetGameState@VAMistOasisGameState@@@AActor@@QEBAPEAVAMistOasisGameState@@XZ", struct AMistOasisGameState*, AActor_GetGameState, struct AActor* self)
-
-
+Native("?Shutdown@FSocketSubsystemWindows@@UEAAXXZ", int, FSocketSubsystemWindows_Shutdown)
+Native("?RequestEngineExit@@YAXPEB_W@Z", void, RequestEngineExit, const wchar_t* reason)
+Native("??$GetBlueprints@VUMistItemTemplate@@@UMistCheatingComponent@@AEAA?AV?$TArray@V?$TSubclassOf@VUMistItemTemplate@@@@V?$TSizedDefaultAllocator@$0CA@@@@@VFString@@AEBV2@@Z", struct TArrayVoid, UMistCheatingComponent_GetItemBlueprints, struct UMistCheatingComponent* self, struct FString name1, struct FString& name2) //return TArray<UMistItemTemplate*> instead of void
+Native("?GiveItem@UMistCheatingComponent@@QEAAXVFString@@H@Z", void, UMistCheatingComponent_GiveItem, struct UMistCheatingComponent* self, struct FString name, int count)
+Native("?GetDistanceTo@AActor@@QEBAMPEBV1@@Z", float, AActor_GetDistanceTo, struct AActor* self, struct AActor* target)
+Native("?IsOnWalker@AMistCharacter@@QEBA_NXZ", bool, AMistCharacter_IsOnWalker, struct AMistCharacter* self)
+Native("?AddItem@AMistCharacter@@QEAA_NUFMistItem@@HPEAVUMistContainerComponent@@@Z", bool, AMistCharacter_AddItem, struct AMistCharacter* self, struct FMistItem, int amount, struct UMistContainerComponent* container)
+Native("?OnPerceptionStimuliSourceEndPlay@UAIPerceptionSystem@@IEAAXPEAVAActor@@W4Type@EEndPlayReason@@@Z", void, UAIPerceptionSystem_OnPerceptionStimuliSourceEndPlay, struct UAIPerceptionSystem* self, struct AActor* actor, uint8 EEndPlayReason_Type)
+Native("?Remove@UMistInventoryComponent@@QEAAHAEBUFMistInventoryOperationSource@@AEBUFMistInventoryOperationParams@@@Z", int64, UMistInventoryComponent_Remove, struct UMistInventoryComponent* self, struct FMistInventoryOperationSource* source, struct FMistInventoryOperationParams* params)
+Native("?ServerEquipItem@UMistCheatingComponent@@QEAAXV?$TSubclassOf@VUMistEquipmentItemTemplate@@@@@Z", void, UMistCheatingComponent_ServerEquipItem, struct UMistEquipmentItemTemplate* item)
+Native("?BanPlayer@AGameSession@@UEAA_NPEAVAPlayerController@@AEBVFText@@@Z", bool, AGameSession_BanPlayer, struct AGameSession* self, struct APlayerController* player, struct FText* reason)
+Native("?UtcNow@FDateTime@@SA?AU1@XZ", struct FDateTime*, FDateTime_UtcNow)
+Native("?ServerBanPlayer_Implementation@AMistOasisPlayerController@@UEAAXAEBUFUniqueNetIdRepl@@_J@Z", void, AMistOasisPlayerController_ServerBanPlayer_Implementation, struct AMistOasisPlayerController* self, struct FUniqueNetIdRepl* netID, int64 ID)
+Native("?GetDayOfYear@FDateTime@@QEBAHXZ", int64, FDateTime_GetDayOfYear, struct FDateTime* self)
+Native("?ToString@FDateTime@@QEBA?AVFString@@XZ", struct FString, FDateTime_ToString)
+Native("?KickPlayer@AGameSession@@UEAA_NPEAVAPlayerController@@AEBVFText@@@Z", bool, AGameSession_KickPlayer, struct AGameSession* self, struct APlayerController* playerController, struct FText* reason)

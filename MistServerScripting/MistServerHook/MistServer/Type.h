@@ -4,6 +4,12 @@
 #include "Native.h"
 #include "string"
 
+struct TArrayVoid {
+	void** Data;
+	int32 Count;
+	int32 Size;
+};
+
 template<typename T>
 struct TArray {
 	T* Data;
@@ -124,7 +130,7 @@ struct TIndexedIterator
 template<typename T>
 struct TWeakObjectPtr
 {
-	void* Pointer;
+	T* Pointer;
 
 	inline T* Get() const
 	{

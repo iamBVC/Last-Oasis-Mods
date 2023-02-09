@@ -1,6 +1,8 @@
 #include "ChatConsole.h"
+#include "Core/Core.h"
 #include "Core/Util.h"
 
+using namespace std;
 using namespace ChatConsole;
 using namespace Util;
 
@@ -10,6 +12,7 @@ namespace ConCommands
 {
 	OnEngineInit(Init)
 	{
+
 		/*
 		RegisterCommand(EMistAccountTier::Trusted, L"rcon", [](auto caller, auto args)
 			{
@@ -27,6 +30,7 @@ namespace ConCommands
 			}, L"test command");
 
 			*/
+
 		RegisterCommand(EMistAccountTier::Trusted, L"yeet", [](auto caller, auto args)
 			{
 
@@ -35,7 +39,7 @@ namespace ConCommands
 
 				if (args == nullptr) return;
 
-				FVector direction = {0.0f, 0.0f, 0.0f};
+				FVector direction = { 0.0f, 0.0f, 0.0f };
 
 				if (wcscmp(args, L"n") == 0) direction.Y = -10000.0f;
 				if (wcscmp(args, L"s") == 0) direction.Y = 10000.0f;
@@ -43,20 +47,20 @@ namespace ConCommands
 				if (wcscmp(args, L"e") == 0) direction.X = 10000.0f;
 				if (wcscmp(args, L"d") == 0) direction.Z = -10000.0f;
 				if (wcscmp(args, L"u") == 0) direction.Z = 10000.0f;
-				
+
 				auto movementComponent = ((AMistOasisPlayerController*)(caller))->PlayerCharacter->CharacterMovement;
 				if (movementComponent == nullptr) return;
 
 				FRotator rotation = { 0, 0, 0 };
 				AActor_K2_TeleportTo(playerPtr, movementComponent->LastUpdateLocation, rotation);
 				UCharacterMovementComponent_AddImpulse(movementComponent, direction, true);
-				
+
 
 			}, L"- Fly away");
 
 
 
-		RegisterCommand(EMistAccountTier::Trusted, L"test", [](auto caller, auto args)
+		RegisterCommand(EMistAccountTier::Trusted, L"test", [](AMistOasisPlayerController* caller, auto args)
 			{
 
 				auto weatherSystem = UMistBlueprintLibrary_GetWeatherSystem(caller);
@@ -67,17 +71,30 @@ namespace ConCommands
 					AMistWeatherSystem_StartEclipse(weatherSystem);
 				}
 
-				if (*args == L'1') {
+				else if (*args == L'1') {
 					AMistWeatherSystem_StopEclipse(weatherSystem);
 				}
 
-				if (*args == L'2') {
+				else if (*args == L'2') {
 					AMistWeatherSystem_StartTraverse(weatherSystem);
 				}
 
-				if (*args == L'3') {
+				else if (*args == L'3') {
 					AMistWeatherSystem_StopTraverse(weatherSystem);
 				}
+
+				else if (*args == L'4') {
+					auto gamestate = AActor_GetGameState(caller);
+					int i = 0;
+				}
+
+				else if (*args == L'5') {
+
+					auto date = FDateTime_ToString();
+					ClientAddMsg(caller, date.c_str());
+
+				}
+
 
 			}, L"test command");
 
@@ -85,4 +102,9 @@ namespace ConCommands
 
 
 	}
+
+
+
+
+
 }

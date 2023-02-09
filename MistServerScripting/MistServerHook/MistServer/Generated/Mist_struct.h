@@ -2496,7 +2496,7 @@ struct FMistInteraction {
 // Size: 0x18 (Inherited: 0x00)
 struct FMistItem {
 	struct UMistItemTemplate* Template; // 0x00(0x08)
-	char pad_8[0x02]; // 0x08(0x02)
+	uint16 Durability; // 0x08(0x02)
 	uint8 Quality; // 0x0A(0x01)
 	char pad_B[0x0D]; // 0x0B(0x0D)
 };

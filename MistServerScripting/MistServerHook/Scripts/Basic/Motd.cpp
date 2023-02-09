@@ -3,7 +3,7 @@
 
 
 #define MOTD L"\
-Welcome to the modded script development server!\n\
+Welcome to LO Classic!\n\
 Type /help to see available commands\
 "
 
@@ -25,7 +25,8 @@ namespace Motd
 	}
 
 
-	Hook("?ServerAcknowledgePossession_Implementation@APlayerController@@UEAAXPEAVAPawn@@@Z", void, AcknowledgePossession, AMistOasisPlayerController* self, APawn* pawn)
+	Hook("?ServerAcknowledgePossession_Implementation@APlayerController@@UEAAXPEAVAPawn@@@Z",
+		void, AcknowledgePossession, AMistOasisPlayerController* self, APawn* pawn)
 	{
 		OrigAcknowledgePossession(self, pawn);
 
@@ -46,8 +47,9 @@ namespace Motd
 		Util::ClientAddRedMsg(playercontroller, MOTD);
 
 		//print online players
-		wchar_t popBuff[64];
-		swprintf_s(popBuff, L"%i players online", pop);
+		/*
+		static wchar_t popBuff[64];
+		swprintf_s(popBuff, L"%i players online ", pop);
 		FString str = FString(popBuff);
 		FText text = FText(str);
 		FName logid = FName(L"grappling_hook_broken");
@@ -58,8 +60,9 @@ namespace Motd
 			if (MistPlayerController == nullptr) continue;
 			AMistOasisPlayerController_ClientAddHudLog(MistPlayerController, logid, text);
 		}
+		*/
 
-		//print who joined the game
+		//print who joined the game only to clan members
 		if (playercontroller->PlayerState == nullptr) return;
 		FString title = FString(playercontroller->PlayerState->PlayerNamePrivate.c_str());
 		FString desc = FString(L"joined the game");
@@ -68,11 +71,21 @@ namespace Motd
 		for (auto i = 0; i < it.Array->Count; i++) {
 			auto playerPtr = AController_GetPawnPlayer(it.Array->Data[i].Get());
 			if (playerPtr == nullptr) continue;
+
+			auto playerState = APawn_GetPlayerStateMist(playerPtr);
+			if (playerState == nullptr) continue;
+			if (playerState->Clan.ID != 0) continue;
+
+			auto newPlayerState = APawn_GetPlayerStateMist(self->Character);
+			if (newPlayerState == nullptr) continue;
+
 			auto MistPlayerController = playerPtr->PossessedByPlayerController;
 			if (MistPlayerController == nullptr) continue;
-			AMistOasisPlayerController_ClientAddHudCountdown(MistPlayerController, countdownid, options);
-		}
 
+			if(newPlayerState->Clan.ID == playerState->Clan.ID)
+				AMistOasisPlayerController_ClientAddHudCountdown(MistPlayerController, countdownid, options);
+		}
+		
 
 	}
 

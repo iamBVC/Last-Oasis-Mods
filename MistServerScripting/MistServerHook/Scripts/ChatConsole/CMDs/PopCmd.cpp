@@ -33,7 +33,7 @@ namespace PopCmd
 
 	OnEngineInit(Init)
 	{
-		RegisterCommand(EMistAccountTier::Trusted, L"pop", PopCmdFn, L"- Print the total number of online players");
+		RegisterCommand(EMistAccountTier::Default, L"pop", PopCmdFn, L"- Print the total number of online players");
 	}
 
 }

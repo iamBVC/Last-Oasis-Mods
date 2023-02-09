@@ -9,47 +9,6 @@ namespace ServerInfoLog
 {
 
 
-
-	Hook("?TakeDamage@AActor@@UEAAMMAEBUFDamageEvent@@AEBUFDamageSource@@@Z",
-		float, AActor_TakeDamage, AActor* self, float value, FDamageEvent* event, FDamageSource* source)
-	{
-
-		auto status = OrigAActor_TakeDamage(self, value, event, source);
-
-		if (status == 0.0f) return status;
-		if (source == nullptr) return status;
-		if (source->InstigatorController == nullptr) return status;
-		if (source->InstigatorController->Character == nullptr) return status;
-		if (source->CauserActor == nullptr) return status;
-
-		static wchar_t log[256] = {};
-
-		auto character = source->InstigatorController->Character;
-		if (character == nullptr) return status;
-
-		if (character->CharacterMovement == nullptr) return status;
-		auto location = character->CharacterMovement->LastUpdateLocation;
-
-		auto ownershipTarget = FMistClanUtils_GetOwnershipComponent(self, true);
-		if (ownershipTarget == nullptr) return status;
-
-		auto instigatorState = APawn_GetPlayerStateMist(character);
-		if (instigatorState == nullptr) return status;
-
-		swprintf_s(log, L"%s (%s) damaged %s with %s owned by %s (%s) at %.0f %.0f %.0f",
-			character->PlayerState->PlayerNamePrivate.c_str(),
-			instigatorState->Clan.Name.c_str(),
-			self->NamePrivate.c_str(), source->CauserActor->NamePrivate.c_str(),
-			ownershipTarget->OwnerCharacter.Name.c_str(), ownershipTarget->OwnerClan.Name.c_str(),
-			location.X, location.Y, location.Z);
-
-		Util::logOnFile(self, "damage", log);
-
-		return status;
-
-	}
-
-
 	Hook("?ServerDisassemble_Implementation@UMistBuildingComponent@@UEAAXPEAVAActor@@H@Z",
 		void, UMistBuildingComponent_ServerDisassemble_Implementation, UMistBuildingComponent* self, AActor* actor, int id)
 	{
@@ -167,21 +126,6 @@ namespace ServerInfoLog
 		Util::logOnFile(actor, "items", buff);
 	}
 
-	Hook("?ServerSetCheatEnabled_Implementation@UMistCheatingComponent@@UEAAXAEBVFName@@_N@Z",
-		void, UMistCheatingComponent_ServerSetCheatEnabled_Implementation, UMistCheatingComponent* self, FName* name, bool value)
-	{
-
-		auto fnName = name->c_str();
-		static wchar_t buff[256] = {};
-		swprintf_s(buff, L"%s %u", fnName, value);
-		Util::logOnFile((AActor*)self->OuterPrivate, "commands", buff);
-
-		if (wcscmp(fnName, L"CheatFreeBuilding") == 0) {
-			value = false; //disable free building
-		}
-
-		OrigUMistCheatingComponent_ServerSetCheatEnabled_Implementation(self, name, value);
-	}
 
 
 }

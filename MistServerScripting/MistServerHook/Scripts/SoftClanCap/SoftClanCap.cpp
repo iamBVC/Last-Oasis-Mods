@@ -32,12 +32,12 @@ namespace SoftClanCap
 	Hook("?CalculateClanCapPenalty@AMistOasisGameState@@QEAAMPEAVAMistOasisPlayerState@@@Z",
 		float, CalculateClanCapPenalty, AMistOasisGameState* self, AMistOasisPlayerState* playerstate)
 	{
-		OrigCalculateClanCapPenalty(self, playerstate);
+		auto penalty = OrigCalculateClanCapPenalty(self, playerstate);
 
 		if (IsEnabled) {
 
 			auto clanID = playerstate->Clan.ID;
-			if (clanID == 0) return 1.0f;
+			if (clanID == 0) return penalty;
 
 			auto data = (ClanData*)(self->ClanMemberCount.Data);
 
@@ -49,19 +49,24 @@ namespace SoftClanCap
 						if (playerstate->PawnPrivate != nullptr) {
 							auto controller = APawn_GetControllerMist(playerstate->PawnPrivate);
 							Util::ClientAddRedMsg(controller, L"OVERCAP !!!");
+
+							if (data[i].count > capValue * 1.2f) {
+								AMistPlayerController_KickPlayer(controller, FText(L"Your clan is overcapped"));
+							}
+
 						}
-						return 75.0f;
+						return 100.0f;
 
 					}
 					else {
-						return 1.0f;
+						return penalty;
 					}
 				}
 			}
 
 		}
 
-		return 1.0f;
+		return penalty;
 	}
 
 

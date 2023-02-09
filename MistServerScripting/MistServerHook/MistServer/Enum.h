@@ -137,26 +137,6 @@ enum class EPackageFlags : uint32
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Enumerates the days of the week in 7-day calendars.
  */
@@ -231,3 +211,15 @@ namespace ETimespan
 	const int64 TicksPerMonth = 129600000000000;
 	
 }
+
+enum ELevelTick
+{
+	/** Update the level time only. */
+	LEVELTICK_TimeOnly = 0,
+	/** Update time and viewports. */
+	LEVELTICK_ViewportsOnly = 1,
+	/** Update all. */
+	LEVELTICK_All = 2,
+	/** Delta time is zero, we are paused. Components don't tick. */
+	LEVELTICK_PauseTick = 3,
+};
