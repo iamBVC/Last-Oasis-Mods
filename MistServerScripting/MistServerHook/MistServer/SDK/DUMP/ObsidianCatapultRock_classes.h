@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass ObsidianCatapultRock.ObsidianCatapultRock_C
-// Size: 0xe0 (Inherited: 0xe0)
-struct UObsidianCatapultRock_C : UMistTechTreeItem {
-};
-

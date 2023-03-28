@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass PackingWalkerWingsTemplateMedium.PackingWalkerWingsTemplateMedium_C
-// Size: 0x1c8 (Inherited: 0x1c8)
-struct UPackingWalkerWingsTemplateMedium_C : UMistPlaceableTemplate {
-};
-

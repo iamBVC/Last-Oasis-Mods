@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass RupuFur.RupuFur_C
-// Size: 0x1d8 (Inherited: 0x1d8)
-struct URupuFur_C : UMistItemTemplate {
-};
-
