@@ -118,7 +118,13 @@ Inside this folder you'll find all the programs needed for unpacking, editing an
 	<br />- In the client pak folder, make a copy of the file "pakchunk9017-WindowsClient.sig" with name "pakchunk9017-WindowsClient_P.sig".
   </li>
   <li>
+    Copy "OasisLauncher.exe" in your client folder to bypass EAC and use our backend.
+  </li>
+  <li>
     Start the game and enjoy your mods :)
+  </li>
+  <li>
+    Use "start_client.bat" if you don't want to use our client mods.
   </li>
 </ol>
 <br />
