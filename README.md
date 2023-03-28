@@ -82,7 +82,16 @@ Inside this folder you'll find all the programs needed for unpacking, editing an
 	Take in mind that client and server files are the same, but all the textures and models are missing, so it's better to use the client files for creating the mods for client and server.
   </li>
   <li>
-    Open "umodel_client.bat" to navigate the unpacked files, than select the .uasset/.umap files you want to modify, right click on them and select "save packages".
+    Open "umodel_client.bat" to navigate the unpacked files
+  </li>
+  <li>
+    Set save path to "./saved"
+  </li>
+  <li>
+    Set export path to "./Unpacked_Client"
+  </li>
+  <li>
+    Select the .uasset/.umap files you want to modify, right click on them and select "save packages".
     The packages will be saved on the "saved" folder.
   </li>
   <li>
