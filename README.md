@@ -105,8 +105,8 @@ Inside this folder you'll find all the programs needed for unpacking, editing an
   </li>
   <li>
     Before starting the client/server:
-    - In the server pak folder, make a copy of the file "pakchunk9017-WindowsServer.sig" with name "pakchunk9017-WindowsServer_P.sig".
-	- In the client pak folder, make a copy of the file "pakchunk9017-WindowsClient.sig" with name "pakchunk9017-WindowsClient_P.sig".
+    <br />- In the server pak folder, make a copy of the file "pakchunk9017-WindowsServer.sig" with name "pakchunk9017-WindowsServer_P.sig".
+	<br />- In the client pak folder, make a copy of the file "pakchunk9017-WindowsClient.sig" with name "pakchunk9017-WindowsClient_P.sig".
   </li>
   <li>
     Start the game and enjoy your mods :)
