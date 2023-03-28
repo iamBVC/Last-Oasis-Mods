@@ -1,0 +1,1 @@
+.\umodel\umodel.exe -path=".\Last_Oasis_Client" -game=ue4.25 -sounds -png -3rdparty -gltf

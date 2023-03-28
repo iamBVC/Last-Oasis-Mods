@@ -1,0 +1,99 @@
+UE Viewer - Unreal Engine viewer and exporter
+Usage: umodel [command] [options] <package> [<object> [<class>]]
+       umodel [command] [options] <directory>
+       umodel @<response_file>
+
+    <package>       name of package to load - this could be a file name
+                    with or without extension, or wildcard
+    <object>        name of object to load
+    <class>         class of object to load (useful, when trying to load
+                    object with ambiguous name)
+    <directory>     path to the game (see -path option)
+
+Commands:
+    -view           (default) visualize object; when no <object> specified
+                    will load whole package
+    -list           list contents of package
+    -export         export specified object or whole package
+    -save           save specified packages
+
+Help information:
+    -help           display this help page
+    -version        display umodel version information
+    -taglist        list of tags to override game autodetection (for -game=nnn option)
+    -gamelist       list of supported games
+
+Developer commands:
+    -log=file       write log to the specified file
+    -dump           dump object information to console
+    -pkginfo        load package and display its information
+    -testexport     perform fake export
+
+Options:
+    -path=PATH      path to game installation directory; if not specified,
+                    program will search for packages in current directory
+    -game=tag       override game autodetection (see -taglist for variants)
+    -pkgver=nnn     override package version (advanced option!)
+    -pkg=package    load extra package (in addition to <package>)
+    -obj=object     specify object(s) to load
+    -gui            force startup UI to appear
+    -aes=key        provide AES decryption key for encrypted pak files,
+                    key is ASCII or hex string (hex format is 0xAABBCCDD),
+                    multiple options could be provided for multi-key games
+    -aes=@file.txt  read AES decryption key(s) from a text file
+
+Compatibility options:
+    -nomesh         disable loading of SkeletalMesh classes in a case of
+                    unsupported data format
+    -noanim         disable loading of MeshAnimation classes
+    -nostat         disable loading of StaticMesh class
+    -novert         disable loading of VertMesh class
+    -notex          disable loading of Material classes
+    -nomorph        disable loading of MorphTarget class
+    -nolightmap     disable loading of Lightmap textures
+    -sounds         allow export of sounds
+    -3rdparty       allow 3rd party asset export (ScaleForm, FaceFX)
+    -lzo|lzx|zlib   force compression method for UE3 fully-compressed packages
+
+Platform selection:
+    -ps3            Playstation 3
+    -ps4            Playstation 4
+    -nsw            Nintendo Switch
+    -ios            iOS (iPhone/iPad)
+    -android        Android
+
+Viewer options:
+    -meshes         view meshes only
+    -materials      view materials only (excluding textures)
+    -anim=<set>     specify AnimSet to automatically attach to mesh
+
+Export options:
+    -out=PATH       export everything into PATH instead of the current directory
+    -all            used with -dump, will dump all objects instead of specified one
+    -uncook         use original package name as a base export directory (UE3)
+    -groups         use group names instead of class names for directories (UE1-3)
+    -uc             create unreal script when possible
+    -psk            use ActorX format for meshes (default)
+    -md5            use md5mesh/md5anim format for skeletal mesh
+    -gltf           use glTF 2.0 format for mesh
+    -lods           export all available mesh LOD levels
+    -dds            export textures in DDS format whenever possible
+    -png            export textures in PNG format instead of TGA
+    -notgacomp      disable TGA compression
+    -nooverwrite    prevent existing files from being overwritten (better
+                    performance)
+
+Supported resources for export:
+    SkeletalMesh    exported as ActorX psk file, MD5Mesh or glTF
+    MeshAnimation   exported as ActorX psa file or MD5Anim
+    VertMesh        exported as Unreal 3d file
+    StaticMesh      exported as psk file with no skeleton (pskx) or glTF
+    Texture         exported in tga or dds format
+    Sounds          file extension depends on object contents
+    ScaleForm       gfx
+    FaceFX          fxa
+    Sound           exported "as is"
+
+For list of supported games please use -gamelist option.
+
+For details and updates please visit https://www.gildor.org/en/projects/umodel

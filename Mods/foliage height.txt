@@ -1,0 +1,8 @@
+dry woods			600
+small cactus		700
+small tree			1000
+palm tree			1200
+apple tree			1800
+medium pine tree	2600
+big pine tree		3500
+redwood tree		8000
