@@ -43,10 +43,10 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Modding a private server is a time consuming process that requires:
+Modding the game is a time consuming process that requires:
 <ol>
   <li>
-    Unpacking the encrypted server .pak files
+    Unpacking the encrypted .pak files
   </li>
   <li>
     Find the files you are interested in
@@ -62,8 +62,8 @@ Modding a private server is a time consuming process that requires:
 
 <!-- Prerequisites -->
 ### Prerequisites
-First off you must download our <a href="https://github.com/iamBVC/Last-Oasis-Mods/blob/master/Tools.zip">Tool package</a>.<br />
-Inside this package you'll find all the programs needed for unpacking, editing and repacking the server files.
+First off you must download our <a href="https://github.com/iamBVC/Last-Oasis-Mods/blob/master/Tools">Tools</a>.<br />
+Inside this folder you'll find all the programs needed for unpacking, editing and repacking the game files.
 <br />
 
 
@@ -71,31 +71,45 @@ Inside this package you'll find all the programs needed for unpacking, editing a
 ### Installation
 <ol>
   <li>
-    Extract the zip file containing all the tools needed, then open the files "unpack_server.bat" and replace the path to the server's pak folder.
+    Extract the zip file containing all the tools needed.
   </li>
   <li>
-    Execute "unpack_server.bat" and wait until all the pak files are extracted.
-Now a folder named "Last_Oasis_Server" has been created, with all the unpacked UE assets files inside.
+    Open the file "config.bat" and replace the paths to the server and client pak folder.
   </li>
   <li>
-    Open "umodel.bat" to navigate the unpacked files, than select the .uasset/.umap files you want to modify, right click on them and select "save packages".
-    Save the packages inside a folder named "pakchunk9017-WindowsServer_P".
+    Execute "unpack_client.bat" and wait until all the pak files are extracted.
+	The folder "Last_Oasis_Client" will be created with all the UE assets of the game
+	Take in mind that client and server files are the same, but all the textures and models are missing, so it's better to use the client files for creating the mods for client and server.
   </li>
   <li>
-    Open "UAssetGUI.exe" to edit the data files, Select version 4.25.
+    Open "umodel_client.bat" to navigate the unpacked files, than select the .uasset/.umap files you want to modify, right click on them and select "save packages".
+    The packages will be saved on the "saved" folder.
   </li>
   <li>
-    Once you're done, drag the folder "pakchunk9017-WindowsServer_P" over the file "pack.bat".
-    A file named "pakchunk9017-WindowsServer_P.pak" will be created.
+    After editing the files, launch "pack_auto_P.bat" to create the empty "pakchunk9017-WindowsServer_P" folder.
   </li>
   <li>
-    Copy the new pak file inside you server Pak folder.
+    Move the "saved" folder content inside "pakchunk9017-WindowsServer_P" folder.
   </li>
   <li>
-    Make a copy of the file "pakchunk9017-WindowsServer.sig" and rename it to "pakchunk9017-WindowsServer_P.sig"
+    Launch "pack_server_auto.bat" to pack the mods and copy it in the server pak folder.
   </li>
   <li>
-    Start the server and enjoy your mod :)
+    Launch "pack_client_auto.bat" to pack the mods and copy it in the client pak folder.
+  </li>
+  <li>
+    You can also drag the "pakchunk9017-WindowsServer_P" folder containing the mods on "drag_on_me_to_pack.bat" to pack it and save the .pak file inside the Tools folder.
+  </li>
+  <li>
+    You can also drag an already packed mod on "drag_on_me_to_unpack.bat" to unpack it.
+  </li>
+  <li>
+    Before starting the client/server:
+    - In the server pak folder, make a copy of the file "pakchunk9017-WindowsServer.sig" with name "pakchunk9017-WindowsServer_P.sig".
+	- In the client pak folder, make a copy of the file "pakchunk9017-WindowsClient.sig" with name "pakchunk9017-WindowsClient_P.sig".
+  </li>
+  <li>
+    Start the game and enjoy your mods :)
   </li>
 </ol>
 <br />
@@ -104,6 +118,26 @@ Now a folder named "Last_Oasis_Server" has been created, with all the unpacked U
 
 <!-- How to edit UE files -->
 ## How to edit UE files
+<ol>
+  <li>
+    Open "UAssetGUI.exe".
+  </li>
+  <li>
+    Set UE version to 4.25
+  </li>
+  <li>
+    Open the .uasset/.umap file you wanna edit
+  </li>
+  <li>
+    Change the values of the tables
+  </li>
+  <li>
+    Save the file
+  </li>
+  <li>
+    Delete .bak files before packing the mod folder
+  </li>
+</ol>
 <br />
 <br />
 
