@@ -1,5 +1,9 @@
 pakchunk9017-WindowsServer_P/
+pakchunk9017-WindowsServer_AC/
 Last_Oasis_Client/
 Last_Oasis_Server/
 Unpacked_Client/
 *.pak
+imgui.ini
+Output/
+Tools/pack/filelist.txt
