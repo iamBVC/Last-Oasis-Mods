@@ -1,0 +1,18 @@
+
+******** Loading object Texture2D'T_Relics_01_ORM.T_Relics_01_ORM' ********
+
+ERROR: VirtualTextures are not supported
+FTexturePlatformData<< <- UTexture2D::Serialize4 <- UTexture2D::Serialize <- LoadObject: Texture2D'T_Relics_01_ORM.T_Relics_01_ORM', pos=3F5, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Structures/AC_Relics/Meshes/M_Relics_01.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
+
+******** Loading object Texture2D'T_Relics_01_ORM.T_Relics_01_ORM' ********
+
+ERROR: VirtualTextures are not supported
+FTexturePlatformData<< <- UTexture2D::Serialize4 <- UTexture2D::Serialize <- LoadObject: Texture2D'T_Relics_01_ORM.T_Relics_01_ORM', pos=3F5, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Structures/AC_Relics/Meshes/M_Relics_01.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
+
+******** Loading object StaticMesh4'SM_AncientPillarSmall_Silver_C.SM_AncientPillarSmall_Silver_C' ********
+
+ERROR: Memory: bad allocation size 850932456 bytes
+appMalloc: size=850932456 (total=92 Mbytes) <- FArray::Empty: 35455519 x 24 <- TArray::Serialize: 0/0 <- FStaticMeshLODModel4<< <- TArray::Serialize: 2/6 <- UStaticMesh4::Serialize <- LoadObject: StaticMesh4'SM_AncientPillarSmall_Silver_C.SM_AncientPillarSmall_Silver_C', pos=2A2B8, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Nature/AncientCavernSet_II/Meshes/Baked_Silver/SM_AncientPillarSmall_Silver_C.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
