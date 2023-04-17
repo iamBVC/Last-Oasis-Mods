@@ -9,5 +9,5 @@ for /d %%i in ("pmod_*") do (
 
 XCOPY /S /Y ".\pack\template.sig" "%client_path%\pmod\"
 ren "%client_path%\pmod\template.sig" "%%i.sig"
-del "%client_path%\pmod\template.sig"
+del /q "%client_path%\pmod\template.sig"
 )
