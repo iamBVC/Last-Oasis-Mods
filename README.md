@@ -95,27 +95,23 @@ Inside this folder you'll find all the programs needed for unpacking, editing an
     The packages will be saved on the "saved" folder.
   </li>
   <li>
-    After editing the files, launch "pack_auto_P.bat" to create the empty "pakchunk9017-WindowsServer_P" folder.
+    After editing the files, create a folder named "pmod_YOURMODNAME".
   </li>
   <li>
-    Move the "saved" folder content inside "pakchunk9017-WindowsServer_P" folder.
+    Move the "saved" folder content inside "pmod_YOURMODNAME" folder.
+	You can split your mods in multiple directories starting with "pmod_"
   </li>
   <li>
-    Launch "pack_server_auto.bat" to pack the mods and copy it in the server pak folder.
+    Launch "pack_server_pmods.bat" to pack the mods and copy them in the server pak folder.
   </li>
   <li>
-    Launch "pack_client_auto.bat" to pack the mods and copy it in the client pak folder.
+    Launch "pack_client_pmods.bat" to pack the mods and copy it in the client pak folder.
   </li>
   <li>
-    You can also drag the "pakchunk9017-WindowsServer_P" folder containing the mods on "drag_on_me_to_pack.bat" to pack it and save the .pak file inside the Tools folder.
+    You can also drag the "pmod_YOURMODNAME" folder containing the mods on "drag_on_me_to_pack.bat" to pack it and save the .pak file inside the Tools folder.
   </li>
   <li>
     You can also drag an already packed mod on "drag_on_me_to_unpack.bat" to unpack it.
-  </li>
-  <li>
-    Before starting the client/server:
-    <br />- In the server pak folder, make a copy of the file "pakchunk9017-WindowsServer.sig" with name "pakchunk9017-WindowsServer_P.sig".
-	<br />- In the client pak folder, make a copy of the file "pakchunk9017-WindowsClient.sig" with name "pakchunk9017-WindowsClient_P.sig".
   </li>
   <li>
     Copy "OasisLauncher.exe" in your client folder to bypass EAC and use our backend.
