@@ -152,5 +152,29 @@ Inside this folder you'll find all the programs needed for unpacking, editing an
 <br />
 <br />
 
+<!-- Useful tools -->
+## Useful tools
+<ul>
+  <li>
+    UnrealModUnlocker: https://github.com/IllusorySoftware/UnrealModUnlocker-Public
+  </li>
+  <li>
+    Fmodel: https://github.com/4sval/FModel
+  </li>
+  <li>
+    UEViewer: https://github.com/gildor2/UEViewer
+  </li>
+  <li>
+    UnrealPakTool: https://github.com/allcoolthingsatoneplace/UnrealPakTool
+  </li>
+  <li>
+    CUE4Parse: https://github.com/FabianFG/CUE4Parse
+  </li>
+  <li>
+    UAssetGUI: https://github.com/atenfyr/UAssetGUI
+  </li>
+</ul>
+<br />
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
