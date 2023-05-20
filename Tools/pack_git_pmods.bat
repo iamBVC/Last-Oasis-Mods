@@ -1,3 +1,6 @@
+@echo off
+setlocal EnableExtensions DisableDelayedExpansion
+
 call config.bat
 
 del /q "%client_git_path%"

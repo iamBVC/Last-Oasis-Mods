@@ -1,0 +1,7 @@
+
+******** Loading object Texture2D'T_ThrowableInsectsBomb_D.T_ThrowableInsectsBomb_D' ********
+
+ERROR: assertion failed: Ar.Tell() == SkipOffset
+
+UTexture2D::Serialize4 <- UTexture2D::Serialize <- LoadObject: Texture2D'T_ThrowableInsectsBomb_D.T_ThrowableInsectsBomb_D', pos=15B3A, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/UI/Icons/Weapons/T_ThrowableInsectsBomb_D.uasset <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
