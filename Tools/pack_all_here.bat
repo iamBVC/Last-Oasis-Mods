@@ -1,9 +1,9 @@
 call config.bat
 
 
-for /d %%i in ("pmod_*") do (
+for /d %%i in ("pmod\pmod_*") do (
 
 @echo "..\%%i\*.*" "..\..\..\*.*" >.\pack\filelist.txt
-.\pack\UnrealPak.exe "..\%%i.pak" -create="filelist.txt" -compress
+.\pack\UnrealPak.exe "..\%%~ni.pak" -create="filelist.txt" -compress
 
 )

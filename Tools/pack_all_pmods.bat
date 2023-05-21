@@ -1,15 +1,16 @@
 call config.bat
 
 del /q "%client_path%\pmod"
+mkdir "%client_path%\pmod\"
 
-for /d %%i in ("pmod_*") do (
+for /d %%i in ("pmod\pmod_*") do (
 
 @echo "..\%%i\*.*" "..\..\..\*.*" >.\pack\filelist.txt
-.\pack\UnrealPak.exe "%client_path%\pmod\%%i.pak" -create="filelist.txt" -compress
+.\pack\UnrealPak.exe "%client_path%\pmod\%%~ni.pak" -create="filelist.txt" -compress
 
-mkdir "%client_path%\pmod\"
+
 XCOPY /S /Y ".\pack\template.sig" "%client_path%\pmod\"
-ren "%client_path%\pmod\template.sig" "%%i.sig"
+ren "%client_path%\pmod\template.sig" "%%~ni.sig"
 del /q "%client_path%\pmod\template.sig"
 )
 
