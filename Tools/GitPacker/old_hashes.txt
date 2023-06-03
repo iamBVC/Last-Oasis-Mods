@@ -1,4 +1,4 @@
-..\pmod\pmod_Ammo\Mist\Content\Mist\Characters\Creatures\Monkey\RupuNew\SingleRupu\RupuFirebrand\RupuLavaBomb.uasset	9602c4ad
+..\pmod\pmod_Ammo\Mist\Content\Mist\Characters\Creatures\Monkey\RupuNew\SingleRupu\RupuFirebrand\RupuLavaBomb.uasset	9602c4af
 ..\pmod\pmod_Ammo\Mist\Content\Mist\Characters\Creatures\Monkey\RupuNew\SingleRupu\RupuFirebrand\RupuLavaBomb.uexp	8a18589f
 ..\pmod\pmod_Ammo\Mist\Content\Mist\Characters\Creatures\Monkey\RupuNew\SingleRupu\RupuFirebrand\RupuLavaBombItem.uasset	c33156fb
 ..\pmod\pmod_Ammo\Mist\Content\Mist\Characters\Creatures\Monkey\RupuNew\SingleRupu\RupuFirebrand\RupuLavaBombItem.uexp	d25dabfe

@@ -9,7 +9,7 @@ XCOPY /S /Y "%%f" "%client_git_path%\pmod\"
 del /q "%%f"
 XCOPY /S /Y ".\pack\template.sig" "%client_git_path%\pmod\"
 ren "%client_git_path%\pmod\template.sig" "%%~nf.sig"
-del /q "%client_git_path%\template.sig"
+del /q "%client_git_path%\pmod\template.sig"
 )
 
 del /q "%server_git_path%"
