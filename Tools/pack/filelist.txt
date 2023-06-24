@@ -1,1 +1,1 @@
-"..\pmod\pmod_QoL\*.*" "..\..\..\*.*"
+"..\pmod\pmod_StylizedEgypt\*.*" "..\..\..\*.*"
