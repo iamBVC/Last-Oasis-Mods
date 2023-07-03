@@ -1,5 +1,1 @@
-..\pmod\pmod_AncientEgypt
-..\pmod\pmod_BoomBoxSounds
-..\pmod\pmod_MechanicGirl
-..\pmod\pmod_Mods
-..\pmod\pmod_StylizedEgypt
+..\pmod\pmod_CanyonMap
