@@ -10,7 +10,9 @@
   "GlobalUEVersion": 518,
   "RefreshAssets": false,
   "DummyWithProps": false,
-  "SkipSerialization": [],
+  "SkipSerialization": [
+    16
+  ],
   "DummyAssets": [],
   "CircularDependency": [
     "/Script/Engine.SoundClass",

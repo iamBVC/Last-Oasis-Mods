@@ -2572,7 +2572,7 @@
 ..\pmod\pmod_ClanEmblems\Mist\Content\Mist\Materials\Textures\Patterns\99.uexp	61dfa8a4
 ..\pmod\pmod_ClanEmblems\Mist\Content\Mist\UI\Clans\ClanCreateDialog.uasset	23d10cd5
 ..\pmod\pmod_ClanEmblems\Mist\Content\Mist\UI\Clans\ClanCreateDialog.uexp	bc701e14
-..\pmod\pmod_Configs\Mist\AssetRegistry.bin	aee849b3
+..\pmod\pmod_Configs\Mist\AssetRegistry.bin	c69ed269
 ..\pmod\pmod_Configs\Mist\Config\DefaultEngine.ini	dc3051f3
 ..\pmod\pmod_Configs\Mist\Config\DefaultGame.ini	cd080c6b
 ..\pmod\pmod_Configs\Mist\Config\DefaultScalability.ini	d5d67090
@@ -4691,15 +4691,11 @@
 ..\pmod\pmod_StylizedEgypt\Mist\Content\StorePacks\Stylized_Egypt\Textures\stones_textures\T_stones_Normal.uexp	a3dae89e
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\LandscapeMaterial.uasset	f13a27c6
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\LandscapeMaterial.uexp	489542da
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\TestMap.uexp	def6f8c5
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\TestMap.umap	0bae9980
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Foliage\Test_FoliageSpawner.uasset	2f03deee
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Foliage\Test_FoliageSpawner.uexp	92c15a2f
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Foliage\Test_FoliageType.uasset	a6c9e6ed
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Foliage\Test_FoliageType.uexp	5e4de0eb
+..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\TestMap.uexp	06cfb964
+..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\TestMap.umap	f151f0af
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0.ubulk	b13d617d
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0.uexp	ff2f351f
-..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0.umap	4ca17042
+..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0.uexp	0c26f0a9
+..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0.umap	733d1b64
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0_sharedassets\Desert_04_LayerInfo.uasset	49592a66
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0_sharedassets\Desert_04_LayerInfo.uexp	20b49a95
 ..\pmod\pmod_TestMap\Mist\Content\Maps\TestMap\Levels\MistWorld_x0_y0_sharedassets\TextureSand_LayerInfo.uasset	222d290d
@@ -5244,7 +5240,7 @@
 ..\pmod\pmod_Worm\Mist\Content\Mist\Data\DamageTypes\WormImpactDamage.uasset	b0b4f093
 ..\pmod\pmod_Worm\Mist\Content\Mist\Data\DamageTypes\WormImpactDamage.uexp	933b3417
 ..\pmod\pmod_Worm\Mist\Content\Mist\Data\Poi\WormEventMapPoiSpawnInfo.uasset	9e610afb
-..\pmod\pmod_Worm\Mist\Content\Mist\Data\Poi\WormEventMapPoiSpawnInfo.uexp	f52e65de
+..\pmod\pmod_Worm\Mist\Content\Mist\Data\Poi\WormEventMapPoiSpawnInfo.uexp	bb5d7b35
 ..\pmod\pmod_Worm\Mist\Content\Mist\Logic\SceneControl\WeatherContainers\WC_WormMap.uasset	e4e97343
 ..\pmod\pmod_Worm\Mist\Content\Mist\Logic\SceneControl\WeatherContainers\WC_WormMap.uexp	0c54afa9
 ..\pmod\pmod_Worm\Mist\Content\Mist\Maps\EventMap_Worm\WormMap_Oases4D\WormMap_Oases4D.uexp	50142fe9
