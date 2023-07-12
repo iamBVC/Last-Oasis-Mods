@@ -1,0 +1,77 @@
+{
+  "/Script/Engine.BlueprintGeneratedClass": [
+    "/Mist/Props/Vehicles/WormWalker/8095_AssetLabel.uasset",
+    "/Mist/Props/Vehicles/WormWalker/WormWalker.uasset",
+    "/Mist/Props/Vehicles/WormWalker/WormWalkerWheel.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Construction/WormWalkerConstructionSite.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerLegs.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsDefault.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsFastLarge.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsFastMedium.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsFastSmall.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsHeavy1.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsHeavy2.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsSkirmish1.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/WormWalkerWingsSkirmish2.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerLegsConstruction.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerLegsConstructionArmored.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerLegsConstructionHeavy.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstruction.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionHeavy1.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionHeavy2.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionLarge.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionMedium.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionSkirmish1.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionSkirmish2.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Parts/Construction/WormWalkerWingsConstructionSmall.uasset"
+  ],
+  "/Script/Engine.CurveFloat": [
+    "/Mist/Props/Vehicles/WormWalker/WormWalkerFrictionVsSlipGraph.uasset",
+    "/Mist/Props/Vehicles/WormWalker/WormWalkerTorqueCurve.uasset"
+  ],
+  "/Script/Mist.WalkerContactConfig": [
+    "/Mist/Props/Vehicles/WormWalker/WormWalkerTireConfig.uasset"
+  ],
+  "/Script/Engine.Material": [
+    "/Mist/Props/Vehicles/WormWalker/Materials/M_Ivory.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Materials/M_WormWalker_01.uasset"
+  ],
+  "/Script/Engine.StaticMesh": [
+    "/Mist/Props/Vehicles/WormWalker/Meshes/SM_Wormwalker.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/SM_WormwalkerCollision.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/SM_Wormwalker_Buildable.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/SM_WormWalker_Flags.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/SM_Wormwalker_IgnorePlacement.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerBotomDeck.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerBottomDeckLeft.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerBottomDeckRight.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerCabinBraid.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerCabinDeck.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerCabinFrame.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerDeckStairs.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerLeftDeckStairs.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerMainDeckFloor.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerMainDeckFrame.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerRibs.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerRibsLower.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerUpperDeck.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerConstruction/SM_WormwalkerUpperDeckFrame.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerBottomDeck_R.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerDeck_03R.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerDeck_04.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerMainDeckBraid.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerMainDeckFrame.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerMiddleDeck.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerRibs.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerRibsLower.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Meshes/WormWalkerDestructable/WormWalkerDestructable_SM_WormwalkerRightDeckFrame.uasset"
+  ],
+  "/Script/Engine.Texture2D": [
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_Ivory_AO_R_MT.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_Ivory_D.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_Ivory_N.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_wormwalker_01_AO_R_MT.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_wormwalker_01_D.uasset",
+    "/Mist/Props/Vehicles/WormWalker/Textures/T_wormwalker_01_N.uasset"
+  ]
+}
