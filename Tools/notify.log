@@ -16,3 +16,509 @@ FTexturePlatformData<< <- UTexture2D::Serialize4 <- UTexture2D::Serialize <- Loa
 ERROR: Memory: bad allocation size 850932456 bytes
 appMalloc: size=850932456 (total=92 Mbytes) <- FArray::Empty: 35455519 x 24 <- TArray::Serialize: 0/0 <- FStaticMeshLODModel4<< <- TArray::Serialize: 2/6 <- UStaticMesh4::Serialize <- LoadObject: StaticMesh4'SM_AncientPillarSmall_Silver_C.SM_AncientPillarSmall_Silver_C', pos=2A2B8, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Nature/AncientCavernSet_II/Meshes/Baked_Silver/SM_AncientPillarSmall_Silver_C.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
 
+
+******** Loading object StaticMesh4'BlackElderMesh.BlackElderMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BlackElder/BlackElderMesh.BlackElderMesh
+
+******** Loading object StaticMesh4'BogMyrtleBush_02.BogMyrtleBush_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BogMyrtleBush_02/BogMyrtleBush_02.BogMyrtleBush_02
+
+******** Loading object StaticMesh4'ST_BroomSnakeweed.ST_BroomSnakeweed' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BroomSnakeweed/ST_BroomSnakeweed.ST_BroomSnakeweed
+
+******** Loading object StaticMesh4'ST_BroomSnakeweed_2.ST_BroomSnakeweed_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BroomSnakeweed/ST_BroomSnakeweed_2.ST_BroomSnakeweed_2
+
+******** Loading object StaticMesh4'ST_CatclawAcacia.ST_CatclawAcacia' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/CatlawAcacia/ST_CatclawAcacia.ST_CatclawAcacia
+
+******** Loading object StaticMesh4'ST_Cliffrose.ST_Cliffrose' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Cliffrose/ST_Cliffrose.ST_Cliffrose
+
+******** Loading object StaticMesh4'ST_Cliffrose_2.ST_Cliffrose_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Cliffrose/ST_Cliffrose_2.ST_Cliffrose_2
+
+******** Loading object StaticMesh4'SM_DesertBush_01.SM_DesertBush_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/DesertBush/SM_DesertBush_01.SM_DesertBush_01
+
+******** Loading object StaticMesh4'ST_Graythorn.ST_Graythorn' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Greythorn/ST_Graythorn.ST_Graythorn
+
+******** Loading object StaticMesh4'ST_Graythorn_2.ST_Graythorn_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Greythorn/ST_Graythorn_2.ST_Graythorn_2
+
+******** Loading object StaticMesh4'HazelMesh.HazelMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Hazel/HazelMesh.HazelMesh
+
+******** Loading object StaticMesh4'SM_Manzanita.SM_Manzanita' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Manzanita/SM_Manzanita.SM_Manzanita
+
+******** Loading object StaticMesh4'SM_Manzanita_01.SM_Manzanita_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Manzanita01/SM_Manzanita_01.SM_Manzanita_01
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak.ST_ShrubLiveOak' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak.ST_ShrubLiveOak
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak_2.ST_ShrubLiveOak_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak_2.ST_ShrubLiveOak_2
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak_3.ST_ShrubLiveOak_3' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak_3.ST_ShrubLiveOak_3
+
+******** Loading object StaticMesh4'SM_Skeleton_Pile_01.SM_Skeleton_Pile_01' ********
+
+ERROR: Memory: bad allocation size 678993768 bytes
+appMalloc: size=678993768 (total=198 Mbytes) <- FArray::Empty: 1102033231 x 24 <- TArray::Serialize: 0/0 <- FStaticMeshLODModel4<< <- TArray::Serialize: 2/6 <- UStaticMesh4::Serialize <- LoadObject: StaticMesh4'SM_Skeleton_Pile_01.SM_Skeleton_Pile_01', pos=2A708, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Nature/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_01.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
+
+******** Loading object StaticMesh4'BlackElderMesh.BlackElderMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BlackElder/BlackElderMesh.BlackElderMesh
+
+******** Loading object StaticMesh4'BogMyrtleBush_02.BogMyrtleBush_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BogMyrtleBush_02/BogMyrtleBush_02.BogMyrtleBush_02
+
+******** Loading object StaticMesh4'ST_BroomSnakeweed.ST_BroomSnakeweed' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BroomSnakeweed/ST_BroomSnakeweed.ST_BroomSnakeweed
+
+******** Loading object StaticMesh4'ST_BroomSnakeweed_2.ST_BroomSnakeweed_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/BroomSnakeweed/ST_BroomSnakeweed_2.ST_BroomSnakeweed_2
+
+******** Loading object StaticMesh4'ST_CatclawAcacia.ST_CatclawAcacia' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/CatlawAcacia/ST_CatclawAcacia.ST_CatclawAcacia
+
+******** Loading object StaticMesh4'ST_Cliffrose.ST_Cliffrose' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Cliffrose/ST_Cliffrose.ST_Cliffrose
+
+******** Loading object StaticMesh4'ST_Cliffrose_2.ST_Cliffrose_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Cliffrose/ST_Cliffrose_2.ST_Cliffrose_2
+
+******** Loading object StaticMesh4'SM_DesertBush_01.SM_DesertBush_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/DesertBush/SM_DesertBush_01.SM_DesertBush_01
+
+******** Loading object StaticMesh4'ST_Graythorn.ST_Graythorn' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Greythorn/ST_Graythorn.ST_Graythorn
+
+******** Loading object StaticMesh4'ST_Graythorn_2.ST_Graythorn_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Greythorn/ST_Graythorn_2.ST_Graythorn_2
+
+******** Loading object StaticMesh4'HazelMesh.HazelMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Hazel/HazelMesh.HazelMesh
+
+******** Loading object StaticMesh4'SM_Manzanita.SM_Manzanita' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Manzanita/SM_Manzanita.SM_Manzanita
+
+******** Loading object StaticMesh4'SM_Manzanita_01.SM_Manzanita_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/Manzanita01/SM_Manzanita_01.SM_Manzanita_01
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak.ST_ShrubLiveOak' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak.ST_ShrubLiveOak
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak_2.ST_ShrubLiveOak_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak_2.ST_ShrubLiveOak_2
+
+******** Loading object StaticMesh4'ST_ShrubLiveOak_3.ST_ShrubLiveOak_3' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Bushes/ShrubLiveOak/ST_ShrubLiveOak_3.ST_ShrubLiveOak_3
+
+******** Loading object StaticMesh4'SM_Skeleton_Pile_01.SM_Skeleton_Pile_01' ********
+
+ERROR: Memory: bad allocation size 678993768 bytes
+appMalloc: size=678993768 (total=49 Mbytes) <- FArray::Empty: 1102033231 x 24 <- TArray::Serialize: 0/0 <- FStaticMeshLODModel4<< <- TArray::Serialize: 2/6 <- UStaticMesh4::Serialize <- LoadObject: StaticMesh4'SM_Skeleton_Pile_01.SM_Skeleton_Pile_01', pos=2A708, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Nature/DeepElderCaves/Meshes/Props/SM_Skeleton_Pile_01.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
+
+******** Loading object StaticMesh4'CatTailMesh.CatTailMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Grass/CatTail/CatTailMesh.CatTailMesh
+
+******** Loading object StaticMesh4'grass02.grass02' ********
+
+ERROR: Memory: bad allocation size 1572683776 bytes
+appMalloc: size=1572683776 (total=24 Mbytes) <- FArray::Empty: 960313344 x 24 <- TArray::Serialize: 0/0 <- FStaticMeshLODModel4<< <- TArray::Serialize: 2/3 <- UStaticMesh4::Serialize <- LoadObject: StaticMesh4'grass02.grass02', pos=1707, ver=518/0 (unversioned), game=ue4.25 <- UObject::EndLoad <- LoadWholePackage: Mist/Content/Mist/Props/Nature/Grass/GrassPack/Meshes/grass02.uasset <- ExportPackages <- UIMenuItem::HandleCommand <- UIMenu::Popup <- UIBaseDialog::WndProc <- UIBaseDialog::CustomMessageLoop <- UIBaseDialog::ShowDialog: modal=1, title="Choose a package to open" <- CUmodelApp::ShowPackageUI <- Main: umodel_build=1576
+
+
+******** Loading object StaticMesh4'SmallBranchMesh.SmallBranchMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/GroundDebris/SmallBranch/SmallBranchMesh.SmallBranchMesh
+
+******** Loading object StaticMesh4'SM_Stump.SM_Stump' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/GroundDebris/TreeStumps/SM_Stump.SM_Stump
+
+******** Loading object StaticMesh4'SM_Stump_Root_Burnt.SM_Stump_Root_Burnt' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/GroundDebris/TreeStumps/SM_Stump_Root_Burnt.SM_Stump_Root_Burnt
+
+******** Loading object StaticMesh4'SM_Stumpy_Growt.SM_Stumpy_Growt' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/GroundDebris/TreeStumps/SM_Stumpy_Growt.SM_Stumpy_Growt
+
+******** Loading object StaticMesh4'VineBushyMesh.VineBushyMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/GroundDebris/Vines/VineBushyMesh.VineBushyMesh
+
+******** Loading object StaticMesh4'BurntTreeMesh.BurntTreeMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Misc/BurntTree/BurntTreeMesh.BurntTreeMesh
+
+******** Loading object StaticMesh4'SM_Acacia_01.SM_Acacia_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Acacia/AcaciaField/SM_Acacia_01.SM_Acacia_01
+
+******** Loading object StaticMesh4'SM_Acacia_02.SM_Acacia_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Acacia/AcaciaFieldRound/SM_Acacia_02.SM_Acacia_02
+
+******** Loading object StaticMesh4'AcaciaLorne_Desktop_Forest.AcaciaLorne_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Acacia/AcaciaForest/AcaciaLorne_Desktop_Forest.AcaciaLorne_Desktop_Forest
+
+******** Loading object StaticMesh4'AcaciaLorne_Sapling.AcaciaLorne_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Acacia/AcaciaSapling/AcaciaLorne_Sapling.AcaciaLorne_Sapling
+
+******** Loading object StaticMesh4'SM_Aleppo_Pine_01.SM_Aleppo_Pine_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineCoastal/SM_Aleppo_Pine_01.SM_Aleppo_Pine_01
+
+******** Loading object StaticMesh4'PineLorne_Aleppo_Desktop_3_Field.PineLorne_Aleppo_Desktop_3_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineField/PineLorne_Aleppo_Desktop_3_Field.PineLorne_Aleppo_Desktop_3_Field
+
+******** Loading object StaticMesh4'PineLorne_Aleppo_Desktop_1_Forest.PineLorne_Aleppo_Desktop_1_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineForestBentTrunk/PineLorne_Aleppo_Desktop_1_Forest.PineLorne_Aleppo_Desktop_1_Forest
+
+******** Loading object StaticMesh4'PineLorne_Aleppo_Desktop_2_Forest.PineLorne_Aleppo_Desktop_2_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineForestFull/PineLorne_Aleppo_Desktop_2_Forest.PineLorne_Aleppo_Desktop_2_Forest
+
+******** Loading object StaticMesh4'PineLorne_Aleppo_Desktop_5_Forest.PineLorne_Aleppo_Desktop_5_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineForestSparseBase/PineLorne_Aleppo_Desktop_5_Forest.PineLorne_Aleppo_Desktop_5_Forest
+
+******** Loading object StaticMesh4'PineLorne_Aleppo_Sapling.PineLorne_Aleppo_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1AleppoPine/AleppoPineSapling/PineLorne_Aleppo_Sapling.PineLorne_Aleppo_Sapling
+
+******** Loading object StaticMesh4'AppleLorne_Desktop_Field.AppleLorne_Desktop_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Apple/AppleField/AppleLorne_Desktop_Field.AppleLorne_Desktop_Field
+
+******** Loading object StaticMesh4'AppleLorne_Desktop_Forest.AppleLorne_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Apple/AppleForest/AppleLorne_Desktop_Forest.AppleLorne_Desktop_Forest
+
+******** Loading object StaticMesh4'AppleLorne_Sapling.AppleLorne_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Apple/AppleSapling/AppleLorne_Sapling.AppleLorne_Sapling
+
+******** Loading object StaticMesh4'AppleLorne_Seedling.AppleLorne_Seedling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Apple/AppleSeedling/AppleLorne_Seedling.AppleLorne_Seedling
+
+******** Loading object StaticMesh4'BeechLorne_Weeping_Desktop_1.BeechLorne_Weeping_Desktop_1' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1BeechWeeping/BeechWeeping_01/BeechLorne_Weeping_Desktop_1.BeechLorne_Weeping_Desktop_1
+
+******** Loading object StaticMesh4'BeechLorne_Weeping_Desktop_2.BeechLorne_Weeping_Desktop_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1BeechWeeping/BeechWeeping_02/BeechLorne_Weeping_Desktop_2.BeechLorne_Weeping_Desktop_2
+
+******** Loading object StaticMesh4'BeechLorne_Weeping_Sapling.BeechLorne_Weeping_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1BeechWeeping/BeechWeepingSapling_03/BeechLorne_Weeping_Sapling.BeechLorne_Weeping_Sapling
+
+******** Loading object StaticMesh4'Dogwood_Field.Dogwood_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Dogwood/Field/Dogwood_Field.Dogwood_Field
+
+******** Loading object StaticMesh4'Dogwood_Forest.Dogwood_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Dogwood/Forest/Dogwood_Forest.Dogwood_Forest
+
+******** Loading object StaticMesh4'Dogwood_Sapling_01.Dogwood_Sapling_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Dogwood/Sapling_01/Dogwood_Sapling_01.Dogwood_Sapling_01
+
+******** Loading object StaticMesh4'Dogwood_Sapling_02.Dogwood_Sapling_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Dogwood/Sapling_02/Dogwood_Sapling_02.Dogwood_Sapling_02
+
+******** Loading object StaticMesh4'SM_Shagbark_Hickory.SM_Shagbark_Hickory' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1HickoryShagbark/Field/SM_Shagbark_Hickory.SM_Shagbark_Hickory
+
+******** Loading object StaticMesh4'SM_Shagbark_Hickory.SM_Shagbark_Hickory' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1HickoryShagbark/Forest/SM_Shagbark_Hickory.SM_Shagbark_Hickory
+
+******** Loading object StaticMesh4'Shagbark__Hickory_Sapling.Shagbark__Hickory_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1HickoryShagbark/Sapling/Shagbark__Hickory_Sapling.Shagbark__Hickory_Sapling
+
+******** Loading object StaticMesh4'SM_Hickory_Pignut_01.SM_Hickory_Pignut_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1HickoyPignut/Field/SM_Hickory_Pignut_01.SM_Hickory_Pignut_01
+
+******** Loading object StaticMesh4'Juniper_RockyMountain_Forest_Desktop.Juniper_RockyMountain_Forest_Desktop' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1JuniperRockyMountain/Forest/Juniper_RockyMountain_Forest_Desktop.Juniper_RockyMountain_Forest_Desktop
+
+******** Loading object StaticMesh4'Maple_Sugar_Desktop_Forest_2_Full.Maple_Sugar_Desktop_Forest_2_Full' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1MapleSugar/Full/Maple_Sugar_Desktop_Forest_2_Full.Maple_Sugar_Desktop_Forest_2_Full
+
+******** Loading object StaticMesh4'Maple_Sugar_Desktop_Forest_1_Narrow.Maple_Sugar_Desktop_Forest_1_Narrow' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1MapleSugar/Narrow/Maple_Sugar_Desktop_Forest_1_Narrow.Maple_Sugar_Desktop_Forest_1_Narrow
+
+******** Loading object StaticMesh4'Maple_Sugar_Sapling_1.Maple_Sugar_Sapling_1' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1MapleSugar/Sapling1/Maple_Sugar_Sapling_1.Maple_Sugar_Sapling_1
+
+******** Loading object StaticMesh4'Maple_Sugar_Sapling_1_Narrow.Maple_Sugar_Sapling_1_Narrow' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1MapleSugar/Sapling2/Maple_Sugar_Sapling_1_Narrow.Maple_Sugar_Sapling_1_Narrow
+
+******** Loading object StaticMesh4'Oak_Holm_Desktop_1_Field.Oak_Holm_Desktop_1_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakHolm/Field/Oak_Holm_Desktop_1_Field.Oak_Holm_Desktop_1_Field
+
+******** Loading object StaticMesh4'Oak_Holm_Desktop_3_Forest.Oak_Holm_Desktop_3_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakHolm/Forest/Oak_Holm_Desktop_3_Forest.Oak_Holm_Desktop_3_Forest
+
+******** Loading object StaticMesh4'Oak_Holm_Sapling_1.Oak_Holm_Sapling_1' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakHolm/Sapling1/Oak_Holm_Sapling_1.Oak_Holm_Sapling_1
+
+******** Loading object StaticMesh4'Oak_Holm_Sapling_2.Oak_Holm_Sapling_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakHolm/Sapling2/Oak_Holm_Sapling_2.Oak_Holm_Sapling_2
+
+******** Loading object StaticMesh4'Oak_White_Desktop_Forest.Oak_White_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakWhiteCorrected/Forest/Oak_White_Desktop_Forest.Oak_White_Desktop_Forest
+
+******** Loading object StaticMesh4'Oak_White_Desktop_Field_2.Oak_White_Desktop_Field_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakWhiteCorrected/Medium/Oak_White_Desktop_Field_2.Oak_White_Desktop_Field_2
+
+******** Loading object StaticMesh4'Oak_White_Desktop_Field_1.Oak_White_Desktop_Field_1' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakWhiteCorrected/Thick/Oak_White_Desktop_Field_1.Oak_White_Desktop_Field_1
+
+******** Loading object StaticMesh4'Oak_White_Desktop_Field_3.Oak_White_Desktop_Field_3' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1OakWhiteCorrected/Thin/Oak_White_Desktop_Field_3.Oak_White_Desktop_Field_3
+
+******** Loading object StaticMesh4'SM_Pine_Eastern_White_01.SM_Pine_Eastern_White_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1PineEasternWhite/Pine_Eastern_White_01/SM_Pine_Eastern_White_01.SM_Pine_Eastern_White_01
+
+******** Loading object StaticMesh4'SM_Pine_Eastern_White_02.SM_Pine_Eastern_White_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1PineEasternWhite/Pine_Eastern_White_02/SM_Pine_Eastern_White_02.SM_Pine_Eastern_White_02
+
+******** Loading object StaticMesh4'SM_Pine_Eastern_White_Sapling_03.SM_Pine_Eastern_White_Sapling_03' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1PineEasternWhite/Pine_Eastern_White_03/SM_Pine_Eastern_White_Sapling_03.SM_Pine_Eastern_White_Sapling_03
+
+******** Loading object StaticMesh4'Pine_Eastern_White_Seedling.Pine_Eastern_White_Seedling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1PineEasternWhite/PineEasternWhite_Seedling/Pine_Eastern_White_Seedling.Pine_Eastern_White_Seedling
+
+******** Loading object StaticMesh4'MapleLorne_Red_Desktop_1_Forest_Filler.MapleLorne_Red_Desktop_1_Forest_Filler' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RedMaple/RedMapleFiller1/MapleLorne_Red_Desktop_1_Forest_Filler.MapleLorne_Red_Desktop_1_Forest_Filler
+
+******** Loading object StaticMesh4'MapleLorne_Red_Desktop_02_Forest_Filler.MapleLorne_Red_Desktop_02_Forest_Filler' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RedMaple/RedMapleFiller2/MapleLorne_Red_Desktop_02_Forest_Filler.MapleLorne_Red_Desktop_02_Forest_Filler
+
+******** Loading object StaticMesh4'RedwoodLorne_Sierra_Desktop_Field.RedwoodLorne_Sierra_Desktop_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Redwood/RedwoodDesktopField/RedwoodLorne_Sierra_Desktop_Field.RedwoodLorne_Sierra_Desktop_Field
+
+******** Loading object StaticMesh4'Redwood_Sierra_Desktop_Forest.Redwood_Sierra_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Redwood/RedwoodDesktopForest/Redwood_Sierra_Desktop_Forest.Redwood_Sierra_Desktop_Forest
+
+******** Loading object StaticMesh4'RedwoodLorne_Sierra_Sapling.RedwoodLorne_Sierra_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Redwood/RedwoodSapling/RedwoodLorne_Sierra_Sapling.RedwoodLorne_Sierra_Sapling
+
+******** Loading object StaticMesh4'Birch_River_Desktop_1_Field.Birch_River_Desktop_1_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RiverBirch/RiverBirch_Desktop_Field/Birch_River_Desktop_1_Field.Birch_River_Desktop_1_Field
+
+******** Loading object StaticMesh4'Birch_River_Desktop_2_Forest.Birch_River_Desktop_2_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RiverBirch/RiverBirch_Desktop_Forest/Birch_River_Desktop_2_Forest.Birch_River_Desktop_2_Forest
+
+******** Loading object StaticMesh4'Birch_River_Sapling.Birch_River_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RiverBirch/RiverBirch_Sapling/Birch_River_Sapling.Birch_River_Sapling
+
+******** Loading object StaticMesh4'RubberTree.RubberTree' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RubberTree/Adult1/RubberTree.RubberTree
+
+******** Loading object StaticMesh4'RubberTree_2.RubberTree_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RubberTree/Adult2/RubberTree_2.RubberTree_2
+
+******** Loading object StaticMesh4'RubberTree_3.RubberTree_3' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RubberTree/Adult3/RubberTree_3.RubberTree_3
+
+******** Loading object StaticMesh4'RubberTree_4.RubberTree_4' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1RubberTree/Sapling1/RubberTree_4.RubberTree_4
+
+******** Loading object StaticMesh4'Spruce_Norway_Desktop_1_Field.Spruce_Norway_Desktop_1_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceNorway/Field/Spruce_Norway_Desktop_1_Field.Spruce_Norway_Desktop_1_Field
+
+******** Loading object StaticMesh4'Spruce_Norway_Desktop_1_Forest.Spruce_Norway_Desktop_1_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceNorway/Forest1/Spruce_Norway_Desktop_1_Forest.Spruce_Norway_Desktop_1_Forest
+
+******** Loading object StaticMesh4'Spruce_NorwayWormsilk_00.Spruce_NorwayWormsilk_00' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceNorway/Forest1/Spruce_NorwayWormsilk_00.Spruce_NorwayWormsilk_00
+
+******** Loading object StaticMesh4'Spruce_Norway_Desktop_2_Forest.Spruce_Norway_Desktop_2_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceNorway/Forest2/Spruce_Norway_Desktop_2_Forest.Spruce_Norway_Desktop_2_Forest
+
+******** Loading object StaticMesh4'Spruce_Norway_Sapling.Spruce_Norway_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceNorway/Sapling/Spruce_Norway_Sapling.Spruce_Norway_Sapling
+
+******** Loading object StaticMesh4'Spruce_White_Desktop_Field.Spruce_White_Desktop_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceWhite/Field/Spruce_White_Desktop_Field.Spruce_White_Desktop_Field
+
+******** Loading object StaticMesh4'Spruce_White_Desktop_Forest.Spruce_White_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SpruceWhite/Forest/Spruce_White_Desktop_Forest.Spruce_White_Desktop_Forest
+
+******** Loading object StaticMesh4'Sweetgum_Desktop_1_Field.Sweetgum_Desktop_1_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Sweetgum/1/Sweetgum_Desktop_1_Field.Sweetgum_Desktop_1_Field
+
+******** Loading object StaticMesh4'Sweetgum_Desktop_2_Field.Sweetgum_Desktop_2_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Sweetgum/2/Sweetgum_Desktop_2_Field.Sweetgum_Desktop_2_Field
+
+******** Loading object StaticMesh4'SweetGum_Desktop_Forest.SweetGum_Desktop_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Sweetgum/3/SweetGum_Desktop_Forest.SweetGum_Desktop_Forest
+
+******** Loading object StaticMesh4'SweetGum_Sapling.SweetGum_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1Sweetgum/Sapling/SweetGum_Sapling.SweetGum_Sapling
+
+******** Loading object StaticMesh4'SM_Sycamore_American_Desktop_Twisted.SM_Sycamore_American_Desktop_Twisted' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SycamoreAmerican/SycamoreAmerican_Desktop_Twisted/SM_Sycamore_American_Desktop_Twisted.SM_Sycamore_American_Desktop_Twisted
+
+******** Loading object StaticMesh4'SM_Sycamore_American_Desktop_TwistedTall.SM_Sycamore_American_Desktop_TwistedTall' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1SycamoreAmerican/SycamoreAmerican_Desktop_Twisted/SM_Sycamore_American_Desktop_TwistedTall.SM_Sycamore_American_Desktop_TwistedTall
+
+******** Loading object StaticMesh4'ST_VelvetMesquite_3.ST_VelvetMesquite_3' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1VelvetMesquite/C/ST_VelvetMesquite_3.ST_VelvetMesquite_3
+
+******** Loading object StaticMesh4'SM_White_Birch_Forest.SM_White_Birch_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1WhiteBirch/WhiteBirchDesktopForest/SM_White_Birch_Forest.SM_White_Birch_Forest
+
+******** Loading object StaticMesh4'BirchLorne_Paper_Sapling_2.BirchLorne_Paper_Sapling_2' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/1WhiteBirch/WhiteBirchSeedling/BirchLorne_Paper_Sapling_2.BirchLorne_Paper_Sapling_2
+
+******** Loading object StaticMesh4'SM_FOL_Palm_Yucca_Hero.SM_FOL_Palm_Yucca_Hero' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/Canyon/Yucca/SM_FOL_Palm_Yucca_Hero.SM_FOL_Palm_Yucca_Hero
+
+******** Loading object StaticMesh4'SM_FOL_Palm_Yucca_Sapling.SM_FOL_Palm_Yucca_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/Canyon/Yucca/SM_FOL_Palm_Yucca_Sapling.SM_FOL_Palm_Yucca_Sapling
+
+******** Loading object StaticMesh4'SM_FOL_Palm_Yucca_Seedling.SM_FOL_Palm_Yucca_Seedling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/Canyon/Yucca/SM_FOL_Palm_Yucca_Seedling.SM_FOL_Palm_Yucca_Seedling
+
+******** Loading object StaticMesh4'SM_RainbowGumMesh.SM_RainbowGumMesh' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/RainbowGum/SM_RainbowGumMesh.SM_RainbowGumMesh
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_01.SM_TasmanianGumTree_01' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_01.SM_TasmanianGumTree_01
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_02.SM_TasmanianGumTree_02' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_02.SM_TasmanianGumTree_02
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_03.SM_TasmanianGumTree_03' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_03.SM_TasmanianGumTree_03
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_04.SM_TasmanianGumTree_04' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_04.SM_TasmanianGumTree_04
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_05.SM_TasmanianGumTree_05' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_05.SM_TasmanianGumTree_05
+
+******** Loading object StaticMesh4'SM_TasmanianGumTree_06.SM_TasmanianGumTree_06' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/TasmanianGumTree/SM_TasmanianGumTree_06.SM_TasmanianGumTree_06
+
+******** Loading object StaticMesh4'SM_FOL_Willow_Peppermint_Field.SM_FOL_Willow_Peppermint_Field' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/WillowPeppermint/SM_FOL_Willow_Peppermint_Field.SM_FOL_Willow_Peppermint_Field
+
+******** Loading object StaticMesh4'SM_FOL_Willow_Peppermint_Forest.SM_FOL_Willow_Peppermint_Forest' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/WillowPeppermint/SM_FOL_Willow_Peppermint_Forest.SM_FOL_Willow_Peppermint_Forest
+
+******** Loading object StaticMesh4'SM_FOL_Willow_Peppermint_Sapling.SM_FOL_Willow_Peppermint_Sapling' ********
+
+Dropping SpeedTree and material data for StaticMesh Mist/Content/Mist/Props/Nature/Trees/WillowPeppermint/SM_FOL_Willow_Peppermint_Sapling.SM_FOL_Willow_Peppermint_Sapling

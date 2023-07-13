@@ -1,7 +1,9 @@
 {
   "ContentDir": "..\\Last_Oasis_Client\\Mist\\Content",
   "AssetRegistry": "..\\Last_Oasis_Client\\Mist\\AssetRegistry.bin",
-  "ParseDir": [],
+  "ParseDir": [
+    "."
+  ],
   "JSONDir": ".\\RES",
   "CookedDir": "C:\\Users\\Brian\\Desktop\\UEAssetToolkitGeneratorv0.1.2",
   "FromDir": "C:\\Users\\Brian\\Desktop\\UEAssetToolkitGeneratorv0.1.2",
@@ -11,7 +13,17 @@
   "RefreshAssets": false,
   "DummyWithProps": false,
   "SkipSerialization": [
-    16
+    0,
+    2,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    27,
+    -1
   ],
   "DummyAssets": [],
   "CircularDependency": [
