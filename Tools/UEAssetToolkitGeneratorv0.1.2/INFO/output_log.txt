@@ -1,0 +1,1060 @@
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Normal_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Fronds_Mat.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\MI_CatTail_Branches_Mat_NoWPO.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Billboards_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Branches_Mat.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrass_Atlas_Billboards_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\MI_CatTail_Leaves_Mat_NoWPO.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CattailStalkDetail_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailMesh.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\FlowerStem_01_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Billboards_Normal_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\FlowerStem_01_Normal_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Leaves_Mat.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Billboard_Mat.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrass_Atlas_Billboards_Normal_Tex.uasset
+2023-07-16 01:40:04.923 [Serialize Assets]: 0/17 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrassMesh_Billboard_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrassMesh_Billboard_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Branches_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Fronds_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Leaves_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\MI_CatTail_Leaves_Mat_NoWPO.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Billboard_Mat.uasset
+2023-07-16 01:40:04.941 [Serialize Assets]: 0/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\MI_CatTail_Branches_Mat_NoWPO.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailMesh.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\FlowerStem_01_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Billboards_Normal_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Billboards_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrass_Atlas_Billboards_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\FlowerStem_01_Normal_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTail_Atlas_Normal_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CattailStalkDetail_Tex.uasset
+2023-07-16 01:40:04.942 [Serialize Assets]: 1/17 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\CatTail\CatTailGrass_Atlas_Billboards_Normal_Tex.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\7166_AssetLabel.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_01_NoWPO.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_01.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_03.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_03_NoWPO.uasset
+2023-07-16 01:40:34.129 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_04.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\7166_AssetLabel.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_04_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_01.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_01_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_03.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_03_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_04.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05a.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_04_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05a_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_06.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_06_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_07.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05a.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05a_NoWPO.uasset
+2023-07-16 01:40:34.130 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_05_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08a.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08a_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_06.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_06_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08_Burn.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_07.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_09.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Meadow.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08a.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08a_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Meadow_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08_Burn.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_01.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_01a.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_08_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Clump_09.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Meadow.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\MI_FOL_Grass_Meadow_NoWPO.uasset
+2023-07-16 01:40:34.131 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_01a.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 0/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_01.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_02.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_03.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_04.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_06.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_07.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_10.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_02.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_03.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_10a.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_11.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_04.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_12.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_06.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_07.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_13.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_10.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Meadow_01.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_10a.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Meadow_02.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_D.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_11.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_12.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_N_SS_R.uasset
+2023-07-16 01:40:34.132 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Clump_13.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_Variety.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_02_N_SS_R.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Meadow_01.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_09_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\SM_FOL_Grass_Meadow_02.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_N_SS_R.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_09_N.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10a_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_GrassClump_01_Variety.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_02_N_SS_R.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_09_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_N.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_09_N.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_N_SS_R.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_11_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10a_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_11_N.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_N.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_11_D.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_10_N_SS_R.uasset
+2023-07-16 01:40:34.133 [Serialize Assets]: 24/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Clump_11_N.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Hay_D.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_meadow_D.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_meadow_N_SS_R.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_GrassPatchVariation_M.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_GrassPatch_02_D.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_Hay_D.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 48/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_meadow_D.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 50/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_FOL_Grass_meadow_N_SS_R.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 50/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_GrassPatchVariation_M.uasset
+2023-07-16 01:40:34.134 [Serialize Assets]: 50/53 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Grass\Common\T_GrassPatch_02_D.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\RibCage\SM_RibParent.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\LavaPlane.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\M_DebugWaterDepth.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\SulfurWaterPlane.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\WaterPlane.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\M_DebugWaterDepth.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\SulfurWaterPlane.uasset
+2023-07-16 01:40:44.955 [Serialize Assets]: 0/5 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\WaterPlane.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\8066_AssetLabel.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Apple\M_Apple.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Apple\SM_Apple.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTreeMesh.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Atlas_Billboards_Normal_Tex.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\8066_AssetLabel.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Atlas_Billboards_Tex.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Apple\M_Apple.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Apple\SM_Apple.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Atlas_Normal_Tex.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Atlas_Tex.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Billboard_Mat.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Branches_2_Mat.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Branches_Mat.uasset
+2023-07-16 01:40:59.001 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntTree_Fronds_Mat.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntWood_Detail_Tex.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntWood_Normal_Tex.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\BurntWood_Tex.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\BurntTree\M_BurntTree_Branches_Particles.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\JackoCactusFruit_M.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\MI_JackoCactusFruit2.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\SM_CactusJackoFruit2.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\SM_FruitCactusMedium.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\SM_FruitCactusMediumTwo.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\SM_FruitCactusTall.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Flies\fliesMesh.uasset
+2023-07-16 01:40:59.002 [Serialize Assets]: 0/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Flies\flies_Atlas_Normal_Tex.uasset
+2023-07-16 01:40:59.460 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Flies\flies_Atlas_Tex.uasset
+2023-07-16 01:40:59.465 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Flies\flies_Leaves_Mat.uasset
+2023-07-16 01:40:59.466 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\RibCage\SM_RibParent.uasset
+2023-07-16 01:40:59.466 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\TempPinecone\SM_PineconeTemp.uasset
+2023-07-16 01:40:59.466 [Serialize Assets]: 24/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\RibCage\SM_RibParent.uasset
+2023-07-16 01:40:59.467 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\M_ThornBerry.uasset
+2023-07-16 01:40:59.474 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\M_ThornBush2.uasset
+2023-07-16 01:40:59.485 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_001.uasset
+2023-07-16 01:40:59.504 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_002.uasset
+2023-07-16 01:40:59.532 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_003.uasset
+2023-07-16 01:40:59.563 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_004.uasset
+2023-07-16 01:40:59.601 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_005.uasset
+2023-07-16 01:40:59.621 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_006.uasset
+2023-07-16 01:40:59.650 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_007.uasset
+2023-07-16 01:40:59.692 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbLeaves_008.uasset
+2023-07-16 01:40:59.731 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbSeed_001.uasset
+2023-07-16 01:40:59.765 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbSeed_002.uasset
+2023-07-16 01:40:59.800 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbSeed_003.uasset
+2023-07-16 01:40:59.816 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbSeed_004.uasset
+2023-07-16 01:40:59.841 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbSeed_005.uasset
+2023-07-16 01:40:59.881 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_CactusBulbStem.uasset
+2023-07-16 01:40:59.924 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\SM_ThornBerry.uasset
+2023-07-16 01:40:59.930 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\thorn_bush2_roughness.uasset
+2023-07-16 01:40:59.941 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\thorn_bush_opacity.uasset
+2023-07-16 01:41:00.008 [Serialize Assets]: 24/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush2_D.uasset
+2023-07-16 01:41:07.339 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush_AO.uasset
+2023-07-16 01:41:07.375 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush_C.uasset
+2023-07-16 01:41:07.375 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush_D.uasset
+2023-07-16 01:41:07.385 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush_MT.uasset
+2023-07-16 01:41:07.399 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\ThornBush\T_ThornBush_N.uasset
+2023-07-16 01:41:07.429 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\LavaPlane.uasset
+2023-07-16 01:41:07.432 [Serialize Assets]: 48/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\LavaPlane.uasset
+2023-07-16 01:41:07.449 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\M_DebugWaterDepth.uasset
+2023-07-16 01:41:07.451 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\SulfurWaterPlane.uasset
+2023-07-16 01:41:07.488 [Serialize Assets]: 48/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\SulfurWaterPlane.uasset
+2023-07-16 01:41:07.489 [Serialize Assets]: 48/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\M_DebugWaterDepth.uasset
+2023-07-16 01:41:07.494 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\WaterPlane.uasset
+2023-07-16 01:41:07.499 [Serialize Assets]: 48/71 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\Water\WaterPlane.uasset
+2023-07-16 01:41:07.510 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\Cactus_T_Test\T_01_CFruit2_D.uasset
+2023-07-16 01:41:07.518 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\Cactus_T_Test\T_01_CFruit_N.uasset
+2023-07-16 01:41:07.540 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\Cactus_T_Test\T_01_CFruit_T.uasset
+2023-07-16 01:41:07.557 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\Cactus_T_Test\T_JackoCactusFruit2_AO_R_M.uasset
+2023-07-16 01:41:07.621 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Materials\M_CactusFruit.uasset
+2023-07-16 01:41:07.632 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Materials\M_FinalCactus2.uasset
+2023-07-16 01:41:07.641 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Meshes\SM_FinalCactusFruit.uasset
+2023-07-16 01:41:07.642 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\5029_AssetLabel.uasset
+2023-07-16 01:41:07.661 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactus2_AO_R_MT.uasset
+2023-07-16 01:41:07.683 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactus2_D.uasset
+2023-07-16 01:41:07.705 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactus2_N.uasset
+2023-07-16 01:41:07.711 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactusFruit_AO_R_MT.uasset
+2023-07-16 01:41:07.725 [Serialize Assets]: 48/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactusFruit_D.uasset
+2023-07-16 01:41:07.739 [Serialize Assets]: 3/71 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Misc\CactusHero\FinalCactus\Textures\T_FinalCactusFruit_N.uasset
+2023-07-16 01:42:09.911 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\7066_AssetLabel.uasset
+2023-07-16 01:42:09.911 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Maps\7067_AssetLabel.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Materials\MI_flower_common_Saint_Johns_wort_01.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Materials\MI_Maple_leaves.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Materials\M_Bush.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Materials\M_Grass_Material.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Meshes\SM_flower_common_Saint_John_s_wort_01_cross.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Meshes\SM_maple_bush_01.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Meshes\SM_maple_bush_02.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Meshes\SM_maple_bush_03.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Meshes\SM_maple_bush_04.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\5026_AssetLabel.uasset
+2023-07-16 01:42:09.912 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_detail_meadow_grass_01_BC_M.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_detail_meadow_grass_01_MT_R_AO.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_detail_meadow_grass_01_N.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_flower_common_Saint_John_s_wort_01_BC_M.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_flower_common_Saint_John_s_wort_01_MT_R_AO.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_flower_common_Saint_John_s_wort_01_N.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_Grey_willow_BC_M.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_Grey_willow_MT_R_AO.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_Grey_willow_N.uasset
+2023-07-16 01:42:09.913 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_maple_bush_BC_M.uasset
+2023-07-16 01:42:09.914 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_maple_bush_MT_R_AO.uasset
+2023-07-16 01:42:09.914 [Serialize Assets]: 0/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_maple_bush_N.uasset
+2023-07-16 01:42:11.885 [Serialize Assets]: 24/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Foliage\Textures\T_Perlin_Noise_M.uasset
+2023-07-16 01:42:11.885 [Serialize Assets]: 24/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Landscape\Textures\5027_AssetLabel.uasset
+2023-07-16 01:42:11.885 [Serialize Assets]: 8/27 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Nature\Meadow_Environment_Set\Environment\Rocks\Textures\5028_AssetLabel.uasset
+2023-07-16 01:42:32.543 [Scan AR]: Succefully read Asset Registry
+2023-07-16 01:42:33.241 [Scan]: 1/680 /Game/Mist/Props/Parts/SM_TransparentCube.uasset
+2023-07-16 01:42:33.261 [Scan]: 2/680 /Game/Mist/Props/Parts/Anvil/M_WoodRough.uasset
+2023-07-16 01:42:33.265 [Scan]: 3/680 /Game/Mist/Props/Parts/Anvil/T_WoodRough_AO_R_M_TGA.uasset
+2023-07-16 01:42:33.279 [Scan]: 4/680 /Game/Mist/Props/Parts/Anvil/T_WoodRough_D.uasset
+2023-07-16 01:42:33.291 [Scan]: 5/680 /Game/Mist/Props/Parts/Anvil/T_WoodRough_M.uasset
+2023-07-16 01:42:33.305 [Scan]: 6/680 /Game/Mist/Props/Parts/Anvil/T_WoodRough_N.uasset
+2023-07-16 01:42:33.308 [Scan]: 7/680 /Game/Mist/Props/Parts/Anvil/T_WoodRough_R.uasset
+2023-07-16 01:42:33.318 [Scan]: 8/680 /Game/Mist/Props/Parts/Barrel/M_Barrel.uasset
+2023-07-16 01:42:33.329 [Scan]: 9/680 /Game/Mist/Props/Parts/Barrel/SM_Barrel.uasset
+2023-07-16 01:42:33.333 [Scan]: 10/680 /Game/Mist/Props/Parts/Barrel/T_Barrel_D.uasset
+2023-07-16 01:42:33.341 [Scan]: 11/680 /Game/Mist/Props/Parts/Barrel/T_Barrel_N.uasset
+2023-07-16 01:42:33.352 [Scan]: 12/680 /Game/Mist/Props/Parts/Barrel/T_Barrel_R.uasset
+2023-07-16 01:42:33.371 [Scan]: 13/680 /Game/Mist/Props/Parts/Basket/8077_AssetLabel.uasset
+2023-07-16 01:42:33.380 [Scan]: 14/680 /Game/Mist/Props/Parts/CustomBarrels/SM_BarrelBones_01.uasset
+2023-07-16 01:42:33.393 [Scan]: 15/680 /Game/Mist/Props/Parts/CustomBarrels/SM_BarrelBones_02.uasset
+2023-07-16 01:42:33.397 [Scan]: 16/680 /Game/Mist/Props/Parts/CustomBarrels/SM_PimpingBarrel_01.uasset
+2023-07-16 01:42:33.400 [Scan]: 17/680 /Game/Mist/Props/Parts/CustomBarrels/SM_PimpingBasket_01.uasset
+2023-07-16 01:42:33.407 [Scan]: 18/680 /Game/Mist/Props/Parts/DryingRack/M_DryingRack.uasset
+2023-07-16 01:42:33.416 [Scan]: 19/680 /Game/Mist/Props/Parts/DryingRack/T_DryingRack_D.uasset
+2023-07-16 01:42:33.424 [Scan]: 20/680 /Game/Mist/Props/Parts/DryingRack/T_DryingRack_H.uasset
+2023-07-16 01:42:33.427 [Scan]: 21/680 /Game/Mist/Props/Parts/DryingRack/T_DryingRack_N.uasset
+2023-07-16 01:42:33.433 [Scan]: 22/680 /Game/Mist/Props/Parts/DryingRack/T_DryingRack_S.uasset
+2023-07-16 01:42:33.437 [Scan]: 23/680 /Game/Mist/Props/Parts/Fence/M_Fence.uasset
+2023-07-16 01:42:33.441 [Scan]: 24/680 /Game/Mist/Props/Parts/Fence/M_Fence_01.uasset
+2023-07-16 01:42:33.444 [Scan]: 25/680 /Game/Mist/Props/Parts/Fence/SM_Fence_01.uasset
+2023-07-16 01:42:33.456 [Scan]: 26/680 /Game/Mist/Props/Parts/Fence/SM_Fence_02.uasset
+2023-07-16 01:42:33.459 [Scan]: 27/680 /Game/Mist/Props/Parts/Fence/SM_HighFence_02.uasset
+2023-07-16 01:42:33.463 [Scan]: 28/680 /Game/Mist/Props/Parts/Fence/T_Fence_01_D.uasset
+2023-07-16 01:42:33.476 [Scan]: 29/680 /Game/Mist/Props/Parts/Fence/T_Fence_01_M.uasset
+2023-07-16 01:42:33.479 [Scan]: 30/680 /Game/Mist/Props/Parts/Fence/T_Fence_01_N.uasset
+2023-07-16 01:42:33.482 [Scan]: 31/680 /Game/Mist/Props/Parts/Fence/T_Fence_D.uasset
+2023-07-16 01:42:33.485 [Scan]: 32/680 /Game/Mist/Props/Parts/Fence/T_Fence_M.uasset
+2023-07-16 01:42:33.500 [Scan]: 33/680 /Game/Mist/Props/Parts/Fence/T_Fence_N.uasset
+2023-07-16 01:42:33.511 [Scan]: 34/680 /Game/Mist/Props/Parts/FlagsAndTassels/SK_Rag.uasset
+2023-07-16 01:42:33.515 [Scan]: 35/680 /Game/Mist/Props/Parts/FlagsAndTassels/SK_Tassel.uasset
+2023-07-16 01:42:33.524 [Scan]: 36/680 /Game/Mist/Props/Parts/FlagsAndTassels/SM_Flag_02.uasset
+2023-07-16 01:42:33.528 [Scan]: 37/680 /Game/Mist/Props/Parts/FlagsAndTassels/SM_Flag_03.uasset
+2023-07-16 01:42:33.543 [Scan]: 38/680 /Game/Mist/Props/Parts/FlagsAndTassels/SM_Rag.uasset
+2023-07-16 01:42:33.551 [Scan]: 39/680 /Game/Mist/Props/Parts/Lamp/SM_Lamp.uasset
+2023-07-16 01:42:33.562 [Scan]: 40/680 /Game/Mist/Props/Parts/LootBag/M_Bag.uasset
+2023-07-16 01:42:33.572 [Scan]: 41/680 /Game/Mist/Props/Parts/LootBag/M_DropBag.uasset
+2023-07-16 01:42:33.575 [Scan]: 42/680 /Game/Mist/Props/Parts/LootBag/SM_Bag.uasset
+2023-07-16 01:42:33.579 [Scan]: 43/680 /Game/Mist/Props/Parts/LootBag/T_Bag_D.uasset
+2023-07-16 01:42:33.587 [Scan]: 44/680 /Game/Mist/Props/Parts/LootBag/T_DropBag_AO_R_MT.uasset
+2023-07-16 01:42:33.599 [Scan]: 45/680 /Game/Mist/Props/Parts/LootBag/T_DropBag_D.uasset
+2023-07-16 01:42:33.615 [Scan]: 46/680 /Game/Mist/Props/Parts/LootBag/T_DropBag_N.uasset
+2023-07-16 01:42:33.632 [Scan]: 47/680 /Game/Mist/Props/Parts/Platform/SM_Platform.uasset
+2023-07-16 01:42:33.647 [Scan]: 48/680 /Game/Mist/Props/Parts/Table/SM_Table.uasset
+2023-07-16 01:42:33.662 [Scan]: 49/680 /Game/Mist/Props/Parts/TeakWoodPlanks/8078_AssetLabel.uasset
+2023-07-16 01:42:33.696 [Scan]: 50/680 /Game/Mist/Props/Parts/TeakWoodPlanks/MI_TeakwoodTiled_01.uasset
+2023-07-16 01:42:33.700 [Scan]: 51/680 /Game/Mist/Props/Parts/TeakWoodPlanks/M_Orangewood.uasset
+2023-07-16 01:42:33.704 [Scan]: 52/680 /Game/Mist/Props/Parts/TeakWoodPlanks/M_TeakwoodTiled.uasset
+2023-07-16 01:42:33.707 [Scan]: 53/680 /Game/Mist/Props/Parts/TeakWoodPlanks/M_Teakwood_01.uasset
+2023-07-16 01:42:33.711 [Scan]: 54/680 /Game/Mist/Props/Parts/TeakWoodPlanks/M_Teakwood_02.uasset
+2023-07-16 01:42:33.714 [Scan]: 55/680 /Game/Mist/Props/Parts/TeakWoodPlanks/M_Teakwood_03.uasset
+2023-07-16 01:42:33.723 [Scan]: 56/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Orangewood_AO.uasset
+2023-07-16 01:42:33.728 [Scan]: 57/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Orangewood_D.uasset
+2023-07-16 01:42:33.731 [Scan]: 58/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Orangewood_N.uasset
+2023-07-16 01:42:33.734 [Scan]: 59/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Orangewood_R.uasset
+2023-07-16 01:42:33.737 [Scan]: 60/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_TeakWoodTiled_AO.uasset
+2023-07-16 01:42:33.741 [Scan]: 61/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_TeakWoodTiled_D.uasset
+2023-07-16 01:42:33.744 [Scan]: 62/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_TeakWoodTiled_N.uasset
+2023-07-16 01:42:33.747 [Scan]: 63/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_TeakWoodTiled_R.uasset
+2023-07-16 01:42:33.750 [Scan]: 64/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_01_AO.uasset
+2023-07-16 01:42:33.753 [Scan]: 65/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_01_D.uasset
+2023-07-16 01:42:33.757 [Scan]: 66/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_01_N.uasset
+2023-07-16 01:42:33.760 [Scan]: 67/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_01_R.uasset
+2023-07-16 01:42:33.763 [Scan]: 68/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_02_AO.uasset
+2023-07-16 01:42:33.766 [Scan]: 69/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_02_D.uasset
+2023-07-16 01:42:33.769 [Scan]: 70/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_02_N.uasset
+2023-07-16 01:42:33.772 [Scan]: 71/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_02_R.uasset
+2023-07-16 01:42:33.776 [Scan]: 72/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_03_AO.uasset
+2023-07-16 01:42:33.779 [Scan]: 73/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_03_D.uasset
+2023-07-16 01:42:33.782 [Scan]: 74/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_03_N.uasset
+2023-07-16 01:42:33.785 [Scan]: 75/680 /Game/Mist/Props/Parts/TeakWoodPlanks/T_Teakwood_03_R.uasset
+2023-07-16 01:42:33.815 [Scan]: 76/680 /Game/Mist/Props/Parts/TradingStationProps/8110_AssetLabel.uasset
+2023-07-16 01:42:33.835 [Scan]: 77/680 /Game/Mist/Props/Parts/WoodChest/SM_WoodChest.uasset
+2023-07-16 01:42:33.839 [Scan]: 78/680 /Game/Mist/Props/Parts/WoodChest/SM_WoodChest_01.uasset
+2023-07-16 01:42:33.856 [Scan]: 79/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_CandleMaster.uasset
+2023-07-16 01:42:33.863 [Scan]: 80/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_1.uasset
+2023-07-16 01:42:33.873 [Scan]: 81/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_4.uasset
+2023-07-16 01:42:33.877 [Scan]: 82/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_5.uasset
+2023-07-16 01:42:33.885 [Scan]: 83/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_6.uasset
+2023-07-16 01:42:33.889 [Scan]: 84/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_7.uasset
+2023-07-16 01:42:33.893 [Scan]: 85/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Materials/M_Candle_8.uasset
+2023-07-16 01:42:33.896 [Scan]: 86/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_eight.uasset
+2023-07-16 01:42:33.907 [Scan]: 87/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_five.uasset
+2023-07-16 01:42:33.911 [Scan]: 88/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_four.uasset
+2023-07-16 01:42:33.925 [Scan]: 89/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_one.uasset
+2023-07-16 01:42:33.937 [Scan]: 90/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_seven.uasset
+2023-07-16 01:42:33.940 [Scan]: 91/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Mesh/Candle_six.uasset
+2023-07-16 01:42:33.955 [Scan]: 92/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/CandleMask.uasset
+2023-07-16 01:42:33.958 [Scan]: 93/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_eight_nor_map.uasset
+2023-07-16 01:42:33.971 [Scan]: 94/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_eight_tex.uasset
+2023-07-16 01:42:34.002 [Scan]: 95/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_five_nor_map.uasset
+2023-07-16 01:42:34.017 [Scan]: 96/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_five_tex.uasset
+2023-07-16 01:42:34.020 [Scan]: 97/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_four_tex.uasset
+2023-07-16 01:42:34.040 [Scan]: 98/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_normal_one.uasset
+2023-07-16 01:42:34.072 [Scan]: 99/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_seven_nor_map.uasset
+2023-07-16 01:42:34.082 [Scan]: 100/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_seven_tex.uasset
+2023-07-16 01:42:34.124 [Scan]: 101/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_six_nor_map.uasset
+2023-07-16 01:42:34.152 [Scan]: 102/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_six_tex.uasset
+2023-07-16 01:42:34.163 [Scan]: 103/680 /Game/Mist/Props/Parts/AtmosphericCandlesPack/Textures/Candle_tex.uasset
+2023-07-16 01:42:34.175 [Scan]: 104/680 /Game/Mist/Props/Parts/CratesAndBarrels/Materials/M_barrels.uasset
+2023-07-16 01:42:34.185 [Scan]: 105/680 /Game/Mist/Props/Parts/CratesAndBarrels/Materials/M_dw_04.uasset
+2023-07-16 01:42:34.188 [Scan]: 106/680 /Game/Mist/Props/Parts/CratesAndBarrels/Materials/M_dw_base_01.uasset
+2023-07-16 01:42:34.196 [Scan]: 107/680 /Game/Mist/Props/Parts/CratesAndBarrels/Materials/M_spears.uasset
+2023-07-16 01:42:34.208 [Scan]: 108/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/barrel_c_lp.uasset
+2023-07-16 01:42:34.211 [Scan]: 109/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/barrel_g_broken_v2.uasset
+2023-07-16 01:42:34.224 [Scan]: 110/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/barrel_k_lp.uasset
+2023-07-16 01:42:34.233 [Scan]: 111/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/barrel_u_lp.uasset
+2023-07-16 01:42:34.246 [Scan]: 112/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/dw_base_01_lp.uasset
+2023-07-16 01:42:34.250 [Scan]: 113/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/spear_01.uasset
+2023-07-16 01:42:34.254 [Scan]: 114/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/spear_02.uasset
+2023-07-16 01:42:34.257 [Scan]: 115/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/spear_03.uasset
+2023-07-16 01:42:34.268 [Scan]: 116/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/spear_04.uasset
+2023-07-16 01:42:34.280 [Scan]: 117/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/spear_07.uasset
+2023-07-16 01:42:34.285 [Scan]: 118/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/wheel.uasset
+2023-07-16 01:42:34.296 [Scan]: 119/680 /Game/Mist/Props/Parts/CratesAndBarrels/Meshes/wheel_broken.uasset
+2023-07-16 01:42:34.300 [Scan]: 120/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/barrels_ARM.uasset
+2023-07-16 01:42:34.303 [Scan]: 121/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/barrels_BC.uasset
+2023-07-16 01:42:34.318 [Scan]: 122/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/barrels_N.uasset
+2023-07-16 01:42:34.330 [Scan]: 123/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_04_ARM.uasset
+2023-07-16 01:42:34.333 [Scan]: 124/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_04_BC.uasset
+2023-07-16 01:42:34.345 [Scan]: 125/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_04_N.uasset
+2023-07-16 01:42:34.349 [Scan]: 126/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_base_01_ARM.uasset
+2023-07-16 01:42:34.353 [Scan]: 127/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_base_01_BC.uasset
+2023-07-16 01:42:34.356 [Scan]: 128/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/dw_base_01_N.uasset
+2023-07-16 01:42:34.367 [Scan]: 129/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/spears_ARM.uasset
+2023-07-16 01:42:34.378 [Scan]: 130/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/spears_BC.uasset
+2023-07-16 01:42:34.381 [Scan]: 131/680 /Game/Mist/Props/Parts/CratesAndBarrels/Textures/spears_N.uasset
+2023-07-16 01:42:34.393 [Scan]: 132/680 /Game/Mist/Props/Parts/CustomBarrels/Materials/M_basket_desaturated.uasset
+2023-07-16 01:42:34.397 [Scan]: 133/680 /Game/Mist/Props/Parts/CustomBarrels/Materials/M_CubicWeaveTiled.uasset
+2023-07-16 01:42:34.406 [Scan]: 134/680 /Game/Mist/Props/Parts/CustomBarrels/Materials/M_RopeDarker.uasset
+2023-07-16 01:42:34.409 [Scan]: 135/680 /Game/Mist/Props/Parts/CustomBarrels/Materials/M_urn_big_broken_desaturated.uasset
+2023-07-16 01:42:34.420 [Scan]: 136/680 /Game/Mist/Props/Parts/CustomBarrels/Textures/T_CubicWeaveTiled_AO.uasset
+2023-07-16 01:42:34.424 [Scan]: 137/680 /Game/Mist/Props/Parts/CustomBarrels/Textures/T_CubicWeaveTiled_D.uasset
+2023-07-16 01:42:34.435 [Scan]: 138/680 /Game/Mist/Props/Parts/CustomBarrels/Textures/T_CubicWeaveTiled_N.uasset
+2023-07-16 01:42:34.440 [Scan]: 139/680 /Game/Mist/Props/Parts/CustomBarrels/Textures/T_CubicWeaveTiled_O.uasset
+2023-07-16 01:42:34.449 [Scan]: 140/680 /Game/Mist/Props/Parts/CustomBarrels/Textures/T_CubicWeaveTiled_R.uasset
+2023-07-16 01:42:34.464 [Scan]: 141/680 /Game/Mist/Props/Parts/FlagsAndTassels/Materials/MI_Fabric_Flag_01.uasset
+2023-07-16 01:42:34.469 [Scan]: 142/680 /Game/Mist/Props/Parts/FlagsAndTassels/Materials/MI_Fabric_Flag_02.uasset
+2023-07-16 01:42:34.479 [Scan]: 143/680 /Game/Mist/Props/Parts/FlagsAndTassels/Materials/MI_Fabric_Rag.uasset
+2023-07-16 01:42:34.490 [Scan]: 144/680 /Game/Mist/Props/Parts/FlagsAndTassels/Materials/MI_Fabric_Tassel.uasset
+2023-07-16 01:42:34.504 [Scan]: 145/680 /Game/Mist/Props/Parts/FlagsAndTassels/Skeletons/SK_Rag_Skeleton.uasset
+2023-07-16 01:42:34.511 [Scan]: 146/680 /Game/Mist/Props/Parts/FlagsAndTassels/Skeletons/SK_Tassel_Skeleton.uasset
+2023-07-16 01:42:34.515 [Scan]: 147/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_AO_R_MT.uasset
+2023-07-16 01:42:34.523 [Scan]: 148/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_Colour_M.uasset
+2023-07-16 01:42:34.533 [Scan]: 149/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_D.uasset
+2023-07-16 01:42:34.540 [Scan]: 150/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_Dirt_M.uasset
+2023-07-16 01:42:34.546 [Scan]: 151/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_N.uasset
+2023-07-16 01:42:34.550 [Scan]: 152/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_01_O.uasset
+2023-07-16 01:42:34.566 [Scan]: 153/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_AO_R_MT.uasset
+2023-07-16 01:42:34.570 [Scan]: 154/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_Colour_M.uasset
+2023-07-16 01:42:34.579 [Scan]: 155/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_D.uasset
+2023-07-16 01:42:34.595 [Scan]: 156/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_Dirt_M.uasset
+2023-07-16 01:42:34.605 [Scan]: 157/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_N.uasset
+2023-07-16 01:42:34.641 [Scan]: 158/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Flag_02_O.uasset
+2023-07-16 01:42:34.646 [Scan]: 159/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_AO_R_MT.uasset
+2023-07-16 01:42:34.665 [Scan]: 160/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_Colour_M.uasset
+2023-07-16 01:42:34.668 [Scan]: 161/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_D.uasset
+2023-07-16 01:42:34.672 [Scan]: 162/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_Dirt_M.uasset
+2023-07-16 01:42:34.688 [Scan]: 163/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_N.uasset
+2023-07-16 01:42:34.700 [Scan]: 164/680 /Game/Mist/Props/Parts/FlagsAndTassels/Textures/T_Rag_O.uasset
+2023-07-16 01:42:34.717 [Scan]: 165/680 /Game/Mist/Props/Parts/Harbour_pack/Cloth/SKEL_RopeDeepArch.uasset
+2023-07-16 01:42:34.734 [Scan]: 166/680 /Game/Mist/Props/Parts/Harbour_pack/Cloth/SKEL_RopeSoftArch.uasset
+2023-07-16 01:42:34.741 [Scan]: 167/680 /Game/Mist/Props/Parts/Harbour_pack/Cloth/SK_RopeDeepArch.uasset
+2023-07-16 01:42:34.744 [Scan]: 168/680 /Game/Mist/Props/Parts/Harbour_pack/Cloth/SK_RopeSoftArch.uasset
+2023-07-16 01:42:34.754 [Scan]: 169/680 /Game/Mist/Props/Parts/Harbour_pack/Maps/7129_AssetLabel.uasset
+2023-07-16 01:42:34.762 [Scan]: 170/680 /Game/Mist/Props/Parts/Harbour_pack/Materials/M_big_pot.uasset
+2023-07-16 01:42:34.774 [Scan]: 171/680 /Game/Mist/Props/Parts/Harbour_pack/Materials/M_rope.uasset
+2023-07-16 01:42:34.788 [Scan]: 172/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/SM_big_pot.uasset
+2023-07-16 01:42:34.801 [Scan]: 173/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/SM_vase.uasset
+2023-07-16 01:42:34.813 [Scan]: 174/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/7130_AssetLabel.uasset
+2023-07-16 01:42:34.832 [Scan]: 175/680 /Game/Mist/Props/Parts/kitbash/set_1/7146_AssetLabel.uasset
+2023-07-16 01:42:34.857 [Scan]: 176/680 /Game/Mist/Props/Parts/kitbash/set_1/MI_kitbash_02.uasset
+2023-07-16 01:42:34.862 [Scan]: 177/680 /Game/Mist/Props/Parts/kitbash/set_1/MI_kitbash_03.uasset
+2023-07-16 01:42:34.865 [Scan]: 178/680 /Game/Mist/Props/Parts/kitbash/set_1/MI_kitbash_04.uasset
+2023-07-16 01:42:34.868 [Scan]: 179/680 /Game/Mist/Props/Parts/kitbash/set_1/M_kitbash_01.uasset
+2023-07-16 01:42:34.875 [Scan]: 180/680 /Game/Mist/Props/Parts/kitbash/set_2/7147_AssetLabel.uasset
+2023-07-16 01:42:34.889 [Scan]: 181/680 /Game/Mist/Props/Parts/kitbash/set_2/MI_kitbash_05.uasset
+2023-07-16 01:42:34.902 [Scan]: 182/680 /Game/Mist/Props/Parts/kitbash/set_2/MI_kitbash_06.uasset
+2023-07-16 01:42:34.909 [Scan]: 183/680 /Game/Mist/Props/Parts/kitbash/set_2/MI_kitbash_07.uasset
+2023-07-16 01:42:34.918 [Scan]: 184/680 /Game/Mist/Props/Parts/kitbash/set_2/MI_kitbash_08.uasset
+2023-07-16 01:42:34.931 [Scan]: 185/680 /Game/Mist/Props/Parts/kitbash/set_2/M_kitbash_01.uasset
+2023-07-16 01:42:34.934 [Scan]: 186/680 /Game/Mist/Props/Parts/kitbash/set_2/ropeBase_Mat1.uasset
+2023-07-16 01:42:34.939 [Scan]: 187/680 /Game/Mist/Props/Parts/kitbash/set_3/7148_AssetLabel.uasset
+2023-07-16 01:42:34.947 [Scan]: 188/680 /Game/Mist/Props/Parts/kitbash/set_3/MI_kitbash_09.uasset
+2023-07-16 01:42:34.960 [Scan]: 189/680 /Game/Mist/Props/Parts/kitbash/set_3/MI_kitbash_10.uasset
+2023-07-16 01:42:34.970 [Scan]: 190/680 /Game/Mist/Props/Parts/kitbash/set_3/MI_kitbash_11.uasset
+2023-07-16 01:42:34.975 [Scan]: 191/680 /Game/Mist/Props/Parts/kitbash/set_3/MI_kitbash_12.uasset
+2023-07-16 01:42:34.982 [Scan]: 192/680 /Game/Mist/Props/Parts/kitbash/set_4/7149_AssetLabel.uasset
+2023-07-16 01:42:34.986 [Scan]: 193/680 /Game/Mist/Props/Parts/kitbash/set_4/MI_kitbash_13.uasset
+2023-07-16 01:42:34.993 [Scan]: 194/680 /Game/Mist/Props/Parts/kitbash/set_4/MI_kitbash_14.uasset
+2023-07-16 01:42:34.996 [Scan]: 195/680 /Game/Mist/Props/Parts/kitbash/set_4/MI_kitbash_15.uasset
+2023-07-16 01:42:35.010 [Scan]: 196/680 /Game/Mist/Props/Parts/kitbash/set_4/MI_kitbash_16.uasset
+2023-07-16 01:42:35.047 [Scan]: 197/680 /Game/Mist/Props/Parts/MedievalContainers/materials/MI_Crate_small_01.uasset
+2023-07-16 01:42:35.057 [Scan]: 198/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_barrel2.uasset
+2023-07-16 01:42:35.060 [Scan]: 199/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_basket.uasset
+2023-07-16 01:42:35.073 [Scan]: 200/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_basket_small.uasset
+2023-07-16 01:42:35.077 [Scan]: 201/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_bucket_d.uasset
+2023-07-16 01:42:35.080 [Scan]: 202/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_Crate2.uasset
+2023-07-16 01:42:35.084 [Scan]: 203/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_crate_fabric.uasset
+2023-07-16 01:42:35.090 [Scan]: 204/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_Crate_small.uasset
+2023-07-16 01:42:35.094 [Scan]: 205/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_Crate_small_01.uasset
+2023-07-16 01:42:35.097 [Scan]: 206/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_pot1.uasset
+2023-07-16 01:42:35.101 [Scan]: 207/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_Sack2.uasset
+2023-07-16 01:42:35.104 [Scan]: 208/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_sack_flat.uasset
+2023-07-16 01:42:35.108 [Scan]: 209/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_urn.uasset
+2023-07-16 01:42:35.111 [Scan]: 210/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_urn_big_broken.uasset
+2023-07-16 01:42:35.130 [Scan]: 211/680 /Game/Mist/Props/Parts/MedievalContainers/materials/M_urn_big_inside.uasset
+2023-07-16 01:42:35.151 [Scan]: 212/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_cover.uasset
+2023-07-16 01:42:35.155 [Scan]: 213/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_no_cover.uasset
+2023-07-16 01:42:35.167 [Scan]: 214/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_small.uasset
+2023-07-16 01:42:35.175 [Scan]: 215/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_small_cover.uasset
+2023-07-16 01:42:35.189 [Scan]: 216/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_basket_small_no_cover.uasset
+2023-07-16 01:42:35.196 [Scan]: 217/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_bucket.uasset
+2023-07-16 01:42:35.199 [Scan]: 218/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate.uasset
+2023-07-16 01:42:35.203 [Scan]: 219/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_2.uasset
+2023-07-16 01:42:35.206 [Scan]: 220/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_2_cover.uasset
+2023-07-16 01:42:35.209 [Scan]: 221/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_2_no_cover.uasset
+2023-07-16 01:42:35.213 [Scan]: 222/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_2_small_cover.uasset
+2023-07-16 01:42:35.216 [Scan]: 223/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_frabric.uasset
+2023-07-16 01:42:35.244 [Scan]: 224/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small.uasset
+2023-07-16 01:42:35.247 [Scan]: 225/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_cover.uasset
+2023-07-16 01:42:35.251 [Scan]: 226/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_crate_small_without_cover.uasset
+2023-07-16 01:42:35.254 [Scan]: 227/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_pot1.uasset
+2023-07-16 01:42:35.265 [Scan]: 228/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2.uasset
+2023-07-16 01:42:35.268 [Scan]: 229/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2v2.uasset
+2023-07-16 01:42:35.272 [Scan]: 230/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2v3.uasset
+2023-07-16 01:42:35.275 [Scan]: 231/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack2v4.uasset
+2023-07-16 01:42:35.279 [Scan]: 232/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack_flat.uasset
+2023-07-16 01:42:35.287 [Scan]: 233/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_sack_flat_L.uasset
+2023-07-16 01:42:35.290 [Scan]: 234/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn.uasset
+2023-07-16 01:42:35.294 [Scan]: 235/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big.uasset
+2023-07-16 01:42:35.297 [Scan]: 236/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big_no_cap.uasset
+2023-07-16 01:42:35.309 [Scan]: 237/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big_piece_big_small.uasset
+2023-07-16 01:42:35.313 [Scan]: 238/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big_piece_big_top.uasset
+2023-07-16 01:42:35.329 [Scan]: 239/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big_piece_medium.uasset
+2023-07-16 01:42:35.408 [Scan]: 240/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_big_piece_small1.uasset
+2023-07-16 01:42:35.411 [Scan]: 241/680 /Game/Mist/Props/Parts/MedievalContainers/meshes/SM_urn_cap.uasset
+2023-07-16 01:42:35.428 [Scan]: 242/680 /Game/Mist/Props/Parts/MedievalContainers/textures/7131_AssetLabel.uasset
+2023-07-16 01:42:35.452 [Scan]: 243/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_asket_n.uasset
+2023-07-16 01:42:35.464 [Scan]: 244/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_barrel2_d.uasset
+2023-07-16 01:42:35.474 [Scan]: 245/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_barrel2_n.uasset
+2023-07-16 01:42:35.478 [Scan]: 246/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_barrel2_s.uasset
+2023-07-16 01:42:35.487 [Scan]: 247/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_basket_d.uasset
+2023-07-16 01:42:35.491 [Scan]: 248/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_basket_s.uasset
+2023-07-16 01:42:35.494 [Scan]: 249/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_basket_small_d.uasset
+2023-07-16 01:42:35.498 [Scan]: 250/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_basket_small_n.uasset
+2023-07-16 01:42:35.501 [Scan]: 251/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_basket_small_s.uasset
+2023-07-16 01:42:35.504 [Scan]: 252/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_bucket_d.uasset
+2023-07-16 01:42:35.507 [Scan]: 253/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_bucket_n.uasset
+2023-07-16 01:42:35.517 [Scan]: 254/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_bucket_s.uasset
+2023-07-16 01:42:35.522 [Scan]: 255/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate2_d.uasset
+2023-07-16 01:42:35.525 [Scan]: 256/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate2_n.uasset
+2023-07-16 01:42:35.534 [Scan]: 257/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate2_s.uasset
+2023-07-16 01:42:35.547 [Scan]: 258/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_crate_fabric_d.uasset
+2023-07-16 01:42:35.551 [Scan]: 259/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_crate_fabric_n.uasset
+2023-07-16 01:42:35.554 [Scan]: 260/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_crate_fabric_s.uasset
+2023-07-16 01:42:35.573 [Scan]: 261/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate_n.uasset
+2023-07-16 01:42:35.576 [Scan]: 262/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate_small_d.uasset
+2023-07-16 01:42:35.580 [Scan]: 263/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Crate_small_s.uasset
+2023-07-16 01:42:35.583 [Scan]: 264/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_pot1_d.uasset
+2023-07-16 01:42:35.586 [Scan]: 265/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_pot1_n.uasset
+2023-07-16 01:42:35.590 [Scan]: 266/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_pot1_s.uasset
+2023-07-16 01:42:35.598 [Scan]: 267/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Sack2_d.uasset
+2023-07-16 01:42:35.602 [Scan]: 268/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Sack2_n.uasset
+2023-07-16 01:42:35.605 [Scan]: 269/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_Sack2_s.uasset
+2023-07-16 01:42:35.608 [Scan]: 270/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_sack_flat_d.uasset
+2023-07-16 01:42:35.612 [Scan]: 271/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_sack_flat_n.uasset
+2023-07-16 01:42:35.615 [Scan]: 272/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_sack_flat_s.uasset
+2023-07-16 01:42:35.618 [Scan]: 273/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_big_broken_desaturated_d.uasset
+2023-07-16 01:42:35.642 [Scan]: 274/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_big_broken_n.uasset
+2023-07-16 01:42:35.646 [Scan]: 275/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_big_broken_s.uasset
+2023-07-16 01:42:35.650 [Scan]: 276/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_big_inside_d.uasset
+2023-07-16 01:42:35.653 [Scan]: 277/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_d.uasset
+2023-07-16 01:42:35.656 [Scan]: 278/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_n.uasset
+2023-07-16 01:42:35.659 [Scan]: 279/680 /Game/Mist/Props/Parts/MedievalContainers/textures/T_urn_s.uasset
+2023-07-16 01:42:35.691 [Scan]: 280/680 /Game/Mist/Props/Parts/Medieval_Archery/Materials/black_Mat.uasset
+2023-07-16 01:42:35.724 [Scan]: 281/680 /Game/Mist/Props/Parts/Medieval_Archery/Materials/torch_Mat.uasset
+2023-07-16 01:42:35.734 [Scan]: 282/680 /Game/Mist/Props/Parts/Medieval_Archery/Meshes/torch_01.uasset
+2023-07-16 01:42:35.745 [Scan]: 283/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Anvil_Stand_01.uasset
+2023-07-16 01:42:35.749 [Scan]: 284/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Bag_01.uasset
+2023-07-16 01:42:35.758 [Scan]: 285/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Balk_01.uasset
+2023-07-16 01:42:35.768 [Scan]: 286/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Barrels_01.uasset
+2023-07-16 01:42:35.779 [Scan]: 287/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Boxes_01.uasset
+2023-07-16 01:42:35.783 [Scan]: 288/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Package_01.uasset
+2023-07-16 01:42:35.790 [Scan]: 289/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Rack_02.uasset
+2023-07-16 01:42:35.794 [Scan]: 290/680 /Game/Mist/Props/Parts/Medieval_Barrels/Materials/M_Torch_01.uasset
+2023-07-16 01:42:35.807 [Scan]: 291/680 /Game/Mist/Props/Parts/SticksAndBones/Materials/MI_Sticks_Moss_Burning.uasset
+2023-07-16 01:42:35.811 [Scan]: 292/680 /Game/Mist/Props/Parts/SticksAndBones/Materials/M_BoneBlack.uasset
+2023-07-16 01:42:35.844 [Scan]: 293/680 /Game/Mist/Props/Parts/SticksAndBones/Materials/M_BoneClean.uasset
+2023-07-16 01:42:35.847 [Scan]: 294/680 /Game/Mist/Props/Parts/SticksAndBones/Materials/M_Sticks.uasset
+2023-07-16 01:42:35.859 [Scan]: 295/680 /Game/Mist/Props/Parts/SticksAndBones/Materials/M_Sticks_Moss_Test.uasset
+2023-07-16 01:42:35.867 [Scan]: 296/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/goatSkull_head.uasset
+2023-07-16 01:42:35.871 [Scan]: 297/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/goatSkull_jaw.uasset
+2023-07-16 01:42:35.880 [Scan]: 298/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/humanSkull.uasset
+2023-07-16 01:42:35.884 [Scan]: 299/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/orcaSkull_head.uasset
+2023-07-16 01:42:35.887 [Scan]: 300/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_a.uasset
+2023-07-16 01:42:35.891 [Scan]: 301/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_b.uasset
+2023-07-16 01:42:35.906 [Scan]: 302/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_bundle_a.uasset
+2023-07-16 01:42:35.909 [Scan]: 303/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_bundle_b.uasset
+2023-07-16 01:42:35.913 [Scan]: 304/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_bundle_c.uasset
+2023-07-16 01:42:35.916 [Scan]: 305/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_bundle_d.uasset
+2023-07-16 01:42:35.920 [Scan]: 306/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_bundle_e.uasset
+2023-07-16 01:42:35.935 [Scan]: 307/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_c.uasset
+2023-07-16 01:42:35.939 [Scan]: 308/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_c_VertColors.uasset
+2023-07-16 01:42:35.942 [Scan]: 309/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_d.uasset
+2023-07-16 01:42:35.946 [Scan]: 310/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_e.uasset
+2023-07-16 01:42:35.949 [Scan]: 311/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_f.uasset
+2023-07-16 01:42:35.952 [Scan]: 312/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_g.uasset
+2023-07-16 01:42:35.989 [Scan]: 313/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_i.uasset
+2023-07-16 01:42:35.993 [Scan]: 314/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_j.uasset
+2023-07-16 01:42:36.009 [Scan]: 315/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/stick_platform_a.uasset
+2023-07-16 01:42:36.012 [Scan]: 316/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/whale_rib.uasset
+2023-07-16 01:42:36.016 [Scan]: 317/680 /Game/Mist/Props/Parts/SticksAndBones/Meshes/whale_vertebra.uasset
+2023-07-16 01:42:36.019 [Scan]: 318/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/BoneBlack_ARM.uasset
+2023-07-16 01:42:36.038 [Scan]: 319/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/BoneBlack_BC.uasset
+2023-07-16 01:42:36.045 [Scan]: 320/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/BoneClean_ARM.uasset
+2023-07-16 01:42:36.048 [Scan]: 321/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/BoneClean_BC.uasset
+2023-07-16 01:42:36.052 [Scan]: 322/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/Bone_N.uasset
+2023-07-16 01:42:36.055 [Scan]: 323/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/Sticks_ARM.uasset
+2023-07-16 01:42:36.064 [Scan]: 324/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/Sticks_BC.uasset
+2023-07-16 01:42:36.067 [Scan]: 325/680 /Game/Mist/Props/Parts/SticksAndBones/Textures/Sticks_N.uasset
+2023-07-16 01:42:36.107 [Scan]: 326/680 /Game/Mist/Props/Parts/TradingStationProps/decals/Decal_plane.uasset
+2023-07-16 01:42:36.127 [Scan]: 327/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_01.uasset
+2023-07-16 01:42:36.131 [Scan]: 328/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_01_Inst.uasset
+2023-07-16 01:42:36.134 [Scan]: 329/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_01_Inst1.uasset
+2023-07-16 01:42:36.138 [Scan]: 330/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_01_Inst2.uasset
+2023-07-16 01:42:36.141 [Scan]: 331/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_02.uasset
+2023-07-16 01:42:36.145 [Scan]: 332/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_02_Inst.uasset
+2023-07-16 01:42:36.148 [Scan]: 333/680 /Game/Mist/Props/Parts/TradingStationProps/decals/M_decal_dirt_02_Inst1.uasset
+2023-07-16 01:42:36.151 [Scan]: 334/680 /Game/Mist/Props/Parts/TradingStationProps/decals/T_dirt_mask.uasset
+2023-07-16 01:42:36.166 [Scan]: 335/680 /Game/Mist/Props/Parts/TradingStationProps/materials/amber.uasset
+2023-07-16 01:42:36.170 [Scan]: 336/680 /Game/Mist/Props/Parts/TradingStationProps/materials/amber_Inst.uasset
+2023-07-16 01:42:36.174 [Scan]: 337/680 /Game/Mist/Props/Parts/TradingStationProps/materials/cauldrons.uasset
+2023-07-16 01:42:36.177 [Scan]: 338/680 /Game/Mist/Props/Parts/TradingStationProps/materials/eucakyptus_BaseColor_Mat.uasset
+2023-07-16 01:42:36.181 [Scan]: 339/680 /Game/Mist/Props/Parts/TradingStationProps/materials/glass.uasset
+2023-07-16 01:42:36.184 [Scan]: 340/680 /Game/Mist/Props/Parts/TradingStationProps/materials/glass_Inst.uasset
+2023-07-16 01:42:36.188 [Scan]: 341/680 /Game/Mist/Props/Parts/TradingStationProps/materials/glass_Inst1.uasset
+2023-07-16 01:42:36.191 [Scan]: 342/680 /Game/Mist/Props/Parts/TradingStationProps/materials/minerals.uasset
+2023-07-16 01:42:36.194 [Scan]: 343/680 /Game/Mist/Props/Parts/TradingStationProps/materials/M_bricks.uasset
+2023-07-16 01:42:36.198 [Scan]: 344/680 /Game/Mist/Props/Parts/TradingStationProps/materials/M_Herbs.uasset
+2023-07-16 01:42:36.201 [Scan]: 345/680 /Game/Mist/Props/Parts/TradingStationProps/materials/M_meat.uasset
+2023-07-16 01:42:36.205 [Scan]: 346/680 /Game/Mist/Props/Parts/TradingStationProps/materials/M_mint.uasset
+2023-07-16 01:42:36.208 [Scan]: 347/680 /Game/Mist/Props/Parts/TradingStationProps/materials/ropeBase_Mat.uasset
+2023-07-16 01:42:36.211 [Scan]: 348/680 /Game/Mist/Props/Parts/TradingStationProps/materials/ropeBase_Mat_01.uasset
+2023-07-16 01:42:36.223 [Scan]: 349/680 /Game/Mist/Props/Parts/TradingStationProps/materials/sack_b_BaseColor_Mat1.uasset
+2023-07-16 01:42:36.228 [Scan]: 350/680 /Game/Mist/Props/Parts/TradingStationProps/materials/sack_sack_BaseColor_Mat.uasset
+2023-07-16 01:42:36.232 [Scan]: 351/680 /Game/Mist/Props/Parts/TradingStationProps/materials/T_Teakwood_01_D_Mat.uasset
+2023-07-16 01:42:36.263 [Scan]: 352/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/7132_AssetLabel.uasset
+2023-07-16 01:42:36.267 [Scan]: 353/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/amber_a.uasset
+2023-07-16 01:42:36.270 [Scan]: 354/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/amber_b.uasset
+2023-07-16 01:42:36.274 [Scan]: 355/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/amber_c.uasset
+2023-07-16 01:42:36.277 [Scan]: 356/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/amber_d.uasset
+2023-07-16 01:42:36.288 [Scan]: 357/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_001.uasset
+2023-07-16 01:42:36.292 [Scan]: 358/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_002.uasset
+2023-07-16 01:42:36.296 [Scan]: 359/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_003.uasset
+2023-07-16 01:42:36.301 [Scan]: 360/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_004.uasset
+2023-07-16 01:42:36.306 [Scan]: 361/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_005.uasset
+2023-07-16 01:42:36.309 [Scan]: 362/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_006.uasset
+2023-07-16 01:42:36.313 [Scan]: 363/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_007.uasset
+2023-07-16 01:42:36.325 [Scan]: 364/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_top_001.uasset
+2023-07-16 01:42:36.329 [Scan]: 365/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/basket_top_002.uasset
+2023-07-16 01:42:36.333 [Scan]: 366/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/big_bootle_a.uasset
+2023-07-16 01:42:36.336 [Scan]: 367/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/big_bootle_b.uasset
+2023-07-16 01:42:36.340 [Scan]: 368/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/big_bottle_line45d.uasset
+2023-07-16 01:42:36.343 [Scan]: 369/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/bricks_a.uasset
+2023-07-16 01:42:36.352 [Scan]: 370/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/bricks_b.uasset
+2023-07-16 01:42:36.356 [Scan]: 371/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/bricks_c.uasset
+2023-07-16 01:42:36.359 [Scan]: 372/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/cauldrons_a.uasset
+2023-07-16 01:42:36.363 [Scan]: 373/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/cauldrons_b.uasset
+2023-07-16 01:42:36.366 [Scan]: 374/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_a.uasset
+2023-07-16 01:42:36.369 [Scan]: 375/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_a_top.uasset
+2023-07-16 01:42:36.373 [Scan]: 376/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_b.uasset
+2023-07-16 01:42:36.376 [Scan]: 377/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_b_top.uasset
+2023-07-16 01:42:36.388 [Scan]: 378/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_c.uasset
+2023-07-16 01:42:36.392 [Scan]: 379/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/crate_c_top.uasset
+2023-07-16 01:42:36.395 [Scan]: 380/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/dish_a.uasset
+2023-07-16 01:42:36.399 [Scan]: 381/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/dish_b.uasset
+2023-07-16 01:42:36.408 [Scan]: 382/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/dish_c.uasset
+2023-07-16 01:42:36.413 [Scan]: 383/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_001.uasset
+2023-07-16 01:42:36.416 [Scan]: 384/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_002.uasset
+2023-07-16 01:42:36.420 [Scan]: 385/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_003.uasset
+2023-07-16 01:42:36.428 [Scan]: 386/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_004.uasset
+2023-07-16 01:42:36.432 [Scan]: 387/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_005.uasset
+2023-07-16 01:42:36.435 [Scan]: 388/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_006.uasset
+2023-07-16 01:42:36.439 [Scan]: 389/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/egg_007.uasset
+2023-07-16 01:42:36.442 [Scan]: 390/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/eucaliptus_branch.uasset
+2023-07-16 01:42:36.449 [Scan]: 391/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/eucaliptus_branch_a.uasset
+2023-07-16 01:42:36.453 [Scan]: 392/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/eucaliptus_branch_b.uasset
+2023-07-16 01:42:36.457 [Scan]: 393/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/eucaliptus_branch_c.uasset
+2023-07-16 01:42:36.460 [Scan]: 394/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Fabric_01.uasset
+2023-07-16 01:42:36.463 [Scan]: 395/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Fabric_02.uasset
+2023-07-16 01:42:36.467 [Scan]: 396/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Fabric_03.uasset
+2023-07-16 01:42:36.470 [Scan]: 397/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/fabric_roll_a.uasset
+2023-07-16 01:42:36.474 [Scan]: 398/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/fabric_roll_b.uasset
+2023-07-16 01:42:36.477 [Scan]: 399/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/herbs.uasset
+2023-07-16 01:42:36.481 [Scan]: 400/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/hook.uasset
+2023-07-16 01:42:36.484 [Scan]: 401/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/meat_a.uasset
+2023-07-16 01:42:36.488 [Scan]: 402/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/meat_b.uasset
+2023-07-16 01:42:36.491 [Scan]: 403/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/minerals_a.uasset
+2023-07-16 01:42:36.494 [Scan]: 404/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/minerals_b.uasset
+2023-07-16 01:42:36.498 [Scan]: 405/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/minerals_c.uasset
+2023-07-16 01:42:36.501 [Scan]: 406/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/mint_plant_a.uasset
+2023-07-16 01:42:36.505 [Scan]: 407/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/mint_plant_b.uasset
+2023-07-16 01:42:36.508 [Scan]: 408/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SM_Cauldron.uasset
+2023-07-16 01:42:36.516 [Scan]: 409/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SM_Cauldron_01.uasset
+2023-07-16 01:42:36.521 [Scan]: 410/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Sm_fabric_long_high_parts01_Sm_fabric_long_high_rope.uasset
+2023-07-16 01:42:36.524 [Scan]: 411/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Sm_fabric_long_high_parts01_Sm_fabric_long_high_rope_01.uasset
+2023-07-16 01:42:36.528 [Scan]: 412/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Sm_fabric_long_high_parts01_Sm_fabric_long_high_rope_02.uasset
+2023-07-16 01:42:36.531 [Scan]: 413/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Sm_fabric_long_high_parts01_Sm_fabric_long_high_upper_part.uasset
+2023-07-16 01:42:36.535 [Scan]: 414/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/stand_addon_a.uasset
+2023-07-16 01:42:36.538 [Scan]: 415/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/stand_addon_b.uasset
+2023-07-16 01:42:36.549 [Scan]: 416/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/Stand_c.uasset
+2023-07-16 01:42:36.553 [Scan]: 417/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/station_fabrics_big.uasset
+2023-07-16 01:42:36.557 [Scan]: 418/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/suck_a.uasset
+2023-07-16 01:42:36.560 [Scan]: 419/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/suck_b.uasset
+2023-07-16 01:42:36.563 [Scan]: 420/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/suck_c.uasset
+2023-07-16 01:42:36.567 [Scan]: 421/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/vial_a.uasset
+2023-07-16 01:42:36.570 [Scan]: 422/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/vial_b.uasset
+2023-07-16 01:42:36.574 [Scan]: 423/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/vial_c.uasset
+2023-07-16 01:42:36.600 [Scan]: 424/680 /Game/Mist/Props/Parts/TradingStationProps/textures/7133_AssetLabel.uasset
+2023-07-16 01:42:36.604 [Scan]: 425/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_bowl.uasset
+2023-07-16 01:42:36.617 [Scan]: 426/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_RopeDeepArch_02.uasset
+2023-07-16 01:42:36.631 [Scan]: 427/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_RopeSoftArch_02.uasset
+2023-07-16 01:42:36.646 [Scan]: 428/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_bunch.uasset
+2023-07-16 01:42:36.650 [Scan]: 429/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_bunch_circular.uasset
+2023-07-16 01:42:36.654 [Scan]: 430/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_bunch_curved.uasset
+2023-07-16 01:42:36.657 [Scan]: 431/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_bunch_mast_a.uasset
+2023-07-16 01:42:36.664 [Scan]: 432/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_bunch_mast_b.uasset
+2023-07-16 01:42:36.667 [Scan]: 433/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_deep_arch.uasset
+2023-07-16 01:42:36.671 [Scan]: 434/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_soft_arch.uasset
+2023-07-16 01:42:36.674 [Scan]: 435/680 /Game/Mist/Props/Parts/Harbour_pack/Meshes/details/SM_rope_tangled.uasset
+2023-07-16 01:42:36.689 [Scan]: 436/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/cracks/T_cracks_M.uasset
+2023-07-16 01:42:36.717 [Scan]: 437/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/cracks/T_cracks_N.uasset
+2023-07-16 01:42:36.728 [Scan]: 438/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/rope/T_rope_BC.uasset
+2023-07-16 01:42:36.732 [Scan]: 439/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/rope/T_rope_N.uasset
+2023-07-16 01:42:36.735 [Scan]: 440/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/vase/T_pattern_BC.uasset
+2023-07-16 01:42:36.739 [Scan]: 441/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/vase/T_pattern_N.uasset
+2023-07-16 01:42:36.742 [Scan]: 442/680 /Game/Mist/Props/Parts/Harbour_pack/Textures/vase/T_pattern_R.uasset
+2023-07-16 01:42:36.766 [Scan]: 443/680 /Game/Mist/Props/Parts/kitbash/set_1/tex4/T_kitbash_04_BaseColor.uasset
+2023-07-16 01:42:36.790 [Scan]: 444/680 /Game/Mist/Props/Parts/kitbash/set_1/tex4/T_kitbash_04_Normal.uasset
+2023-07-16 01:42:36.807 [Scan]: 445/680 /Game/Mist/Props/Parts/kitbash/set_1/tex4/T_kitbash_04_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.823 [Scan]: 446/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_1/T_kitbash_01_BaseColor.uasset
+2023-07-16 01:42:36.826 [Scan]: 447/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_1/T_kitbash_01_Normal.uasset
+2023-07-16 01:42:36.829 [Scan]: 448/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_1/T_kitbash_01_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.855 [Scan]: 449/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_2/T_kitbash_02_BaseColor.uasset
+2023-07-16 01:42:36.859 [Scan]: 450/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_2/T_kitbash_02_Normal.uasset
+2023-07-16 01:42:36.862 [Scan]: 451/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_2/T_kitbash_02_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.865 [Scan]: 452/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_3/T_kitbash_03_BaseColor.uasset
+2023-07-16 01:42:36.868 [Scan]: 453/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_3/T_kitbash_03_Normal.uasset
+2023-07-16 01:42:36.872 [Scan]: 454/680 /Game/Mist/Props/Parts/kitbash/set_1/tex_3/T_kitbash_03_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.901 [Scan]: 455/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_5/6178_AssetLabel.uasset
+2023-07-16 01:42:36.918 [Scan]: 456/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_5/T_kitbash_05_BaseColor.uasset
+2023-07-16 01:42:36.936 [Scan]: 457/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_5/T_kitbash_05_Normal.uasset
+2023-07-16 01:42:36.954 [Scan]: 458/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_5/T_kitbash_05_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.957 [Scan]: 459/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_6/T_kitbash_06_BaseColor.uasset
+2023-07-16 01:42:36.976 [Scan]: 460/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_6/T_kitbash_06_Normal.uasset
+2023-07-16 01:42:36.980 [Scan]: 461/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_6/T_kitbash_06_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:36.989 [Scan]: 462/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/6179_AssetLabel.uasset
+2023-07-16 01:42:37.003 [Scan]: 463/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/T_kitbash_07_BaseColor_mask.uasset
+2023-07-16 01:42:37.014 [Scan]: 464/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/T_kitbash_07_edge_mask.uasset
+2023-07-16 01:42:37.021 [Scan]: 465/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/T_kitbash_07_Normal.uasset
+2023-07-16 01:42:37.025 [Scan]: 466/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/T_kitbash_07_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.040 [Scan]: 467/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_7/T_kitbash_07_scratches_mask.uasset
+2023-07-16 01:42:37.051 [Scan]: 468/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_8/6180_AssetLabel.uasset
+2023-07-16 01:42:37.065 [Scan]: 469/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_8/T_kitbash_08_BaseColor_mask.uasset
+2023-07-16 01:42:37.073 [Scan]: 470/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_8/T_kitbash_08_Edges_mask.uasset
+2023-07-16 01:42:37.080 [Scan]: 471/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_8/T_kitbash_08_Normal.uasset
+2023-07-16 01:42:37.084 [Scan]: 472/680 /Game/Mist/Props/Parts/kitbash/set_2/tex_8/T_kitbash_08_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.087 [Scan]: 473/680 /Game/Mist/Props/Parts/kitbash/set_3/assets/SM_FibersDrop.uasset
+2023-07-16 01:42:37.100 [Scan]: 474/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/6181_AssetLabel.uasset
+2023-07-16 01:42:37.104 [Scan]: 475/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/T_kitbash_10_BaseColor_mask.uasset
+2023-07-16 01:42:37.112 [Scan]: 476/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/T_kitbash_10_edges_mask.uasset
+2023-07-16 01:42:37.126 [Scan]: 477/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/T_kitbash_10_Normal.uasset
+2023-07-16 01:42:37.132 [Scan]: 478/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/T_kitbash_10_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.136 [Scan]: 479/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_10/T_kitbash_10_scratches_mask.uasset
+2023-07-16 01:42:37.143 [Scan]: 480/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_11/6182_AssetLabel.uasset
+2023-07-16 01:42:37.147 [Scan]: 481/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_11/T_kitbash_11_BaseColor.uasset
+2023-07-16 01:42:37.158 [Scan]: 482/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_11/T_kitbash_11_Normal.uasset
+2023-07-16 01:42:37.162 [Scan]: 483/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_11/T_kitbash_11_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.173 [Scan]: 484/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/6183_AssetLabel.uasset
+2023-07-16 01:42:37.176 [Scan]: 485/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/T_kitbash_12_BaseColor_mask.uasset
+2023-07-16 01:42:37.184 [Scan]: 486/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/T_kitbash_12_edges_mask.uasset
+2023-07-16 01:42:37.201 [Scan]: 487/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/T_kitbash_12_Normal.uasset
+2023-07-16 01:42:37.205 [Scan]: 488/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/T_kitbash_12_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.218 [Scan]: 489/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_12/T_kitbash_12_scratches_mask.uasset
+2023-07-16 01:42:37.225 [Scan]: 490/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_9/T_kitbash_09_BaseColor.uasset
+2023-07-16 01:42:37.236 [Scan]: 491/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_9/T_kitbash_09_Normal.uasset
+2023-07-16 01:42:37.240 [Scan]: 492/680 /Game/Mist/Props/Parts/kitbash/set_3/tex_9/T_kitbash_09_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.253 [Scan]: 493/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_13/T_kitbash_13_BaseColor.uasset
+2023-07-16 01:42:37.262 [Scan]: 494/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_13/T_kitbash_13_Normal.uasset
+2023-07-16 01:42:37.265 [Scan]: 495/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_13/T_kitbash_13_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.269 [Scan]: 496/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_14/T_kitbash_14_BaseColor_mask.uasset
+2023-07-16 01:42:37.281 [Scan]: 497/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_14/T_kitbash_14_edge_mask.uasset
+2023-07-16 01:42:37.291 [Scan]: 498/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_14/T_kitbash_14_Normal.uasset
+2023-07-16 01:42:37.294 [Scan]: 499/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_14/T_kitbash_14_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.298 [Scan]: 500/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_14/T_kitbash_14_scratches_mask.uasset
+2023-07-16 01:42:37.301 [Scan]: 501/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_15/T_kitbash_15_BaseColor.uasset
+2023-07-16 01:42:37.304 [Scan]: 502/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_15/T_kitbash_15_Normal.uasset
+2023-07-16 01:42:37.308 [Scan]: 503/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_15/T_kitbash_15_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.311 [Scan]: 504/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_16/T_kitbash_16_BaseColor_mask.uasset
+2023-07-16 01:42:37.314 [Scan]: 505/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_16/T_kitbash_16_edge_mask.uasset
+2023-07-16 01:42:37.327 [Scan]: 506/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_16/T_kitbash_16_Normal.uasset
+2023-07-16 01:42:37.331 [Scan]: 507/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_16/T_kitbash_16_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.334 [Scan]: 508/680 /Game/Mist/Props/Parts/kitbash/set_4/tex_16/T_kitbash_16_scratches_mask.uasset
+2023-07-16 01:42:37.357 [Scan]: 509/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/straw/MI_Straw_01.uasset
+2023-07-16 01:42:37.375 [Scan]: 510/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/straw/M_Straw_01.uasset
+2023-07-16 01:42:37.378 [Scan]: 511/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/straw/straw_a.uasset
+2023-07-16 01:42:37.392 [Scan]: 512/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/straw/straw_mask.uasset
+2023-07-16 01:42:37.405 [Scan]: 513/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/straw/straw_n.uasset
+2023-07-16 01:42:37.408 [Scan]: 514/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/torch/torch_a.uasset
+2023-07-16 01:42:37.415 [Scan]: 515/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/torch/torch_m.uasset
+2023-07-16 01:42:37.425 [Scan]: 516/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/torch/torch_n.uasset
+2023-07-16 01:42:37.435 [Scan]: 517/680 /Game/Mist/Props/Parts/Medieval_Archery/Textures/torch/torch_r.uasset
+2023-07-16 01:42:37.441 [Scan]: 518/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Anvil_Stand_01.uasset
+2023-07-16 01:42:37.455 [Scan]: 519/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bag_01.uasset
+2023-07-16 01:42:37.464 [Scan]: 520/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bag_02.uasset
+2023-07-16 01:42:37.468 [Scan]: 521/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bag_03.uasset
+2023-07-16 01:42:37.480 [Scan]: 522/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Barrel_01.uasset
+2023-07-16 01:42:37.483 [Scan]: 523/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Barrel_Big_01.uasset
+2023-07-16 01:42:37.487 [Scan]: 524/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Barrel_Open_01.uasset
+2023-07-16 01:42:37.494 [Scan]: 525/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Basket_01.uasset
+2023-07-16 01:42:37.498 [Scan]: 526/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Box_Small_01.uasset
+2023-07-16 01:42:37.507 [Scan]: 527/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Bucket_01.uasset
+2023-07-16 01:42:37.511 [Scan]: 528/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Container_01.uasset
+2023-07-16 01:42:37.515 [Scan]: 529/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Ladder_02.uasset
+2023-07-16 01:42:37.519 [Scan]: 530/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Package_01.uasset
+2023-07-16 01:42:37.523 [Scan]: 531/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Plank_01.uasset
+2023-07-16 01:42:37.532 [Scan]: 532/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Plank_Broken_01.uasset
+2023-07-16 01:42:37.535 [Scan]: 533/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Plank_Broken_02.uasset
+2023-07-16 01:42:37.539 [Scan]: 534/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Shelf_01.uasset
+2023-07-16 01:42:37.549 [Scan]: 535/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Shelf_Damaged_01.uasset
+2023-07-16 01:42:37.553 [Scan]: 536/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Torch_Simple_01.uasset
+2023-07-16 01:42:37.556 [Scan]: 537/680 /Game/Mist/Props/Parts/Medieval_Barrels/Meshes/Props/SM_Tub_01.uasset
+2023-07-16 01:42:37.573 [Scan]: 538/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/6164_AssetLabel.uasset
+2023-07-16 01:42:37.577 [Scan]: 539/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Anvil_Stand_01_BC.uasset
+2023-07-16 01:42:37.590 [Scan]: 540/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Anvil_Stand_01_M.uasset
+2023-07-16 01:42:37.608 [Scan]: 541/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Anvil_Stand_01_N.uasset
+2023-07-16 01:42:37.612 [Scan]: 542/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Bags_01_BC.uasset
+2023-07-16 01:42:37.616 [Scan]: 543/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Bags_01_N.uasset
+2023-07-16 01:42:37.620 [Scan]: 544/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Bags_01_R.uasset
+2023-07-16 01:42:37.633 [Scan]: 545/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Balk_01_BC.uasset
+2023-07-16 01:42:37.636 [Scan]: 546/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Balk_01_N.uasset
+2023-07-16 01:42:37.640 [Scan]: 547/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Balk_01_R.uasset
+2023-07-16 01:42:37.652 [Scan]: 548/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Barrels_01_BC.uasset
+2023-07-16 01:42:37.664 [Scan]: 549/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Barrels_01_M.uasset
+2023-07-16 01:42:37.667 [Scan]: 550/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Barrels_01_N.uasset
+2023-07-16 01:42:37.671 [Scan]: 551/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Boxes_01_BC.uasset
+2023-07-16 01:42:37.679 [Scan]: 552/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Boxes_01_M.uasset
+2023-07-16 01:42:37.683 [Scan]: 553/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Boxes_01_N.uasset
+2023-07-16 01:42:37.695 [Scan]: 554/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Package_01_BC.uasset
+2023-07-16 01:42:37.704 [Scan]: 555/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Package_01_N.uasset
+2023-07-16 01:42:37.707 [Scan]: 556/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Package_01_R.uasset
+2023-07-16 01:42:37.721 [Scan]: 557/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Rack_02_BC.uasset
+2023-07-16 01:42:37.725 [Scan]: 558/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Rack_02_M.uasset
+2023-07-16 01:42:37.741 [Scan]: 559/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Rack_02_N.uasset
+2023-07-16 01:42:37.745 [Scan]: 560/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Torch_01_BC.uasset
+2023-07-16 01:42:37.756 [Scan]: 561/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Torch_01_M.uasset
+2023-07-16 01:42:37.760 [Scan]: 562/680 /Game/Mist/Props/Parts/Medieval_Barrels/Textures/Props/T_Torch_01_N.uasset
+2023-07-16 01:42:37.789 [Scan]: 563/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_001.uasset
+2023-07-16 01:42:37.793 [Scan]: 564/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_002.uasset
+2023-07-16 01:42:37.797 [Scan]: 565/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_003.uasset
+2023-07-16 01:42:37.806 [Scan]: 566/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_004.uasset
+2023-07-16 01:42:37.811 [Scan]: 567/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_005.uasset
+2023-07-16 01:42:37.814 [Scan]: 568/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_006.uasset
+2023-07-16 01:42:37.818 [Scan]: 569/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_007.uasset
+2023-07-16 01:42:37.821 [Scan]: 570/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_008.uasset
+2023-07-16 01:42:37.825 [Scan]: 571/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_009.uasset
+2023-07-16 01:42:37.828 [Scan]: 572/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_010.uasset
+2023-07-16 01:42:37.832 [Scan]: 573/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_011.uasset
+2023-07-16 01:42:37.835 [Scan]: 574/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_012.uasset
+2023-07-16 01:42:37.839 [Scan]: 575/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_014.uasset
+2023-07-16 01:42:37.843 [Scan]: 576/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_015.uasset
+2023-07-16 01:42:37.847 [Scan]: 577/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_016.uasset
+2023-07-16 01:42:37.861 [Scan]: 578/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_017.uasset
+2023-07-16 01:42:37.865 [Scan]: 579/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/herbs_sm_rupu_skin_018.uasset
+2023-07-16 01:42:37.868 [Scan]: 580/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/Rupu_Skin_01.uasset
+2023-07-16 01:42:37.872 [Scan]: 581/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/T_Rupubody_D.uasset
+2023-07-16 01:42:37.875 [Scan]: 582/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/T_Rupubody_N.uasset
+2023-07-16 01:42:37.878 [Scan]: 583/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/rupuskin/T_Rupubody_S.uasset
+2023-07-16 01:42:37.882 [Scan]: 584/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/amber_height.uasset
+2023-07-16 01:42:37.894 [Scan]: 585/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/amber_low_amber_BaseColor.uasset
+2023-07-16 01:42:37.907 [Scan]: 586/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/amber_low_amber_Normal.uasset
+2023-07-16 01:42:37.920 [Scan]: 587/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/amber_low_amber_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.923 [Scan]: 588/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/noise.uasset
+2023-07-16 01:42:37.926 [Scan]: 589/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/noise_fake_depth.uasset
+2023-07-16 01:42:37.930 [Scan]: 590/680 /Game/Mist/Props/Parts/TradingStationProps/textures/amber/noise_normal.uasset
+2023-07-16 01:42:37.933 [Scan]: 591/680 /Game/Mist/Props/Parts/TradingStationProps/textures/bricks/bricks_low_bricks_BaseColor.uasset
+2023-07-16 01:42:37.937 [Scan]: 592/680 /Game/Mist/Props/Parts/TradingStationProps/textures/bricks/bricks_low_bricks_Normal.uasset
+2023-07-16 01:42:37.940 [Scan]: 593/680 /Game/Mist/Props/Parts/TradingStationProps/textures/bricks/bricks_low_bricks_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.943 [Scan]: 594/680 /Game/Mist/Props/Parts/TradingStationProps/textures/egg/eggs_BaseColor.uasset
+2023-07-16 01:42:37.947 [Scan]: 595/680 /Game/Mist/Props/Parts/TradingStationProps/textures/egg/eggs_BaseColor_Mat.uasset
+2023-07-16 01:42:37.950 [Scan]: 596/680 /Game/Mist/Props/Parts/TradingStationProps/textures/egg/eggs_Normal.uasset
+2023-07-16 01:42:37.963 [Scan]: 597/680 /Game/Mist/Props/Parts/TradingStationProps/textures/egg/eggs_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:37.966 [Scan]: 598/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/6165_AssetLabel.uasset
+2023-07-16 01:42:37.975 [Scan]: 599/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_a_BaseColor.uasset
+2023-07-16 01:42:37.984 [Scan]: 600/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_a_BaseColor_Mat.uasset
+2023-07-16 01:42:37.988 [Scan]: 601/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_a_Normal.uasset
+2023-07-16 01:42:38.003 [Scan]: 602/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_a_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.006 [Scan]: 603/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_b_BaseColor.uasset
+2023-07-16 01:42:38.010 [Scan]: 604/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_b_BaseColor_Mat.uasset
+2023-07-16 01:42:38.013 [Scan]: 605/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_low_b_Normal.uasset
+2023-07-16 01:42:38.031 [Scan]: 606/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabricks_roll_low_b_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.047 [Scan]: 607/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_01_BaseColor.uasset
+2023-07-16 01:42:38.063 [Scan]: 608/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_01_BaseColor_Mat.uasset
+2023-07-16 01:42:38.088 [Scan]: 609/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_01_Normal.uasset
+2023-07-16 01:42:38.091 [Scan]: 610/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_01_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.095 [Scan]: 611/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_02_BaseColor.uasset
+2023-07-16 01:42:38.098 [Scan]: 612/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_02_BaseColor_Mat.uasset
+2023-07-16 01:42:38.102 [Scan]: 613/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_02_Normal.uasset
+2023-07-16 01:42:38.105 [Scan]: 614/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/fabric_02_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.134 [Scan]: 615/680 /Game/Mist/Props/Parts/TradingStationProps/textures/glass/glass_scale_formation_Roughness.uasset
+2023-07-16 01:42:38.145 [Scan]: 616/680 /Game/Mist/Props/Parts/TradingStationProps/textures/glass/glass_waterfall_Normal.uasset
+2023-07-16 01:42:38.155 [Scan]: 617/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/eucakyptus_BaseColor.uasset
+2023-07-16 01:42:38.159 [Scan]: 618/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/eucakyptus_norma.uasset
+2023-07-16 01:42:38.190 [Scan]: 619/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/mint_basecolor.uasset
+2023-07-16 01:42:38.201 [Scan]: 620/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/mint_normal.uasset
+2023-07-16 01:42:38.206 [Scan]: 621/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/TexturesCom_Weed_Various11_512_albedo.uasset
+2023-07-16 01:42:38.219 [Scan]: 622/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/TexturesCom_Weed_Various11_512_normal.uasset
+2023-07-16 01:42:38.226 [Scan]: 623/680 /Game/Mist/Props/Parts/TradingStationProps/textures/herbs/TexturesCom_Weed_Various11_512_roughness.uasset
+2023-07-16 01:42:38.231 [Scan]: 624/680 /Game/Mist/Props/Parts/TradingStationProps/textures/meat/meat_low_meat_raw_BaseColor.uasset
+2023-07-16 01:42:38.238 [Scan]: 625/680 /Game/Mist/Props/Parts/TradingStationProps/textures/meat/meat_low_meat_raw_Normal.uasset
+2023-07-16 01:42:38.242 [Scan]: 626/680 /Game/Mist/Props/Parts/TradingStationProps/textures/meat/meat_low_meat_raw_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.250 [Scan]: 627/680 /Game/Mist/Props/Parts/TradingStationProps/textures/minerals/minerals_low_minerals_BaseColor.uasset
+2023-07-16 01:42:38.261 [Scan]: 628/680 /Game/Mist/Props/Parts/TradingStationProps/textures/minerals/minerals_low_minerals_Normal.uasset
+2023-07-16 01:42:38.271 [Scan]: 629/680 /Game/Mist/Props/Parts/TradingStationProps/textures/minerals/minerals_low_minerals_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.275 [Scan]: 630/680 /Game/Mist/Props/Parts/TradingStationProps/textures/rope/ropeNm.uasset
+2023-07-16 01:42:38.281 [Scan]: 631/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_b_BaseColor.uasset
+2023-07-16 01:42:38.289 [Scan]: 632/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_b_Normal.uasset
+2023-07-16 01:42:38.292 [Scan]: 633/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_b_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.296 [Scan]: 634/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_sack_BaseColor.uasset
+2023-07-16 01:42:38.299 [Scan]: 635/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_sack_Normal.uasset
+2023-07-16 01:42:38.307 [Scan]: 636/680 /Game/Mist/Props/Parts/TradingStationProps/textures/sack/sack_sack_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.311 [Scan]: 637/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/printed_linen_AO_R_M_OP.uasset
+2023-07-16 01:42:38.315 [Scan]: 638/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/printed_linen_rough_Diffuse.uasset
+2023-07-16 01:42:38.319 [Scan]: 639/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/printed_linen_rough_Diffuse_Mat.uasset
+2023-07-16 01:42:38.322 [Scan]: 640/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/printed_linen_rough_Normal.uasset
+2023-07-16 01:42:38.326 [Scan]: 641/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/Stand_fabric_Normal.uasset
+2023-07-16 01:42:38.329 [Scan]: 642/680 /Game/Mist/Props/Parts/TradingStationProps/textures/stand_fabric/Stand_fabric_Opacity.uasset
+2023-07-16 01:42:38.341 [Scan]: 643/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/Teak_wood_basecolor.uasset
+2023-07-16 01:42:38.346 [Scan]: 644/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/Teak_wood_basecolor_Mat.uasset
+2023-07-16 01:42:38.349 [Scan]: 645/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/Teak_wood_normal.uasset
+2023-07-16 01:42:38.361 [Scan]: 646/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/Teak_wood_roughness.uasset
+2023-07-16 01:42:38.365 [Scan]: 647/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/T_Teakwood_01_D.uasset
+2023-07-16 01:42:38.368 [Scan]: 648/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/T_Teakwood_01_N.uasset
+2023-07-16 01:42:38.371 [Scan]: 649/680 /Game/Mist/Props/Parts/TradingStationProps/textures/wood/T_Teakwood_01_R.uasset
+2023-07-16 01:42:38.387 [Scan]: 650/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_01/Sk_fabric_long_high_01_Skeleton.uasset
+2023-07-16 01:42:38.390 [Scan]: 651/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_01/SM_Fabric01.uasset
+2023-07-16 01:42:38.409 [Scan]: 652/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_02/Sk_fabric_long_high_02.uasset
+2023-07-16 01:42:38.413 [Scan]: 653/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_02/SM_fabric_long_high_02.uasset
+2023-07-16 01:42:38.425 [Scan]: 654/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_03/SK_station_fabric_big.uasset
+2023-07-16 01:42:38.429 [Scan]: 655/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_03/SK_station_fabric_big_Physics.uasset
+2023-07-16 01:42:38.432 [Scan]: 656/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_03/SK_station_fabric_big_Skeleton.uasset
+2023-07-16 01:42:38.436 [Scan]: 657/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/fabric_03/SM_station_fabric_big.uasset
+2023-07-16 01:42:38.439 [Scan]: 658/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/stand_a/SM_stand_a.uasset
+2023-07-16 01:42:38.442 [Scan]: 659/680 /Game/Mist/Props/Parts/TradingStationProps/meshes/SK_cloth/stand_b/SM_stand_b.uasset
+2023-07-16 01:42:38.446 [Scan]: 660/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/Fabric_long_Normal.uasset
+2023-07-16 01:42:38.449 [Scan]: 661/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/Fabric_long_Opacity.uasset
+2023-07-16 01:42:38.455 [Scan]: 662/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/long.uasset
+2023-07-16 01:42:38.458 [Scan]: 663/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_big_BaseColor.uasset
+2023-07-16 01:42:38.462 [Scan]: 664/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_big_BaseColor_Mat.uasset
+2023-07-16 01:42:38.465 [Scan]: 665/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_big_Normal.uasset
+2023-07-16 01:42:38.469 [Scan]: 666/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_big_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.472 [Scan]: 667/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_long_BaseColor.uasset
+2023-07-16 01:42:38.485 [Scan]: 668/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_long_BaseColor_Mat.uasset
+2023-07-16 01:42:38.489 [Scan]: 669/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_long_Normal.uasset
+2023-07-16 01:42:38.497 [Scan]: 670/680 /Game/Mist/Props/Parts/TradingStationProps/textures/fabrics/station_fabrics/station_fabric_long_OcclusionRoughnessMetallic.uasset
+2023-07-16 01:42:38.500 [Scan]: 671/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/clay/clay_soft_polished_Base_Color.uasset
+2023-07-16 01:42:38.516 [Scan]: 672/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/clay/clay_soft_polished_Normal.uasset
+2023-07-16 01:42:38.520 [Scan]: 673/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/clay/clay_soft_polished_Roughness.uasset
+2023-07-16 01:42:38.524 [Scan]: 674/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/clay/M_clay_soft_polished.uasset
+2023-07-16 01:42:38.527 [Scan]: 675/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/iron/iron_bumped_Base_Color.uasset
+2023-07-16 01:42:38.531 [Scan]: 676/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/iron/iron_bumped_Normal.uasset
+2023-07-16 01:42:38.534 [Scan]: 677/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/wicker/weave3_spaced_basecolor.uasset
+2023-07-16 01:42:38.538 [Scan]: 678/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/wicker/weave3_spaced_basecolor_Mat.uasset
+2023-07-16 01:42:38.541 [Scan]: 679/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/wicker/weave3_spaced_normal.uasset
+2023-07-16 01:42:38.544 [Scan]: 680/680 /Game/Mist/Props/Parts/TradingStationProps/textures/tiled/wicker/weave3_spaced_roughness.uasset
+2023-07-16 01:42:38.544 [Scan]: Found 680 files
+2023-07-16 01:42:38.544 [Scan]: /Script/Engine.StaticMesh : 217
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.Material : 84
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.Texture2D : 309
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.BlueprintGeneratedClass : 20
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.SkeletalMesh : 6
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.MaterialInstanceConstant : 37
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.Skeleton : 6
+2023-07-16 01:42:38.558 [Scan]: /Script/Engine.PhysicsAsset : 1
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerConstructionSite.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegs.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsHeavy1.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWheelFront.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionMedium.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish2.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalker.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish1.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionArmored.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerCollision.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish1.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy1.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionSite.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerConstructionSupport.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsHeavy2.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinTorqueCurve.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsDefault.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSmall.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerTireConfig.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsArmored.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstruction.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsFastMedium.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsFastSmall.uasset
+2023-07-16 01:49:11.874 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy2.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish2.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\MI_CabinWalker.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker_PROXY.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_Main.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_NoBuilding.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Flags.uasset
+2023-07-16 01:49:11.955 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_PlayerOnly.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_02.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_03.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_04.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_05.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_06.uasset
+2023-07-16 01:49:11.956 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_07.uasset
+2023-07-16 01:49:11.957 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_08.uasset
+2023-07-16 01:49:11.957 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_AO_R_M.uasset
+2023-07-16 01:49:11.957 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_D.uasset
+2023-07-16 01:49:11.957 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_N.uasset
+2023-07-16 01:49:11.957 [Serialize Assets]: 1/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_PROXY_Diffuse.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSmall.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerCollision.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsFastSmall.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy2.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalker.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish2.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerTireConfig.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsArmored.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsFastMedium.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsHeavy2.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish1.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish1.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstruction.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinTorqueCurve.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegs.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerConstructionSupport.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsHeavy1.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsDefault.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionMedium.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerConstructionSite.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWheelFront.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionSite.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy1.uasset
+2023-07-16 01:58:15.406 [Serialize Assets]: 0/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionArmored.uasset
+2023-07-16 01:58:15.431 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerTireConfig.uasset
+2023-07-16 01:58:15.431 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinTorqueCurve.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy1.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish2.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegs.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionHeavy2.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWheelFront.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalker.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerConstructionSupport.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSmall.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsDefault.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish1.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionSite.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsArmored.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerLegsConstructionArmored.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionMedium.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsFastMedium.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstruction.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 0/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsConstructionSkirmish1.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish2.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\MI_CabinWalker.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker_PROXY.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker.uasset
+2023-07-16 01:58:15.434 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_Main.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_NoBuilding.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\CabinWalkerWingsSkirmish2.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Collision_PlayerOnly.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\MI_CabinWalker.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker_PROXY.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Flags.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_02.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_03.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_04.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\M_CabinWalker.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_05.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_06.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_07.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_08.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_AO_R_M.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_D.uasset
+2023-07-16 01:58:15.435 [Serialize Assets]: 24/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_N.uasset
+2023-07-16 01:58:15.436 [Serialize Assets]: 2/44 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_PROXY_Diffuse.uasset
+2023-07-16 01:58:15.486 [Serialize Assets]: 28/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\T_CabinWalker_PROXY_Diffuse.uasset
+2023-07-16 01:58:19.609 [Serialize Assets]: 28/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_07.uasset due to: Mesh is too large to export to FBX. Estimated time to complete using this method: 6,3 minutes. Use another method to export this mesh.
+2023-07-16 01:58:20.057 [Serialize Assets]: 28/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_02.uasset due to: Mesh is too large to export to FBX. Estimated time to complete using this method: 8,05 minutes. Use another method to export this mesh.
+2023-07-16 01:58:21.297 [Serialize Assets]: 28/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker_Part_04.uasset due to: Mesh is too large to export to FBX. Estimated time to complete using this method: 11,375 minutes. Use another method to export this mesh.
+2023-07-16 01:58:22.122 [Serialize Assets]: 28/44 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\CabinWalker\SM_CabinWalker.uasset due to: Mesh is too large to export to FBX. Estimated time to complete using this method: 10,85 minutes. Use another method to export this mesh.
