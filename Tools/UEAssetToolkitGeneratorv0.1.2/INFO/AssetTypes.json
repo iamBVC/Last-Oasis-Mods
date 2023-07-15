@@ -1,37 +1,23 @@
 {
-  "/Script/Engine.BlueprintGeneratedClass": [
-    "/Mist/Props/Structures/AutoTurret/AutoTurret.uasset",
-    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/AbandonedTradingStation.uasset",
-    "/Mist/Props/Structures/Hotspots/WalkerGraveyard/WalkerGraveyard.uasset"
-  ],
-  "/Script/Engine.AnimBlueprintGeneratedClass": [
-    "/Mist/Props/Structures/AutoTurret/RupuTurret_Anim_BP.uasset"
-  ],
-  "/Script/Engine.AnimSequence": [
-    "/Mist/Props/Structures/AutoTurret/RupuTurret_slingshot_shot_b.uasset",
-    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_IdleAnim.uasset",
-    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_ShotAnim.uasset"
-  ],
-  "/Script/Engine.SkeletalMesh": [
-    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot.uasset"
-  ],
-  "/Script/Engine.Skeleton": [
-    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_Skeleton.uasset"
-  ],
   "/Script/Engine.StaticMesh": [
-    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretBase.uasset",
-    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretIdleRupu.uasset",
-    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretTowerDamaged.uasset",
-    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretTowerMerged.uasset",
-    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/SM_AbandonedTradingStation_Proxy.uasset",
-    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_DinghyWalker_01.uasset",
-    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_Rope_01.uasset",
-    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_ThreeSticks_01.uasset"
+    "/Mist/Props/Nature/CanyonRocks/CanyonRocksCliff50.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_100m_01.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_100m_02.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_10m_01.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_10m_Decal.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_50m_01.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_50m_02.uasset",
+    "/Mist/Props/Nature/CanyonRocks/CanyonRock_50m_Decal.uasset"
   ],
   "/Script/Engine.MaterialInstanceConstant": [
-    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/M_AbandonedTradingStation_Proxy.uasset"
-  ],
-  "/Script/Engine.Texture2D": [
-    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/T_AbandonedTradingStation_Proxy_Diffuse.uasset"
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRockHand_06_canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRockHand_13_canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_02_canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_02_Canyon_01.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_02_canyon_Decal.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_04_canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_06_Canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_11_Canyon.uasset",
+    "/Mist/Props/Nature/CanyonRocks/MI_DryRock_13_Canyon.uasset"
   ]
 }

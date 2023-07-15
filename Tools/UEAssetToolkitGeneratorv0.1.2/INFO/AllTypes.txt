@@ -1,8 +1,2 @@
-"/Script/Engine.AnimBlueprintGeneratedClass",
-"/Script/Engine.AnimSequence",
-"/Script/Engine.BlueprintGeneratedClass",
 "/Script/Engine.MaterialInstanceConstant",
-"/Script/Engine.SkeletalMesh",
-"/Script/Engine.Skeleton",
 "/Script/Engine.StaticMesh",
-"/Script/Engine.Texture2D",
