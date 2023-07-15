@@ -19,7 +19,7 @@ public class System
         Settings = jsonsettings;
 
         Log.Logger = new LoggerConfiguration()
-            .WriteTo.File(Settings.InfoDir + "/output_log.txt", 
+            .WriteTo.File(Settings.InfoDir + "/output_log.txt",
                 outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} {Message}{NewLine}{Exception}")
             .CreateLogger();
     }
@@ -45,9 +45,9 @@ public class System
     {
         var AR = new FAssetRegistryState(Settings.AssetRegistry, Settings.GlobalUEVersion);
         AssetList = new Dictionary<string, AssetData>(AR.PreallocatedAssetDataBuffers.Length);
-        foreach (var data in AR.PreallocatedAssetDataBuffers) 
+        foreach (var data in AR.PreallocatedAssetDataBuffers)
         {
-            if (data.PackageName.ToName().StartsWith("/Game")) 
+            if (data.PackageName.ToName().StartsWith("/Game"))
             {
                 AssetList[data.PackageName.ToName()] = new AssetData(data.AssetClass, data.AssetName, data.TagsAndValues);
             }
@@ -59,7 +59,7 @@ public class System
     public void ScanAssetTypes(string typeToFind = "")
     {
         ScanAR();
-        
+
         Dictionary<string, List<string>> types = new();
         List<string> allTypes = new();
         var files = MakeFileList(Settings.ContentDir);
@@ -68,7 +68,7 @@ public class System
         foreach (var file in files)
         {
             AssetCount++;
-            
+
             if (CheckPNGAsset(file)) continue;
 
             // Cannot use AR types because it (most of the time) does not include the /Script/<type>. data which is required
@@ -78,7 +78,7 @@ public class System
             var path = "/" + Path.GetRelativePath(Settings.ContentDir, file).Replace("\\", "/");
 
             PrintOutput("/Game" + path, "Scan");
-            
+
             if (types.ContainsKey(type)) types[type].Add(path);
             else types[type] = new List<string> { path };
 
@@ -101,7 +101,7 @@ public class System
     public void SerializeNativeAssets()
     {
         ScanAR();
-        
+
         ENativizationMethod method = ENativizationMethod.Disabled;
         var nativeAssets = new List<string>();
         foreach (var line in File.ReadAllLines(Settings.DefaultGameConfig))
@@ -110,7 +110,7 @@ public class System
             {
                 method = (ENativizationMethod)Enum.Parse(typeof(ENativizationMethod), line.Split('=')[1]);
             }
-            
+
             if (line.StartsWith("+NativizeBlueprintAssets="))
             {
                 var path = line.Split('"')[1];
@@ -118,7 +118,7 @@ public class System
                 nativeAssets.Add(path);
             }
         }
-        
+
         AssetCount = 0;
         AssetTotal = nativeAssets.Count;
         if (nativeAssets.Count > 0)
@@ -139,7 +139,7 @@ public class System
                 }
             }
         }
-        
+
         if (method != ENativizationMethod.Disabled) // Inclusive OR exclusive
         {
             foreach (var ARAsset in AssetList)
@@ -160,7 +160,7 @@ public class System
             }
         }
     }
-    
+
     public void GetCookedAssets(bool copy)
     {
         ScanAR();
@@ -173,14 +173,14 @@ public class System
         {
             shortTypes.Add(assetType.Split(".")[1]);
         }
-        
+
         var files = MakeFileList(Settings.FromDir, false);
         AssetCount = 0;
         AssetTotal = files.Count;
         foreach (var file in files)
         {
             AssetCount++;
-            
+
             if (CheckPNGAsset(file)) continue;
 
             var type = GetAssetTypeAR(file, Settings.FromDir);
@@ -190,21 +190,21 @@ public class System
             {
                 var relativePath = Path.GetRelativePath(Settings.FromDir, file);
                 var newPath = Path.Combine(Settings.CookedDir, relativePath);
-    
+
                 PrintOutput(newPath, $"{nameType} Assets");
-    
+
                 Directory.CreateDirectory(Path.GetDirectoryName(newPath) ?? string.Empty);
-            
+
                 if (copy) File.Copy(file, newPath, true);
                 else File.Move(file, newPath, true);
-    
+
                 var uexpFile = Path.ChangeExtension(file, "uexp");
                 if (File.Exists(uexpFile))
                 {
                     if (copy) File.Copy(uexpFile, Path.ChangeExtension(newPath, "uexp"), true);
                     else File.Move(uexpFile, Path.ChangeExtension(newPath, "uexp"), true);
                 }
-            
+
                 var ubulkFile = Path.ChangeExtension(file, "ubulk");
                 if (File.Exists(ubulkFile))
                 {
@@ -353,19 +353,26 @@ public class System
         }
     }
 
-    
+
     public void SerializeAssets()
     {
         var files = MakeFileList(Settings.ContentDir);
         AssetTotal = files.Count;
         AssetCount = 0;
+        int cores = Environment.ProcessorCount;
         List<Thread> threads = new List<Thread>();
         foreach (var file in files)
         {
             Thread myNewThread = new Thread(() => SerializeAsset(file));
             threads.Add(myNewThread);
             myNewThread.Start();
+            if ((threads.Count) % (cores * 2) == 0)
+            {
+                threads.Last().Join();
+                AssetCount += cores * 2;
+            }
         }
+        AssetCount = 0;
         foreach (var thread in threads)
         {
             thread.Join();
@@ -436,9 +443,9 @@ public class System
             if (exp.bIsAsset) isasset.Add(exp);
         }
 
-        if (exportnames.Count == 0) 
+        if (exportnames.Count == 0)
         {
-            foreach (var exp in asset.Exports) 
+            foreach (var exp in asset.Exports)
             {
                 if (exp.ObjectName.ToName().ToLower() == name) exportnames.Add(exp);
             }
@@ -457,11 +464,12 @@ public class System
         return "null";
     }
 
-    private string GetAssetTypeAR(string fullAssetPath, string relativeToDir) {
+    private string GetAssetTypeAR(string fullAssetPath, string relativeToDir)
+    {
         if (AssetList.Count == 0) return "null";
 
         var AssetPath = GetAssetPackageFromFullPath(fullAssetPath, relativeToDir);
-        if (AssetList.ContainsKey(AssetPath)) 
+        if (AssetList.ContainsKey(AssetPath))
         {
             var artype = AssetList[AssetPath].AssetClass;
             return artype;
