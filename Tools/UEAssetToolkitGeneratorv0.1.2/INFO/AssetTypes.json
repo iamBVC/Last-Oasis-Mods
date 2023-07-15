@@ -1,170 +1,37 @@
 {
-  "/Script/Engine.StaticMesh": [
-    "/Mist/Props/VehicleParts/BigLegs_Pose_0.uasset",
-    "/Mist/Props/VehicleParts/BigLegs_Pose_32.uasset",
-    "/Mist/Props/VehicleParts/LegsAttachment/SM_LegsAttachmentRightBack.uasset",
-    "/Mist/Props/VehicleParts/LegsAttachment/SM_LegsAttachmentRightFront.uasset",
-    "/Mist/Props/VehicleParts/LegsAttachment/SingleParts/SM_LegsAttachment.uasset",
-    "/Mist/Props/VehicleParts/LegsAttachment/SingleParts/SM_LegsAttachmentLeft.uasset",
-    "/Mist/Props/VehicleParts/LegsAttachment/SingleParts/SM_LegsAttachment_02.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingHeavy2.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingHeavy2_Construction.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingSkirmish1.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingSkirmish1_Construction.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingSkirmish2.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWingSkirmish2_Construction.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWing_01.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/SM_WalkerWing_01_Construction.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsNormal/SM_BigLegsSecondaryPosition.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/SM_Wing-Large.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/SM_Wing-Medium.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/SM_Wing-Small_L.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/SM_Wing-Small_L1Wood.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingCollisions/SM_Wing-Default_CollisionObject.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingCollisions/SM_Wing-Large_CollisionObject.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingCollisions/SM_Wing-Medium_CollisionObject.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingCollisions/SM_Wing-Medium_Construction.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingCollisions/SM_Wing-Small_CollisionObject.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/largewings_box_Attachment_Female1_001.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/largewings_box_Attachment_Female2_001.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/largewings_box_Wing_Frame_001.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/SM_WingSingle-Large.uasset"
-  ],
   "/Script/Engine.BlueprintGeneratedClass": [
-    "/Mist/Props/VehicleParts/BaseParts/SkyWalkerLegsDefault.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/WalkerLegsDefault.uasset",
-    "/Mist/Props/VehicleParts/Data/WalkerCollisionSoundComponent.uasset",
-    "/Mist/Props/VehicleParts/Data/WalkerConstruction.uasset",
-    "/Mist/Props/VehicleParts/Data/WalkerPartConstruction.uasset",
-    "/Mist/Props/VehicleParts/Data/WalkerSoundComponent.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/ArmoredLegs_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/DefaultLegs_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/DefaultWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/FastLargeWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/FastMediumWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/FastSmallWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/HeavyLegs_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/HeavyWing2_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/HeavyWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/SkirmishWing2_Placement.uasset",
-    "/Mist/Props/VehicleParts/PlacementActor/SkirmishWing_Placement.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/8112_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/BaseWalkerWing.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/SkyWalkerWing.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Meshes/7029_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/7169_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/7170_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/7171_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2_New/7172_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/7173_AssetLabel.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsArmored/LegsArmored.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsHeavy/LegsHeavy.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsNormal/LegsNormal.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsSmall/LegsSmall.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/LegsSmall/LegsSmallArmored.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Legs/SkyLegsNormal/SkyLegsNormal.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/SkyWalkerWings-Default/SkyWalkerWingDefault.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/BaseWalkerWingLarge.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/BaseWalkerWingMedium.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/BaseWalkerWingSmall.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingsHeavy2/BaseWalkerWingHeavy2.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/BaseWalkerWingDefault.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingsSkirmish1/BaseWalkerWingSkirmish1.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingsSkirmish2/BaseWalkerWingSkirmish2.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingsT4/BaseWalkerWingHeavy1.uasset"
-  ],
-  "/Script/Engine.CurveFloat": [
-    "/Mist/Props/VehicleParts/Data/WalkerWeightToTorqueCurve.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Curve_WingsExtend_Float.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Curve_WingsRetract_Float.uasset"
-  ],
-  "/Script/Engine.MaterialInstanceConstant": [
-    "/Mist/Props/VehicleParts/WalkerWings/MI_WalkerWingWood_01.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/MI_WalkerWingWood_02.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/MI_WalkerWingWood_04_05.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/MI_WalkerWing_02.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/MI_WalkerWing_04_05.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/MI_WalkerWing_T1.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/MI_Wings_T1.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/MI_WalkerWing_T2.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/MI_Wings_T2.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/MI_WalkerWing_T3.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/MI_Wings_T3.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/MI_WalkerWing_T4.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/MI_Wings_T4.uasset"
-  ],
-  "/Script/Engine.UserDefinedStruct": [
-    "/Mist/Props/VehicleParts/BaseParts/Wings/SWingsVisuals.uasset"
-  ],
-  "/Script/Engine.Texture2D": [
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_01_AO_R_MT.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_01_D.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_01_Damage_O.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_01_N.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_02_AO_R_MT.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_02_D.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_02_Damage_N.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_02_Damage_O.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_02_N.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_04_05_AO_R_MT.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_04_05_D.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_04_05_Damage_O.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Textures/T_WalkerWing_04_05_N.uasset"
-  ],
-  "/Script/Engine.SkeletalMesh": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/SK_Wings_T1.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_a.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/SK_Wing-Large_L.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/SK_Wing-Medium_Left.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/SK_Wing-Small_L.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/SK_WingSingle-Large.uasset"
-  ],
-  "/Script/Engine.AnimSequence": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/SK_Wings_T1_Anim.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/Wings_T1_NoShakes.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_Anim.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_noBend.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_Anim.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_noBend.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_a_Anim.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_NoShakes.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/LargeWings_Anim.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/Animation/A_Wing-Large_L.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/Animations/A_Wing-Medium_Left.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/Animation/A_Wing-Small_L.uasset"
-  ],
-  "/Script/Engine.Skeleton": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/SK_Wings_T1_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_a_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/SK_Wing-Large_Left_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/SK_Wing-Medium_Left_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/SK_Wing-Small_L_Skeleton.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/SK_WingSingle-Large_Skeleton.uasset"
+    "/Mist/Props/Structures/AutoTurret/AutoTurret.uasset",
+    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/AbandonedTradingStation.uasset",
+    "/Mist/Props/Structures/Hotspots/WalkerGraveyard/WalkerGraveyard.uasset"
   ],
   "/Script/Engine.AnimBlueprintGeneratedClass": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/Wings_T1_AnimBP.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_Anim_BP.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_AnimBP.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_Anim_BP.uasset"
+    "/Mist/Props/Structures/AutoTurret/RupuTurret_Anim_BP.uasset"
   ],
-  "/Script/Engine.BlendSpace1D": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/Wings_T1_BS.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_BS.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_BS.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_a_BS.uasset"
+  "/Script/Engine.AnimSequence": [
+    "/Mist/Props/Structures/AutoTurret/RupuTurret_slingshot_shot_b.uasset",
+    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_IdleAnim.uasset",
+    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_ShotAnim.uasset"
   ],
-  "/Script/Engine.PhysicsAsset": [
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T1/Wings_T1_Physics.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T2/Wings_T2_Physics.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T3/Wings_T3_Physics.uasset",
-    "/Mist/Props/VehicleParts/WalkerWings/Wings_T4/Wings_T4_Physics.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Large/SK_Wing-Large_L_PhysicsAsset.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Middle/SK_Wing-Medium_Left_PhysicsAsset.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/Wing-Small/SK_Wing-Small_L_PhysicsAsset.uasset",
-    "/Mist/Props/VehicleParts/BaseParts/Wings/WingSingle-Large/SK_WingSingle-Large_Physics.uasset"
+  "/Script/Engine.SkeletalMesh": [
+    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot.uasset"
+  ],
+  "/Script/Engine.Skeleton": [
+    "/Mist/Props/Structures/AutoTurret/SK_RupuTurret_slingshot_Skeleton.uasset"
+  ],
+  "/Script/Engine.StaticMesh": [
+    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretBase.uasset",
+    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretIdleRupu.uasset",
+    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretTowerDamaged.uasset",
+    "/Mist/Props/Structures/AutoTurret/SM_RupuTurretTowerMerged.uasset",
+    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/SM_AbandonedTradingStation_Proxy.uasset",
+    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_DinghyWalker_01.uasset",
+    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_Rope_01.uasset",
+    "/Mist/Props/Structures/Hotspots/KitbashElements/SM_HotspotKitbashElement_ThreeSticks_01.uasset"
+  ],
+  "/Script/Engine.MaterialInstanceConstant": [
+    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/M_AbandonedTradingStation_Proxy.uasset"
+  ],
+  "/Script/Engine.Texture2D": [
+    "/Mist/Props/Structures/Hotspots/AbandonedTradingStation/T_AbandonedTradingStation_Proxy_Diffuse.uasset"
   ]
 }
