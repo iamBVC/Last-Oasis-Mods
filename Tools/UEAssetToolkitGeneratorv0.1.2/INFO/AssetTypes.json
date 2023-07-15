@@ -1,0 +1,62 @@
+{
+  "/Script/HoudiniEngineRuntime.HoudiniAsset": [
+    "/Plugins/HoudiniEngine/Content/houdini_bgeo_import.uasset"
+  ],
+  "/Script/Engine.Material": [
+    "/Plugins/HoudiniEngine/Content/houdini_default_material.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/M_Canvas_Background.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/M_Canvas_BackgroundFill.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/M_UMG_Background.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/M_UMG_CircleMask.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/M_UMG_MistHexMapBackground.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Fog/M_Canvas_Fog.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Fog/M_FogCombine.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Fog/M_UMG_Fog.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Fog/M_WorldFog.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Icons/M_Canvas_MapIcon.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Icons/M_UMG_MapIcon.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Revealers/M_Revealer_Circle.uasset"
+  ],
+  "/Script/Engine.StaticMesh": [
+    "/Plugins/HoudiniEngine/Content/houdini_logo.uasset"
+  ],
+  "/Script/Engine.FontFace": [
+    "/Plugins/KiBLII/Content/Fonts/NotoSansCJKsc-Regular.uasset"
+  ],
+  "/Script/Engine.TextureRenderTarget2D": [
+    "/Plugins/MinimapPlugin/Content/Textures/RT_MinimapSnapshot.uasset"
+  ],
+  "/Script/UMG.WidgetBlueprintGeneratedClass": [
+    "/Plugins/MinimapPlugin/Content/Widgets/Minimap.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_Background.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_BoxSelect.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_Camera.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_Fog.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_Icon.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_IconMouseCapture.uasset",
+    "/Plugins/MinimapPlugin/Content/Widgets/MinimapInternal_Tooltip.uasset"
+  ],
+  "/Script/Engine.MaterialFunction": [
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MF_UMG_MistHexBackground.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MF_UMG_SampleBackground.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Common/MF_InverseLerp.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Common/MF_Mask_CanvasClip.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Common/MF_Mask_Circle.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Common/MF_Mask_HexCircle.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Common/MF_Mask_Rect.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Icons/MF_UMG_SampleIcon.uasset"
+  ],
+  "/Script/Engine.MaterialInstanceConstant": [
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MI_UMG_MistHexMapBackground.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MI_UMG_MistHexMapBackground_Hud.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MI_UMG_MistHexMapBackground_Hud_NoGrid.uasset",
+    "/Plugins/MinimapPlugin/Content/Materials/Background/MI_UMG_MistHexMapBackground_NoGrid.uasset"
+  ],
+  "/Script/Engine.Texture2D": [
+    "/Plugins/MinimapPlugin/Content/Textures/Fog/T_TestFog.uasset",
+    "/Plugins/MinimapPlugin/Content/Textures/Icons/T_Icon_ObjectiveArrow.uasset",
+    "/Plugins/MinimapPlugin/Content/Textures/Icons/T_Icon_Placeholder.uasset",
+    "/Plugins/MinimapPlugin/Content/Textures/Icons/T_Icon_Quest1.uasset",
+    "/Plugins/MinimapPlugin/Content/Textures/Icons/T_Icon_Quest2.uasset"
+  ]
+}
