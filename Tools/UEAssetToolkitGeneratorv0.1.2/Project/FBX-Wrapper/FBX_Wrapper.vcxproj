@@ -132,8 +132,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>Release/FBX_Wrapper.lib</ImportLibrary>
-      <ProgramDataBaseFile>Release/FBX_Wrapper.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/FBX_Wrapper.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/FBX_Wrapper.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
