@@ -1,115 +1,14 @@
 {
   "/Script/Engine.BlueprintGeneratedClass": [
-    "/Mist/Props/Vehicles/DinghyWalker/8090_AssetLabel.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Dinghywalker.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerConstructionSite.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerConstructionSupport.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegs.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegsArmored.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegsConstruction.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegsConstructionArmored.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegsConstructionHeavy.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerLegsHeavy.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWheelFront.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsConstruction.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsConstructionLarge.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsConstructionMedium.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsConstructionSmall.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsDefault.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsFastLarge.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsFastMedium.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerWingsFastSmall.uasset"
-  ],
-  "/Script/Engine.CurveFloat": [
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyFrictionVsSlipGraph.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyTorqueCurve.uasset"
-  ],
-  "/Script/Mist.WalkerContactConfig": [
-    "/Mist/Props/Vehicles/DinghyWalker/DinghyWalkerTireConfig.uasset"
-  ],
-  "/Script/Engine.StaticMesh": [
-    "/Mist/Props/Vehicles/DinghyWalker/SM_DinghyWalkerCollision.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/SM_DinghyWalker_Flags.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/SM_DinghyWalker_Packing.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Construction/SM_DinghyDockyardA.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Construction/SM_DinghyDockyardB.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Destructible/SM_DinghyWalkerDestructible_SM_Dinghywalker002.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Destructible/SM_DinghyWalkerDestructible_SM_Dinghywalker021.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyRudderNew.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_01.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_02.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_03.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_04.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_05.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_06.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_07.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SM_DinghyWalker_Cargo.uasset"
-  ],
-  "/Script/Engine.AnimBlueprintGeneratedClass": [
-    "/Mist/Props/Vehicles/DinghyWalker/Animation/A_DinghyWalkerRudderSteering_AnimBP.uasset"
-  ],
-  "/Script/Engine.BlendSpace1D": [
-    "/Mist/Props/Vehicles/DinghyWalker/Animation/A_DinghyWalkerRudderSteering_BlendSpace.uasset"
-  ],
-  "/Script/Engine.AnimSequence": [
-    "/Mist/Props/Vehicles/DinghyWalker/Animation/A_RudderSteerForward.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Animation/A_RudderSteerLeft.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Animation/A_RudderSteerRight.uasset"
+    "/Mist/Props/Vehicles/MtxFlagPreview/FlagPreview.uasset"
   ],
   "/Script/Engine.MaterialInstanceConstant": [
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_Dinghywalker_01.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_Dinghywalker_03.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_Dinghywalker_04.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_Dinghywalker_05.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_Dinghywalker_07.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/MI_WalkerPackingModule_Net_01.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_DinghyWalker_PROXY.uasset"
+    "/Mist/Props/Vehicles/MtxFlagPreview/MI_FLagWalkerPreview.uasset"
   ],
   "/Script/Engine.Material": [
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_DinghywalkerContainers.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_01.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_01Noao.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_02.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_03.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_04.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_04Noao.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_05.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_05_Noao.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_06.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/M_Dinghywalker_07.uasset"
+    "/Mist/Props/Vehicles/MtxFlagPreview/M_FlagPreview_Rope.uasset"
   ],
-  "/Script/Engine.SkeletalMesh": [
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SK_DinghyWalkerRudder.uasset"
-  ],
-  "/Script/Engine.Skeleton": [
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/SK_DinghyWalkerRudder_Skeleton.uasset"
-  ],
-  "/Script/Engine.Texture2D": [
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_DinghywalkerContainers_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_DinghywalkerContainers_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_DinghywalkerContainers_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_01_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_01_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_01_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_02_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_02_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_02_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_03_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_03_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_03_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_04_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_04_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_04_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_05_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_05_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_05_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_06_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_06_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_06_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_07_AO_R_MT.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_07_D.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_Dinghywalker_07_N.uasset",
-    "/Mist/Props/Vehicles/DinghyWalker/Mesh/T_DinghyWalker_PROXY_Diffuse.uasset"
+  "/Script/Engine.StaticMesh": [
+    "/Mist/Props/Vehicles/MtxFlagPreview/SM_FlagPreview.uasset"
   ]
 }

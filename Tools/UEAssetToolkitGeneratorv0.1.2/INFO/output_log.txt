@@ -13154,3 +13154,5 @@
 2023-07-16 11:39:45.292 [Scan]: /Script/Engine.PhysicsAsset : 1
 2023-07-16 11:39:51.655 [Scan AR]: Succefully read Asset Registry
 2023-07-16 11:40:01.060 [Scan AR]: Succefully read Asset Registry
+2023-07-16 11:43:01.360 [Scan AR]: Succefully read Asset Registry
+2023-07-16 11:43:07.188 [Scan AR]: Succefully read Asset Registry

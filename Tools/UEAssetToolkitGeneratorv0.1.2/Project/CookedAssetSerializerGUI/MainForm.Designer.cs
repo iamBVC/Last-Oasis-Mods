@@ -795,15 +795,13 @@ partial class MainForm
         // chkThread
         // 
         chkThread.AutoSize = true;
-        chkThread.Checked = true;
-        chkThread.CheckState = CheckState.Checked;
         chkThread.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
         chkThread.ForeColor = Color.FromArgb(248, 248, 242);
         chkThread.Location = new Point(396, 844);
         chkThread.Name = "chkThread";
-        chkThread.Size = new Size(177, 32);
+        chkThread.Size = new Size(322, 32);
         chkThread.TabIndex = 52;
-        chkThread.Text = "Multithreading";
+        chkThread.Text = "Multithreading (experimental)";
         chkThread.UseVisualStyleBackColor = true;
         // 
         // chkForceOneLOD
