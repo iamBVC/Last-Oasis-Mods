@@ -366,10 +366,13 @@ public class System
             Thread myNewThread = new Thread(() => SerializeAsset(file));
             threads.Add(myNewThread);
             myNewThread.Start();
+            AssetCount++;
             if ((threads.Count) % (cores * 2) == 0)
             {
-                threads.Last().Join();
-                AssetCount += cores * 2;
+                foreach (var thread in threads)
+                {
+                    thread.Join();
+                }
             }
         }
         AssetCount = 0;
