@@ -379,6 +379,12 @@ public class System
             List<Thread> threads = new List<Thread>();
             foreach (var file in files)
             {
+                UAsset asset = new UAsset(file, Settings.GlobalUEVersion, true);
+                if (
+                    asset.assetType != EAssetType.Texture2D &&
+                    asset.assetType != EAssetType.Material &&
+                    asset.assetType != EAssetType.DataTable
+                    ) continue;
                 Thread myNewThread = new Thread(() => SerializeAsset(file));
                 myNewThread.Start();
                 threads.Add(myNewThread);

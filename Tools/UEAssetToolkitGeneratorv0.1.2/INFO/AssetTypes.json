@@ -1,14 +1,67 @@
 {
+  "/Script/Engine.CurveFloat": [
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyFrictionVsSlipGraph.uasset"
+  ],
   "/Script/Engine.BlueprintGeneratedClass": [
-    "/Mist/Props/Vehicles/MtxFlagPreview/FlagPreview.uasset"
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalker.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerConstructionSite.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerLegs.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerLegsConstruction.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWalkerConstructionSupport.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWheel.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWingsConstruction.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWingsDefault.uasset"
+  ],
+  "/Script/Mist.WalkerContactConfig": [
+    "/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerTireConfig.uasset"
   ],
   "/Script/Engine.MaterialInstanceConstant": [
-    "/Mist/Props/Vehicles/MtxFlagPreview/MI_FLagWalkerPreview.uasset"
-  ],
-  "/Script/Engine.Material": [
-    "/Mist/Props/Vehicles/MtxFlagPreview/M_FlagPreview_Rope.uasset"
+    "/Mist/Props/Vehicles/FireflyWalker/MI_FireflyWalker_Flags.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/MI_kitbash_01.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/M_FireflyWalker_PROXY.uasset"
   ],
   "/Script/Engine.StaticMesh": [
-    "/Mist/Props/Vehicles/MtxFlagPreview/SM_FlagPreview.uasset"
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FIreflyWalkerCollision.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Collision_Main.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Collision_NoBuilding.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Flags.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_TutorialEdgeHighlight.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_001.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_002.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_003.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_004.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_005.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_006.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_007.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_008.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_009.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_010.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_011.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_012.uasset"
+  ],
+  "/Script/Engine.Texture2D": [
+    "/Mist/Props/Vehicles/FireflyWalker/T_FireflyWalker_PROXY_Diffuse.uasset"
+  ],
+  "/Script/Engine.AnimBlueprintGeneratedClass": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_AnimBP.uasset"
+  ],
+  "/Script/Engine.BlendSpace": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_IdleBS.uasset"
+  ],
+  "/Script/Engine.BlendSpace1D": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_Machine_Actions_BS.uasset"
+  ],
+  "/Script/Engine.AnimSequence": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Fwd.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot_2.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_TurnL.uasset",
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_TurnR.uasset"
+  ],
+  "/Script/Engine.SkeletalMesh": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot.uasset"
+  ],
+  "/Script/Engine.Skeleton": [
+    "/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot_Skeleton.uasset"
   ]
 }

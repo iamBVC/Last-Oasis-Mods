@@ -127,5 +127,5 @@
   "UseSKMActorX": true,
   "UseAMActorX": true,
   "ForceOneLOD": false,
-  "UseMultithreading": true
+  "UseMultithreading": false
 }

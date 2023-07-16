@@ -13156,3 +13156,107 @@
 2023-07-16 11:40:01.060 [Scan AR]: Succefully read Asset Registry
 2023-07-16 11:43:01.360 [Scan AR]: Succefully read Asset Registry
 2023-07-16 11:43:07.188 [Scan AR]: Succefully read Asset Registry
+2023-07-16 11:56:58.849 [Serialize Assets]: 0/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyFrictionVsSlipGraph.uasset
+2023-07-16 11:56:58.893 [Serialize Assets]: 1/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalker.uasset
+2023-07-16 11:56:58.930 [Serialize Assets]: 2/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerConstructionSite.uasset
+2023-07-16 11:56:58.940 [Serialize Assets]: 3/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerLegs.uasset
+2023-07-16 11:56:58.942 [Serialize Assets]: 4/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerLegsConstruction.uasset
+2023-07-16 11:56:58.946 [Serialize Assets]: 5/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerTireConfig.uasset
+2023-07-16 11:56:58.947 [Serialize Assets]: 6/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerWalkerConstructionSupport.uasset
+2023-07-16 11:56:58.951 [Serialize Assets]: 7/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerWheel.uasset
+2023-07-16 11:56:58.952 [Serialize Assets]: 8/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerWingsConstruction.uasset
+2023-07-16 11:56:58.955 [Serialize Assets]: 9/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\FireflyWalkerWingsDefault.uasset
+2023-07-16 11:56:58.957 [Serialize Assets]: 10/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\MI_FireflyWalker_Flags.uasset
+2023-07-16 11:56:58.958 [Serialize Assets]: 11/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\MI_kitbash_01.uasset
+2023-07-16 11:56:58.959 [Serialize Assets]: 12/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\M_FireflyWalker_PROXY.uasset
+2023-07-16 11:56:58.961 [Serialize Assets]: 13/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FireflyWalker.uasset
+2023-07-16 11:57:40.987 [Serialize Assets]: 14/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FIreflyWalkerCollision.uasset
+2023-07-16 11:57:41.023 [Serialize Assets]: 15/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FireflyWalker_Collision_Main.uasset
+2023-07-16 11:57:41.038 [Serialize Assets]: 16/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FireflyWalker_Collision_NoBuilding.uasset
+2023-07-16 11:57:41.053 [Serialize Assets]: 17/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FireflyWalker_Flags.uasset
+2023-07-16 11:57:52.908 [Serialize Assets]: 18/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\SM_FireflyWalker_TutorialEdgeHighlight.uasset
+2023-07-16 11:57:53.700 [Serialize Assets]: 19/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\T_FireflyWalker_PROXY_Diffuse.uasset
+2023-07-16 11:57:53.791 [Serialize Assets]: 20/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_AnimBP.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 20/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_AnimBP.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 21/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_IdleBS.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 21/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_IdleBS.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 22/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_Machine_Actions_BS.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 22/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\FireflyWalker_Machine_Actions_BS.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 23/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Fwd.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 23/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Fwd.uasset
+2023-07-16 11:57:53.792 [Serialize Assets]: 24/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Pedals_Rot.uasset
+2023-07-16 11:57:54.349 [Serialize Assets]: 24/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Pedals_Rot.uasset
+2023-07-16 11:57:54.349 [Serialize Assets]: 25/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Pedals_Rot_2.uasset
+2023-07-16 11:57:54.349 [Serialize Assets]: 25/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Pedals_Rot_2.uasset
+2023-07-16 11:57:54.349 [Serialize Assets]: 26/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_Pedals_Rot_Skeleton.uasset
+2023-07-16 11:57:54.353 [Serialize Assets]: 27/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_TurnL.uasset
+2023-07-16 11:57:54.353 [Serialize Assets]: 27/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_TurnL.uasset
+2023-07-16 11:57:54.353 [Serialize Assets]: 28/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_TurnR.uasset
+2023-07-16 11:57:54.353 [Serialize Assets]: 28/41 Skipped serialization on ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\Animation\SK_FireflyWalker_TurnR.uasset
+2023-07-16 11:57:54.353 [Serialize Assets]: 29/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_001.uasset
+2023-07-16 11:57:58.730 [Serialize Assets]: 30/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_002.uasset
+2023-07-16 11:58:05.191 [Serialize Assets]: 31/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_003.uasset
+2023-07-16 11:58:09.926 [Serialize Assets]: 32/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_004.uasset
+2023-07-16 11:58:20.588 [Serialize Assets]: 33/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_005.uasset
+2023-07-16 11:58:36.098 [Serialize Assets]: 34/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_006.uasset
+2023-07-16 11:58:42.653 [Serialize Assets]: 35/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_007.uasset
+2023-07-16 11:58:43.489 [Serialize Assets]: 36/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_008.uasset
+2023-07-16 11:58:52.932 [Serialize Assets]: 37/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_009.uasset
+2023-07-16 11:58:53.615 [Serialize Assets]: 38/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_010.uasset
+2023-07-16 11:58:54.288 [Serialize Assets]: 39/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_011.uasset
+2023-07-16 11:58:55.797 [Serialize Assets]: 40/41 Serializing ..\Last_Oasis_Client\Mist\Content\Mist\Props\Vehicles\FireflyWalker\mesh\SM_FireflyWalker_012.uasset
+2023-07-16 12:05:09.204 [Scan AR]: Succefully read Asset Registry
+2023-07-16 12:05:09.316 [Scan]: 1/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyFrictionVsSlipGraph.uasset
+2023-07-16 12:05:09.317 [Scan]: 2/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalker.uasset
+2023-07-16 12:05:09.317 [Scan]: 3/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerConstructionSite.uasset
+2023-07-16 12:05:09.318 [Scan]: 4/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerLegs.uasset
+2023-07-16 12:05:09.318 [Scan]: 5/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerLegsConstruction.uasset
+2023-07-16 12:05:09.318 [Scan]: 6/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerTireConfig.uasset
+2023-07-16 12:05:09.318 [Scan]: 7/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWalkerConstructionSupport.uasset
+2023-07-16 12:05:09.318 [Scan]: 8/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWheel.uasset
+2023-07-16 12:05:09.319 [Scan]: 9/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWingsConstruction.uasset
+2023-07-16 12:05:09.319 [Scan]: 10/41 /Game/Mist/Props/Vehicles/FireflyWalker/FireflyWalkerWingsDefault.uasset
+2023-07-16 12:05:09.319 [Scan]: 11/41 /Game/Mist/Props/Vehicles/FireflyWalker/MI_FireflyWalker_Flags.uasset
+2023-07-16 12:05:09.319 [Scan]: 12/41 /Game/Mist/Props/Vehicles/FireflyWalker/MI_kitbash_01.uasset
+2023-07-16 12:05:09.319 [Scan]: 13/41 /Game/Mist/Props/Vehicles/FireflyWalker/M_FireflyWalker_PROXY.uasset
+2023-07-16 12:05:09.320 [Scan]: 14/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker.uasset
+2023-07-16 12:05:09.320 [Scan]: 15/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FIreflyWalkerCollision.uasset
+2023-07-16 12:05:09.320 [Scan]: 16/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Collision_Main.uasset
+2023-07-16 12:05:09.320 [Scan]: 17/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Collision_NoBuilding.uasset
+2023-07-16 12:05:09.320 [Scan]: 18/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_Flags.uasset
+2023-07-16 12:05:09.321 [Scan]: 19/41 /Game/Mist/Props/Vehicles/FireflyWalker/SM_FireflyWalker_TutorialEdgeHighlight.uasset
+2023-07-16 12:05:09.321 [Scan]: 20/41 /Game/Mist/Props/Vehicles/FireflyWalker/T_FireflyWalker_PROXY_Diffuse.uasset
+2023-07-16 12:05:09.321 [Scan]: 21/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_AnimBP.uasset
+2023-07-16 12:05:09.321 [Scan]: 22/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_IdleBS.uasset
+2023-07-16 12:05:09.321 [Scan]: 23/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/FireflyWalker_Machine_Actions_BS.uasset
+2023-07-16 12:05:09.322 [Scan]: 24/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Fwd.uasset
+2023-07-16 12:05:09.322 [Scan]: 25/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot.uasset
+2023-07-16 12:05:09.322 [Scan]: 26/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot_2.uasset
+2023-07-16 12:05:09.322 [Scan]: 27/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_Pedals_Rot_Skeleton.uasset
+2023-07-16 12:05:09.322 [Scan]: 28/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_TurnL.uasset
+2023-07-16 12:05:09.323 [Scan]: 29/41 /Game/Mist/Props/Vehicles/FireflyWalker/Animation/SK_FireflyWalker_TurnR.uasset
+2023-07-16 12:05:09.323 [Scan]: 30/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_001.uasset
+2023-07-16 12:05:09.323 [Scan]: 31/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_002.uasset
+2023-07-16 12:05:09.323 [Scan]: 32/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_003.uasset
+2023-07-16 12:05:09.323 [Scan]: 33/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_004.uasset
+2023-07-16 12:05:09.324 [Scan]: 34/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_005.uasset
+2023-07-16 12:05:09.324 [Scan]: 35/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_006.uasset
+2023-07-16 12:05:09.324 [Scan]: 36/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_007.uasset
+2023-07-16 12:05:09.324 [Scan]: 37/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_008.uasset
+2023-07-16 12:05:09.324 [Scan]: 38/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_009.uasset
+2023-07-16 12:05:09.325 [Scan]: 39/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_010.uasset
+2023-07-16 12:05:09.325 [Scan]: 40/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_011.uasset
+2023-07-16 12:05:09.325 [Scan]: 41/41 /Game/Mist/Props/Vehicles/FireflyWalker/mesh/SM_FireflyWalker_012.uasset
+2023-07-16 12:05:09.325 [Scan]: Found 41 files
+2023-07-16 12:05:09.325 [Scan]: /Script/Engine.CurveFloat : 1
+2023-07-16 12:05:09.338 [Scan]: /Script/Engine.BlueprintGeneratedClass : 8
+2023-07-16 12:05:09.338 [Scan]: /Script/Mist.WalkerContactConfig : 1
+2023-07-16 12:05:09.338 [Scan]: /Script/Engine.MaterialInstanceConstant : 3
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.StaticMesh : 18
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.Texture2D : 1
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.AnimBlueprintGeneratedClass : 1
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.BlendSpace : 1
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.BlendSpace1D : 1
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.AnimSequence : 4
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.SkeletalMesh : 1
+2023-07-16 12:05:09.339 [Scan]: /Script/Engine.Skeleton : 1
