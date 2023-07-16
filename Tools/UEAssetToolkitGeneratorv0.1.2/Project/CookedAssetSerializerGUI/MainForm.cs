@@ -290,7 +290,8 @@ public partial class MainForm : Form
             UseSMActorX = chkUseSMActorX.Checked,
             UseSKMActorX = chkUseSKMActorX.Checked,
             UseAMActorX = chkUseAnimActorX.Checked,
-            ForceOneLOD = chkForceOneLOD.Checked
+            ForceOneLOD = chkForceOneLOD.Checked,
+            UseMultithreading = chkThread.Checked
         };
 
         system = new CookedAssetSerializer.System(jsonsettings);

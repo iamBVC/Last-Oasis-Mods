@@ -88,6 +88,7 @@ partial class MainForm
         rtxtCircularDependancy = new RichTextBox();
         label6 = new Label();
         tabCpyDlt = new TabPage();
+        chkThread = new CheckBox();
         chkForceOneLOD = new CheckBox();
         label2 = new Label();
         chkUseAnimActorX = new CheckBox();
@@ -767,6 +768,7 @@ partial class MainForm
         // tabCpyDlt
         // 
         tabCpyDlt.BackColor = Color.FromArgb(40, 42, 54);
+        tabCpyDlt.Controls.Add(chkThread);
         tabCpyDlt.Controls.Add(chkForceOneLOD);
         tabCpyDlt.Controls.Add(label2);
         tabCpyDlt.Controls.Add(chkUseAnimActorX);
@@ -789,6 +791,20 @@ partial class MainForm
         tabCpyDlt.Size = new Size(1038, 905);
         tabCpyDlt.TabIndex = 4;
         tabCpyDlt.Text = "Asset Utilities";
+        // 
+        // chkThread
+        // 
+        chkThread.AutoSize = true;
+        chkThread.Checked = true;
+        chkThread.CheckState = CheckState.Checked;
+        chkThread.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+        chkThread.ForeColor = Color.FromArgb(248, 248, 242);
+        chkThread.Location = new Point(396, 844);
+        chkThread.Name = "chkThread";
+        chkThread.Size = new Size(177, 32);
+        chkThread.TabIndex = 52;
+        chkThread.Text = "Multithreading";
+        chkThread.UseVisualStyleBackColor = true;
         // 
         // chkForceOneLOD
         // 
@@ -1182,4 +1198,5 @@ partial class MainForm
     private CheckBox chkUseSKMActorX;
     private CheckBox chkUseSMActorX;
     private CheckBox chkForceOneLOD;
+    private CheckBox chkThread;
 }

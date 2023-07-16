@@ -28,7 +28,8 @@ public class StaticMeshFBX
         }
         
         // if json string is longer than 20 million characters (roughly 3.5mins completetion time), skip it
-        if (json.Length > 20000000) // TODO: Make this a setting
+        /*
+        if (json.Length > 200000000) // TODO: Make this a setting
         {
             error = $"Mesh is too large to export to FBX. " +
                     $"Estimated time to complete using this method: {ConvertLengthToTime(json.Length)} minutes. " +
@@ -36,6 +37,7 @@ public class StaticMeshFBX
             tooLarge = true;
             return;
         }
+        */
 
         //File.WriteAllText(Path.ChangeExtension(path, "json"), json); // This is for debugging
         ExportStaticMeshIntoFbxFile(json, path, bExportAsText, ref error);

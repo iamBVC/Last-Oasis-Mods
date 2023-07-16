@@ -8,11 +8,11 @@ namespace CookedAssetSerializer;
 
 public class System
 {
-    private readonly JSONSettings Settings;
+    private static JSONSettings Settings;
     private Dictionary<string, AssetData> AssetList;
 
-    private int AssetTotal;
-    private int AssetCount;
+    private static int AssetTotal;
+    private static int AssetCount;
 
     public System(JSONSettings jsonsettings)
     {
@@ -228,9 +228,8 @@ public class System
     }
 
 
-    private void SerializeAsset(string file)
+    private static void SerializeAsset(string file)
     {
-        //AssetCount++;
         PrintOutput("Serializing " + file, "Serialize Assets");
 
         UAsset asset = new UAsset(file, Settings.GlobalUEVersion, true);
@@ -354,33 +353,52 @@ public class System
     }
 
 
+    private int getActiveThreads(List<Thread> threads)
+    {
+        int activeThreads = 0;
+        foreach (var thread in threads)
+        {
+            if (thread.ThreadState.ToString() == "Running")
+            {
+                activeThreads++;
+            }
+        }
+        return activeThreads;
+    }
+
+
     public void SerializeAssets()
     {
         var files = MakeFileList(Settings.ContentDir);
         AssetTotal = files.Count;
         AssetCount = 0;
-        int cores = Environment.ProcessorCount;
-        List<Thread> threads = new List<Thread>();
-        foreach (var file in files)
+
+        if (Settings.UseMultithreading)
         {
-            Thread myNewThread = new Thread(() => SerializeAsset(file));
-            threads.Add(myNewThread);
-            myNewThread.Start();
-            AssetCount++;
-            if ((threads.Count) % (cores * 2) == 0)
+            int cores = Environment.ProcessorCount;
+            List<Thread> threads = new List<Thread>();
+            foreach (var file in files)
             {
-                foreach (var thread in threads)
-                {
-                    thread.Join();
-                }
+                Thread myNewThread = new Thread(() => SerializeAsset(file));
+                myNewThread.Start();
+                threads.Add(myNewThread);
+                while (getActiveThreads(threads) >= cores * 2) ;
+            }
+
+            foreach (var thread in threads)
+            {
+                thread.Join();
+                AssetCount++;
             }
         }
+
         AssetCount = 0;
-        foreach (var thread in threads)
+        foreach (var file in files)
         {
-            thread.Join();
+            SerializeAsset(file);
             AssetCount++;
         }
+
     }
 
     private List<string> MakeFileList(string fromDir, bool useParseDir = true)
@@ -417,13 +435,13 @@ public class System
         return ret;
     }
 
-    private void PrintOutput(string output, string type = "debug", bool warning = false)
+    private static void PrintOutput(string output, string type = "debug", bool warning = false)
     {
         if (warning) Log.Warning($"[{type}]: {AssetCount}/{AssetTotal} {output}");
         else Log.Information($"[{type}]: {AssetCount}/{AssetTotal} {output}");
     }
 
-    private bool CheckPNGAsset(string file)
+    private static bool CheckPNGAsset(string file)
     {
         // If there is another file with the same name but has the .png extension, skip it
         return File.Exists(file.Replace(".uasset", ".png"));
