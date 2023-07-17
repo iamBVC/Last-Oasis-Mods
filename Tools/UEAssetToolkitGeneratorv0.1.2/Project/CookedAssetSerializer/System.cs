@@ -8,7 +8,7 @@ namespace CookedAssetSerializer;
 
 public class System
 {
-    private static JSONSettings Settings;
+    public static JSONSettings Settings;
     private Dictionary<string, AssetData> AssetList;
 
     private static int AssetTotal;

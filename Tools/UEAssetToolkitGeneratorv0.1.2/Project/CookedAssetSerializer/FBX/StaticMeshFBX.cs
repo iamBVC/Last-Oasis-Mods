@@ -1,6 +1,8 @@
 using System.Runtime.InteropServices;
 using UAssetAPI;
 using UAssetAPI.StructTypes.StaticMesh;
+using CookedAssetSerializer;
+using System;
 
 namespace CookedAssetSerializer.FBX;
 
@@ -28,7 +30,7 @@ public class StaticMeshFBX
         }
         
         // if json string is longer than 20 million characters (roughly 3.5mins completetion time), skip it
-        /*
+        
         if (json.Length > 200000000) // TODO: Make this a setting
         {
             error = $"Mesh is too large to export to FBX. " +
@@ -37,11 +39,11 @@ public class StaticMeshFBX
             tooLarge = true;
             return;
         }
-        */
+        
 
         //File.WriteAllText(Path.ChangeExtension(path, "json"), json); // This is for debugging
-        ExportStaticMeshIntoFbxFile(json, path, bExportAsText, ref error);
-        /*
+        //ExportStaticMeshIntoFbxFile(json, path, bExportAsText, ref error);
+        
         try
         {
             ExportStaticMeshIntoFbxFile(json, path, bExportAsText, ref error);
@@ -51,7 +53,7 @@ public class StaticMeshFBX
             Log.Error($"[Static Mesh FBX]: Failed to export SM! {e}");
             return;
         }
-        */
+        
     }
 
     public float ConvertLengthToTime(int length)

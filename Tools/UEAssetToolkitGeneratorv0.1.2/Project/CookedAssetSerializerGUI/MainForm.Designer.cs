@@ -106,7 +106,6 @@ partial class MainForm
         label4 = new Label();
         rtxtCookedAssets = new RichTextBox();
         panel4 = new Panel();
-        treeParseDir = new ExTreeView();
         cntxtTreeParse = new ContextMenuStrip(components);
         openToolStripMenuItem = new ToolStripMenuItem();
         copyPathToolStripMenuItem = new ToolStripMenuItem();
@@ -120,7 +119,7 @@ partial class MainForm
         tbRun.SuspendLayout();
         tbSerialSettings.SuspendLayout();
         tabCpyDlt.SuspendLayout();
-        panel4.SuspendLayout();
+		panel4.SuspendLayout();
         cntxtTreeParse.SuspendLayout();
         SuspendLayout();
         // 
@@ -1021,14 +1020,14 @@ partial class MainForm
         // 
         // panel4
         // 
-        panel4.Controls.Add(treeParseDir);
+		panel4.Controls.Add(treeParseDir);
         panel4.Location = new Point(1061, 4);
         panel4.Margin = new Padding(3, 4, 3, 4);
         panel4.Name = "panel4";
         panel4.Size = new Size(342, 938);
         panel4.TabIndex = 3;
-        // 
-        // treeParseDir
+        //
+		// treeParseDir
         // 
         treeParseDir.CheckBoxes = true;
         treeParseDir.ContextMenuStrip = cntxtTreeParse;
@@ -1043,7 +1042,7 @@ partial class MainForm
         treeParseDir.KeyDown += treeParseDir_KeyDown;
         treeParseDir.MouseDown += treeParseDir_MouseDown;
         treeParseDir.MouseMove += treeParseDir_MouseMove;
-        // 
+        //
         // cntxtTreeParse
         // 
         cntxtTreeParse.ImageScalingSize = new Size(20, 20);
@@ -1115,7 +1114,7 @@ partial class MainForm
         tbSerialSettings.PerformLayout();
         tabCpyDlt.ResumeLayout(false);
         tabCpyDlt.PerformLayout();
-        panel4.ResumeLayout(false);
+		panel4.ResumeLayout(false);
         cntxtTreeParse.ResumeLayout(false);
         ResumeLayout(false);
         PerformLayout();
