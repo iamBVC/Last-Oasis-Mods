@@ -1017,18 +1017,10 @@ partial class MainForm
         rtxtCookedAssets.TabIndex = 13;
         rtxtCookedAssets.Text = "\"/Script/Engine.ParticleSystem\",\n\"/Script/Engine.SoundWave\",\n\"/Script/Engine.AimOffsetBlendSpace\",\n\"/Script/Engine.AimOffsetBlendSpace1D\",\n\"/Script/Engine.BlendSpace\",\n\"/Script/Engine.BlendSpace1D\"";
         rtxtCookedAssets.WordWrap = false;
-        // 
-        // panel4
-        // 
-		panel4.Controls.Add(treeParseDir);
-        panel4.Location = new Point(1061, 4);
-        panel4.Margin = new Padding(3, 4, 3, 4);
-        panel4.Name = "panel4";
-        panel4.Size = new Size(342, 938);
-        panel4.TabIndex = 3;
         //
-		// treeParseDir
+        // treeParseDir
         // 
+        treeParseDir = new ExTreeView();
         treeParseDir.CheckBoxes = true;
         treeParseDir.ContextMenuStrip = cntxtTreeParse;
         treeParseDir.Location = new Point(3, 29);
@@ -1042,6 +1034,15 @@ partial class MainForm
         treeParseDir.KeyDown += treeParseDir_KeyDown;
         treeParseDir.MouseDown += treeParseDir_MouseDown;
         treeParseDir.MouseMove += treeParseDir_MouseMove;
+        // 
+        // panel4
+        // 
+        panel4.Controls.Add(treeParseDir);
+        panel4.Location = new Point(1061, 4);
+        panel4.Margin = new Padding(3, 4, 3, 4);
+        panel4.Name = "panel4";
+        panel4.Size = new Size(342, 938);
+        panel4.TabIndex = 3;
         //
         // cntxtTreeParse
         // 

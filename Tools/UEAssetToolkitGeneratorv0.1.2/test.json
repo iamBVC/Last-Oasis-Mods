@@ -2,7 +2,7 @@
   "ContentDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\Last_Oasis_Client\\Mist\\Content",
   "AssetRegistry": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\Last_Oasis_Client\\Mist\\AssetRegistry.bin",
   "ParseDir": [
-    "Mist\\Sunset\\SunsetSkywalker.uasset"
+    "Mist\\Props\\Nature"
   ],
   "JSONDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\UEAssetToolkitGeneratorv0.1.2\\RES",
   "CookedDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\UEAssetToolkitGeneratorv0.1.2\\Project\\CookedAssetSerializerGUI\\bin\\Debug\\net6.0-windows",
