@@ -2,7 +2,7 @@
   "ContentDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\Last_Oasis_Client\\Mist\\Content",
   "AssetRegistry": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\Last_Oasis_Client\\Mist\\AssetRegistry.bin",
   "ParseDir": [
-    "Mist\\Props\\Nature"
+    "Mist"
   ],
   "JSONDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\UEAssetToolkitGeneratorv0.1.2\\RES",
   "CookedDir": "F:\\Giochi\\Last Oasis\\Modding\\LO Mods\\Tools\\UEAssetToolkitGeneratorv0.1.2\\Project\\CookedAssetSerializerGUI\\bin\\Debug\\net6.0-windows",
@@ -13,12 +13,33 @@
   "RefreshAssets": false,
   "DummyWithProps": false,
   "SkipSerialization": [
+    0,
+    1,
     2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
     11,
+    12,
     13,
+    14,
+    15,
+    16,
     17,
     18,
-    27
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    -1
   ],
   "DummyAssets": [],
   "CircularDependency": [

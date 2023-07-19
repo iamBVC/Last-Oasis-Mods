@@ -358,9 +358,14 @@ public class System
         int activeThreads = 0;
         foreach (var thread in threads)
         {
-            if (thread.ThreadState.ToString() == "Running")
+            String ThreadState = thread.ThreadState.ToString();
+            if (ThreadState != "WaitSleepJoin" && ThreadState != "Stopped")
             {
                 activeThreads++;
+            }
+            if (ThreadState == "WaitSleepJoin")
+            {
+                thread.Join();
             }
         }
         return activeThreads;
@@ -379,15 +384,12 @@ public class System
             List<Thread> threads = new List<Thread>();
             foreach (var file in files)
             {
-                UAsset asset = new UAsset(file, Settings.GlobalUEVersion, true);
-                if (
-                    asset.assetType != EAssetType.Texture2D &&
-                    asset.assetType != EAssetType.Material &&
-                    asset.assetType != EAssetType.DataTable
-                    ) continue;
+                //UAsset asset = new UAsset(file, Settings.GlobalUEVersion, true);
+                //if (asset.assetType != EAssetType.Texture2D) continue;
                 Thread myNewThread = new Thread(() => SerializeAsset(file));
                 myNewThread.Start();
                 threads.Add(myNewThread);
+                AssetCount++;
                 while (getActiveThreads(threads) >= cores * 2) ;
             }
 

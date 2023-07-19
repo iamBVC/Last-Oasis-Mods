@@ -1,27 +1,87 @@
 {
+  "/Script/Engine.CurveFloat": [
+    "/Mist/Props/Vehicles/BirdWalker/BirdFrictionVsSlipGraph.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdTorqueCurve.uasset"
+  ],
   "/Script/Engine.BlueprintGeneratedClass": [
-    "/Mist/Props/Poi/SpawnPositionActor.uasset"
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalker.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerConstructionSite.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerConstructionSupport.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerLegs.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerLegsConstruction.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerWheelFront.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerWingsConstruction.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerWingsDefault.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SkywalkerPassengerSeatChildActor.uasset"
+  ],
+  "/Script/Mist.WalkerContactConfig": [
+    "/Mist/Props/Vehicles/BirdWalker/BirdSkywalkerTireConfig.uasset"
   ],
   "/Script/Engine.MaterialInstanceConstant": [
-    "/Mist/Props/Poi/AsteroidImpactSite/MI_GlowingAsteroid_Eroded.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/MI_GlowingAsteroid_Full.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/MI_VT_AsteroidImapctScorch_Small.uasset"
+    "/Mist/Props/Vehicles/BirdWalker/MI_FabricSails_Flying.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/MI_FabricSails_Flying_NoAnim.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/MI_LayeredWood_Dark_FlyingWalker.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/MI_LayeredWood_Light_FlyingWalker.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/MI_LayeredWood_Yellow_FlyingWalker.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/MI_RopeRough_SmallWalker_Flying.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/M_FabricFlyingWalker.uasset"
   ],
   "/Script/Engine.Material": [
-    "/Mist/Props/Poi/AsteroidImpactSite/M_AsteroidImpactRock.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/M_GlowingAsteroid.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/M_VT_AsteroidImapctScorch.uasset"
+    "/Mist/Props/Vehicles/BirdWalker/M_FlyingWalkerWood.uasset"
+  ],
+  "/Script/Engine.SkeletalMesh": [
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerControls.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerWing.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing.uasset"
+  ],
+  "/Script/Engine.PhysicsAsset": [
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerControls_PhysicsAsset.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerWing_PhysicsAsset.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing_Physics.uasset"
+  ],
+  "/Script/Engine.Skeleton": [
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerControls_Skeleton.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerWing_Skeleton.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing_Skeleton.uasset"
+  ],
+  "/Script/Engine.AnimSequence": [
+    "/Mist/Props/Vehicles/BirdWalker/SK_BirdWalkerWing_Anim_ArmatureWing_Armature_001Action_002.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Controls/SK_BirdWalkerControls_Animation_Back.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Controls/SK_BirdWalkerControls_Animation_Forward.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Controls/SK_BirdWalkerControls_Animation_Left.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Controls/SK_BirdWalkerControls_Animation_Neutral.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Controls/SK_BirdWalkerControls_Animation_Right.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing_Anim.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/Neutral.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/PitchDown_Additive.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/PitchUp_Additive.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/RollBack_Additive.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/RollForward_Additive.uasset"
   ],
   "/Script/Engine.StaticMesh": [
-    "/Mist/Props/Poi/AsteroidImpactSite/SM_AsteroidImpactCrater.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/SM_DryRock_10_Asteroid.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/SM_DryRock_10_Asteroid_Crystals.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/SM_DryRock_10_Asteroid_Eroded.uasset"
+    "/Mist/Props/Vehicles/BirdWalker/SM_BirdWalkerCollision.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_BirdWalkerWing.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_BirdWalkerWing_Collision.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker1.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker2.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker3.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker4.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalkerBuildableNew.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalkerConstructionNew.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalkerLegConstruction.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker_Flags.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/SM_FlyingWalker_Flags_Tail.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/SM_FlyingWalkerWingNewCollision.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/SM_FlyingWalkerWingNewVirtual.uasset"
   ],
-  "/Script/Engine.Texture2D": [
-    "/Mist/Props/Poi/AsteroidImpactSite/T_DryRock_10_Asteroid_AO.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/T_DryRock_10_Asteroid_Eroded_AO.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/T_DryRock_10_Asteroid_Eroded_N.uasset",
-    "/Mist/Props/Poi/AsteroidImpactSite/T_DryRock_10_Asteroid_N.uasset"
+  "/Script/Engine.AnimBlueprintGeneratedClass": [
+    "/Mist/Props/Vehicles/BirdWalker/Controls/A_FlyerControl_AnimBP.uasset",
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing_AnimBP.uasset"
+  ],
+  "/Script/Engine.BlendSpace": [
+    "/Mist/Props/Vehicles/BirdWalker/Controls/A_FlyerControl_BlendSpace.uasset"
+  ],
+  "/Script/Engine.AimOffsetBlendSpace": [
+    "/Mist/Props/Vehicles/BirdWalker/Wing/FlyingWalkerWing_AimOffset.uasset"
   ]
 }
