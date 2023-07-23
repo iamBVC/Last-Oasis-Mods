@@ -13,6 +13,3 @@ XCOPY /S /Y ".\pack\template.sig" "%client_path%\pmod\"
 ren "%client_path%\pmod\template.sig" "%%~ni.sig"
 del /q "%client_path%\pmod\template.sig"
 )
-
-del /q "%server_path%\pmod"
-XCOPY /S /Y "%client_path%\pmod\" "%server_path%\pmod\"
