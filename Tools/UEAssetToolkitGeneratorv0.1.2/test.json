@@ -11,6 +11,7 @@
   "RefreshAssets": false,
   "DummyWithProps": false,
   "SkipSerialization": [
+    0,
     1,
     2,
     3,

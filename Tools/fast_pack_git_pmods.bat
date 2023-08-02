@@ -15,3 +15,4 @@ del /q "%client_git_path%\pmod\template.sig"
 cd /d "..\..\loc.iambvc.it\"
 FileLister.exe
 update.sh
+XCOPY /S /Y "%client_git_path%\pmod\" "%client_path%\pmod\"
