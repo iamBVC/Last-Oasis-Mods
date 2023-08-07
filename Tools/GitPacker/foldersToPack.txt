@@ -1,2 +1,2 @@
-..\pmod\pmod_Configs
-..\pmod\pmod_CustomMaps
+..\pmod\pmod_Flotilla
+..\pmod\pmod_Tier1Desert
