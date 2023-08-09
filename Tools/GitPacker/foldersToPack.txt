@@ -1,2 +1,1 @@
-..\pmod\pmod_Flotilla
-..\pmod\pmod_Tier1Desert
+..\pmod\pmod_Mobs
