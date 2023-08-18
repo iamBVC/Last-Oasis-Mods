@@ -1,5 +1,6 @@
 call config.bat
 
+
 rmdir /S /Q "pmod\pmod_Flotilla\Mist\Content\Maps\Flotilla\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Maps\Flotilla\" "pmod\pmod_Flotilla\Mist\Content\Maps\Flotilla\"
 
@@ -11,8 +12,6 @@ XCOPY /S /Y "%cooked_path%\Mist\Content\Maps\Foliage\" "pmod\pmod_CustomMaps\Mis
 
 rmdir /S /Q "pmod\pmod_CustomMaps\Mist\Content\Maps\Landscape\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Maps\Landscape\" "pmod\pmod_CustomMaps\Mist\Content\Maps\Landscape\"
-
-
 
 rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\AdminWingsuit\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\AdminWingsuit\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\AdminWingsuit\"
@@ -31,9 +30,6 @@ XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\ClaimTotem\" "pmod\pmod_M
 
 rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\ClanVault\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\ClanVault\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\ClanVault\"
-
-rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\HumanMob\"
-XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\HumanMob\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\HumanMob\"
 
 rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\GirlNPC\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\GirlNPC\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\GirlNPC\"
