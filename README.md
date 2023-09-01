@@ -63,9 +63,9 @@ Modding the game is a time consuming process that requires:
 <!-- Prerequisites -->
 ### Prerequisites
 First off you must download our <a href="https://github.com/iamBVC/Last-Oasis-Mods/blob/master/Tools">Tools</a>.<br />
-Inside this folder you'll find all the programs needed for unpacking, editing and repacking the game files.
+Inside this folder you'll find all the programs needed for unpacking, editing and repacking UE files.<br /><br />
+Note: The Tools and files shared on this repository are used to modify all UE4 games. No proprietary files nor copyrighted material are uploaded here.
 <br />
-
 
 <!-- Installation -->
 ### Installation
