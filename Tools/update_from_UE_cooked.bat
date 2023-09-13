@@ -51,3 +51,12 @@ XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\NewWeapons\" "pmod\pmod_M
 
 rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\UndergroundTreasure\"
 XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\UndergroundTreasure\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\UndergroundTreasure\"
+
+rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\DuelSystem\"
+XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\DuelSystem\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\DuelSystem\"
+
+rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\ProceduralDungeon\"
+XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\ProceduralDungeon\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\ProceduralDungeon\"
+
+rmdir /S /Q "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\SoccerBall\"
+XCOPY /S /Y "%cooked_path%\Mist\Content\Mist\Data\Mods\SoccerBall\" "pmod\pmod_Mods\Mist\Content\Mist\Data\Mods\SoccerBall\"
