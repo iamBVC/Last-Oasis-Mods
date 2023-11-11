@@ -1,3 +1,1 @@
 ..\pmod\pmod_Configs
-..\pmod\pmod_Tier1Desert
-..\pmod\pmod_Tier2Desert
